@@ -243,7 +243,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - DIRECT
       - JP_🇯🇵日本|Tokyo|Google_01
       - JP_🇯🇵日本|Tokyo|Google_02
       - JP_🇯🇵日本|Tokyo|Google_03
@@ -458,7 +457,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
       - JP_🇯🇵日本|Tokyo|Google_01
       - JP_🇯🇵日本|Tokyo|Google_02
       - JP_🇯🇵日本|Tokyo|Google_03
