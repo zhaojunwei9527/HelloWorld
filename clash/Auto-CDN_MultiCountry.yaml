@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-19 11:52:43
+# 创建时间：2023-07-21 22:58:01
 # 使用模版：ACL4SSR_Online_MultiCountry.ini
-# 节点数量：8
+# 节点数量：24
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -22,14 +22,30 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"JP|Tokyo|Live_1","type":"vmess","server":"aws.binyu.ml","port":443,"cipher":"auto","uuid":"0bda3b91-4853-55f4-b8fa-bf6d4ab02f34","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
-  - {"name":"JP|Tokyo|Live_2","type":"vmess","server":"aws2.binyu.ml","port":443,"cipher":"auto","uuid":"0bda3b91-4853-55f4-b8fa-bf6d4ab02f34","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
-  - {"name":"JP|Tokyo|Google_1","type":"vmess","server":"aws.binyu.ml","port":443,"cipher":"auto","uuid":"785793dd-1a8e-59e5-b750-ce1fd15798b4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
-  - {"name":"JP|Tokyo|Google_2","type":"vmess","server":"aws2.binyu.ml","port":443,"cipher":"auto","uuid":"785793dd-1a8e-59e5-b750-ce1fd15798b4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
-  - {"name":"US|SanJose|Live_1","type":"vmess","server":"aws.binyu.ml","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US|SanJose|Live_2","type":"vmess","server":"aws2.binyu.ml","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US|SanJose|Google_1","type":"vmess","server":"aws.binyu.ml","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US|SanJose|Google_2","type":"vmess","server":"aws2.binyu.ml","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Google|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Google|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Google|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Google|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Google|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Google|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Live|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Live|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Live|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Live|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Live|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Live|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,95 +59,207 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,14 +282,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -175,20 +319,36 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - JP|Tokyo|Live_1
-      - JP|Tokyo|Live_2
-      - JP|Tokyo|Google_1
-      - JP|Tokyo|Google_2
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - US|SanJose|Live_1
-      - US|SanJose|Live_2
-      - US|SanJose|Google_1
-      - US|SanJose|Google_2
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
 
 rules:
 # 本地/局域网地址
