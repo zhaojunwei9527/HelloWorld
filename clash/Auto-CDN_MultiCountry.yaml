@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-22 00:49:40
+# 创建时间：2023-07-22 02:28:40
 # 使用模版：ACL4SSR_Online_MultiCountry.ini
-# 节点数量：24
+# 节点数量：36
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -34,18 +34,30 @@ proxies:
   - {"name":"JP_🇯🇵日本|Live|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Live|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Live|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Google|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Google|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Google|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Google|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Google|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Google|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Live|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Live|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Live|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Live|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Live|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|Live|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|arm|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|arm|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|arm|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|arm|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|arm|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|arm|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|arm|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|arm|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|arm|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|arm|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|arm|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|arm|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"1ea88db0-9326-526f-b7f2-e298f39a4447","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dnxpl54eugybw.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"1ea88db0-9326-526f-b7f2-e298f39a4447","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dnxpl54eugybw.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"1ea88db0-9326-526f-b7f2-e298f39a4447","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dnxpl54eugybw.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"1ea88db0-9326-526f-b7f2-e298f39a4447","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dnxpl54eugybw.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"1ea88db0-9326-526f-b7f2-e298f39a4447","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dnxpl54eugybw.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Google|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"1ea88db0-9326-526f-b7f2-e298f39a4447","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dnxpl54eugybw.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Live01","type":"vmess","server":"aws-live1.biny.eu.org","port":443,"cipher":"auto","uuid":"1e25e379-0709-5228-a21a-806b13c50d4e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d3qu5yhubgcb81.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Live02","type":"vmess","server":"aws-live2.biny.eu.org","port":443,"cipher":"auto","uuid":"1e25e379-0709-5228-a21a-806b13c50d4e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d3qu5yhubgcb81.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Live03","type":"vmess","server":"aws-live3.biny.eu.org","port":443,"cipher":"auto","uuid":"1e25e379-0709-5228-a21a-806b13c50d4e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d3qu5yhubgcb81.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Google01","type":"vmess","server":"aws-google1.biny.eu.org","port":443,"cipher":"auto","uuid":"1e25e379-0709-5228-a21a-806b13c50d4e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d3qu5yhubgcb81.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Google02","type":"vmess","server":"aws-google2.biny.eu.org","port":443,"cipher":"auto","uuid":"1e25e379-0709-5228-a21a-806b13c50d4e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d3qu5yhubgcb81.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|Live|CDN-Google03","type":"vmess","server":"aws-google3.biny.eu.org","port":443,"cipher":"auto","uuid":"1e25e379-0709-5228-a21a-806b13c50d4e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d3qu5yhubgcb81.cloudfront.net"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -71,6 +83,18 @@ proxy-groups:
       - JP_🇯🇵日本|Live|CDN-Google01
       - JP_🇯🇵日本|Live|CDN-Google02
       - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
@@ -101,6 +125,18 @@ proxy-groups:
       - JP_🇯🇵日本|Live|CDN-Google01
       - JP_🇯🇵日本|Live|CDN-Google02
       - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
@@ -131,6 +167,18 @@ proxy-groups:
       - JP_🇯🇵日本|Live|CDN-Google01
       - JP_🇯🇵日本|Live|CDN-Google02
       - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
@@ -160,6 +208,18 @@ proxy-groups:
       - JP_🇯🇵日本|Live|CDN-Google01
       - JP_🇯🇵日本|Live|CDN-Google02
       - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
@@ -189,6 +249,18 @@ proxy-groups:
       - JP_🇯🇵日本|Live|CDN-Google01
       - JP_🇯🇵日本|Live|CDN-Google02
       - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
@@ -218,6 +290,18 @@ proxy-groups:
       - JP_🇯🇵日本|Live|CDN-Google01
       - JP_🇯🇵日本|Live|CDN-Google02
       - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
@@ -248,6 +332,18 @@ proxy-groups:
       - JP_🇯🇵日本|Live|CDN-Google01
       - JP_🇯🇵日本|Live|CDN-Google02
       - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
@@ -294,6 +390,18 @@ proxy-groups:
       - JP_🇯🇵日本|Live|CDN-Google01
       - JP_🇯🇵日本|Live|CDN-Google02
       - JP_🇯🇵日本|Live|CDN-Google03
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
@@ -337,6 +445,18 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
       - US_🇺🇸美国|Google|CDN-Live01
       - US_🇺🇸美国|Google|CDN-Live02
       - US_🇺🇸美国|Google|CDN-Live03
