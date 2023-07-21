@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-21 17:30:30
-# 使用模版：ACL4SSR_Online_MultiCountry
+# 创建时间：2023-07-22 00:50:17
+# 使用模版：ACL4SSR_Online_MultiCountry.ini
 # 节点数量：208
 # 节点类型：vmess
 ####################################
@@ -71,8 +71,8 @@ proxies:
   - {"name":"JP_🇯🇵日本|Tokyo|Google_47","type":"vmess","server":"99.86.196.5","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Tokyo|Google_48","type":"vmess","server":"54.239.168.174","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Tokyo|Google_49","type":"vmess","server":"18.65.192.142","port":443,"cipher":"auto","uuid":"12ad6f67-2b22-5ef1-af37-50133970b922","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d10mtq5429k92c.cloudfront.net"}}}
-  - {"name":"JP_🇯🇵日本|Tokyo|Live_01","type":"vmess","server":"13.227.254.145","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
-  - {"name":"JP_🇯🇵日本|Tokyo|Live_02","type":"vmess","server":"13.33.5.105","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Tokyo|Live_01","type":"vmess","server":"13.227.254.145","port":443,"cipher":"auto","uuid":"ca41afd0-c7b2-51b6-a15e-3b88d2240c57","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
+  - {"name":"JP_🇯🇵日本|Tokyo|Live_02","type":"vmess","server":"13.33.5.105","port":443,"cipher":"auto","uuid":"ca41afd0-c7b2-51b6-a15e-3b88d2240c57","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Tokyo|Live_03","type":"vmess","server":"204.246.164.59","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Tokyo|Live_04","type":"vmess","server":"204.246.164.56","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Tokyo|Live_05","type":"vmess","server":"13.35.20.126","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
@@ -126,110 +126,110 @@ proxies:
   - {"name":"JP_🇯🇵日本|Tokyo|Live_53","type":"vmess","server":"13.35.45.161","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Tokyo|Live_54","type":"vmess","server":"18.65.192.142","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
   - {"name":"JP_🇯🇵日本|Tokyo|Live_55","type":"vmess","server":"13.32.54.123","port":443,"cipher":"auto","uuid":"05859a20-762f-52f4-a0b2-b61fdb8dce23","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d2zvcmiqn3hm4o.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_01","type":"vmess","server":"13.32.54.123","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_02","type":"vmess","server":"65.9.180.105","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_03","type":"vmess","server":"65.9.175.51","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_04","type":"vmess","server":"65.9.184.33","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_05","type":"vmess","server":"65.9.162.23","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_06","type":"vmess","server":"65.9.165.230","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_07","type":"vmess","server":"65.9.177.187","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_08","type":"vmess","server":"65.9.180.109","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_09","type":"vmess","server":"65.9.161.140","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_10","type":"vmess","server":"65.9.180.199","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_11","type":"vmess","server":"65.9.160.146","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_12","type":"vmess","server":"65.9.164.245","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_13","type":"vmess","server":"65.9.177.171","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_14","type":"vmess","server":"65.9.159.187","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_15","type":"vmess","server":"54.192.121.88","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_16","type":"vmess","server":"18.155.79.235","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_17","type":"vmess","server":"65.9.163.2","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_18","type":"vmess","server":"54.230.176.70","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_19","type":"vmess","server":"54.230.177.220","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_20","type":"vmess","server":"54.230.221.85","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_21","type":"vmess","server":"54.230.221.99","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_22","type":"vmess","server":"54.230.176.214","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_23","type":"vmess","server":"99.86.204.117","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_24","type":"vmess","server":"54.230.177.190","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_25","type":"vmess","server":"54.230.176.111","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_26","type":"vmess","server":"54.230.165.2","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_27","type":"vmess","server":"54.192.63.45","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_28","type":"vmess","server":"54.230.220.37","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_29","type":"vmess","server":"54.230.170.192","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_30","type":"vmess","server":"65.9.176.215","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_31","type":"vmess","server":"18.67.113.188","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_32","type":"vmess","server":"54.192.60.107","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_33","type":"vmess","server":"54.230.179.121","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_34","type":"vmess","server":"54.230.220.230","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_35","type":"vmess","server":"13.249.196.204","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_36","type":"vmess","server":"13.249.132.254","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_37","type":"vmess","server":"54.230.220.181","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_38","type":"vmess","server":"54.230.220.232","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_39","type":"vmess","server":"54.230.221.31","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_40","type":"vmess","server":"54.230.60.2","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_41","type":"vmess","server":"54.230.60.251","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_42","type":"vmess","server":"143.204.157.104","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_43","type":"vmess","server":"52.85.56.29","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_44","type":"vmess","server":"99.86.204.96","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_45","type":"vmess","server":"54.230.221.53","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_46","type":"vmess","server":"13.225.110.26","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_47","type":"vmess","server":"65.9.173.57","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_48","type":"vmess","server":"54.240.187.1","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_49","type":"vmess","server":"99.86.151.160","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_50","type":"vmess","server":"18.155.227.176","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_51","type":"vmess","server":"65.9.179.188","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Google_52","type":"vmess","server":"18.65.192.142","port":443,"cipher":"auto","uuid":"fc4eec9a-59b0-5b32-8a0e-d0f84d1fa7e7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_01","type":"vmess","server":"65.9.182.195","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_02","type":"vmess","server":"13.32.54.123","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_03","type":"vmess","server":"65.9.175.217","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_04","type":"vmess","server":"54.230.248.46","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_05","type":"vmess","server":"130.176.65.149","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_06","type":"vmess","server":"54.230.168.109","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_07","type":"vmess","server":"54.230.221.2","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_08","type":"vmess","server":"65.9.160.177","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_09","type":"vmess","server":"54.230.220.135","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_10","type":"vmess","server":"65.9.35.57","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_11","type":"vmess","server":"54.230.166.183","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_12","type":"vmess","server":"65.8.218.230","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_13","type":"vmess","server":"99.86.170.61","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_14","type":"vmess","server":"54.230.221.85","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_15","type":"vmess","server":"130.176.109.95","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_16","type":"vmess","server":"65.8.229.69","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_17","type":"vmess","server":"13.225.129.224","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_18","type":"vmess","server":"143.204.165.104","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_19","type":"vmess","server":"65.8.215.55","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_20","type":"vmess","server":"13.249.74.85","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_21","type":"vmess","server":"99.86.203.239","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_22","type":"vmess","server":"54.240.187.32","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_23","type":"vmess","server":"54.230.220.121","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_24","type":"vmess","server":"54.230.221.241","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_25","type":"vmess","server":"65.8.222.57","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_26","type":"vmess","server":"54.230.170.243","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_27","type":"vmess","server":"54.230.220.171","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_28","type":"vmess","server":"54.230.168.105","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_29","type":"vmess","server":"54.230.61.67","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_30","type":"vmess","server":"54.230.221.19","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_31","type":"vmess","server":"143.204.166.68","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_32","type":"vmess","server":"143.204.162.178","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_33","type":"vmess","server":"99.86.179.138","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_34","type":"vmess","server":"65.9.173.216","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_35","type":"vmess","server":"13.35.8.55","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_36","type":"vmess","server":"65.8.103.59","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_37","type":"vmess","server":"204.246.164.208","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_38","type":"vmess","server":"99.84.234.175","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_39","type":"vmess","server":"204.246.164.162","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_40","type":"vmess","server":"13.33.37.123","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_41","type":"vmess","server":"204.246.164.35","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_42","type":"vmess","server":"204.246.164.205","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_43","type":"vmess","server":"13.35.21.33","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_44","type":"vmess","server":"204.246.164.72","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_45","type":"vmess","server":"65.8.112.190","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_46","type":"vmess","server":"204.246.164.241","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_47","type":"vmess","server":"13.35.15.19","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_48","type":"vmess","server":"65.8.113.122","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_49","type":"vmess","server":"204.246.164.29","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_50","type":"vmess","server":"99.84.192.103","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_51","type":"vmess","server":"54.192.151.149","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"US_🇺🇸美国|SanJose|Live_52","type":"vmess","server":"18.65.192.142","port":443,"cipher":"auto","uuid":"e521cea5-d925-576e-a493-9837ab4d35cc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_01","type":"vmess","server":"13.32.54.123","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_02","type":"vmess","server":"65.9.180.105","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_03","type":"vmess","server":"65.9.175.51","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_04","type":"vmess","server":"65.9.184.33","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_05","type":"vmess","server":"65.9.162.23","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_06","type":"vmess","server":"65.9.165.230","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_07","type":"vmess","server":"65.9.177.187","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_08","type":"vmess","server":"65.9.180.109","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_09","type":"vmess","server":"65.9.161.140","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_10","type":"vmess","server":"65.9.180.199","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_11","type":"vmess","server":"65.9.160.146","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_12","type":"vmess","server":"65.9.164.245","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_13","type":"vmess","server":"65.9.177.171","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_14","type":"vmess","server":"65.9.159.187","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_15","type":"vmess","server":"54.192.121.88","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_16","type":"vmess","server":"18.155.79.235","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_17","type":"vmess","server":"65.9.163.2","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_18","type":"vmess","server":"54.230.176.70","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_19","type":"vmess","server":"54.230.177.220","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_20","type":"vmess","server":"54.230.221.85","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_21","type":"vmess","server":"54.230.221.99","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_22","type":"vmess","server":"54.230.176.214","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_23","type":"vmess","server":"99.86.204.117","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_24","type":"vmess","server":"54.230.177.190","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_25","type":"vmess","server":"54.230.176.111","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_26","type":"vmess","server":"54.230.165.2","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_27","type":"vmess","server":"54.192.63.45","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_28","type":"vmess","server":"54.230.220.37","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_29","type":"vmess","server":"54.230.170.192","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_30","type":"vmess","server":"65.9.176.215","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_31","type":"vmess","server":"18.67.113.188","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_32","type":"vmess","server":"54.192.60.107","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_33","type":"vmess","server":"54.230.179.121","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_34","type":"vmess","server":"54.230.220.230","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_35","type":"vmess","server":"13.249.196.204","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_36","type":"vmess","server":"13.249.132.254","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_37","type":"vmess","server":"54.230.220.181","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_38","type":"vmess","server":"54.230.220.232","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_39","type":"vmess","server":"54.230.221.31","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_40","type":"vmess","server":"54.230.60.2","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_41","type":"vmess","server":"54.230.60.251","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_42","type":"vmess","server":"143.204.157.104","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_43","type":"vmess","server":"52.85.56.29","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_44","type":"vmess","server":"99.86.204.96","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_45","type":"vmess","server":"54.230.221.53","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_46","type":"vmess","server":"13.225.110.26","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_47","type":"vmess","server":"65.9.173.57","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_48","type":"vmess","server":"54.240.187.1","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_49","type":"vmess","server":"99.86.151.160","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_50","type":"vmess","server":"18.155.227.176","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_51","type":"vmess","server":"65.9.179.188","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Google_52","type":"vmess","server":"18.65.192.142","port":443,"cipher":"auto","uuid":"2eb8c68a-cf38-50b1-ac6f-1b1836ff8080","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"du2bfbved4f1g.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_01","type":"vmess","server":"65.9.182.195","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_02","type":"vmess","server":"13.32.54.123","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_03","type":"vmess","server":"65.9.175.217","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_04","type":"vmess","server":"54.230.248.46","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_05","type":"vmess","server":"130.176.65.149","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_06","type":"vmess","server":"54.230.168.109","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_07","type":"vmess","server":"54.230.221.2","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_08","type":"vmess","server":"65.9.160.177","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_09","type":"vmess","server":"54.230.220.135","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_10","type":"vmess","server":"65.9.35.57","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_11","type":"vmess","server":"54.230.166.183","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_12","type":"vmess","server":"65.8.218.230","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_13","type":"vmess","server":"99.86.170.61","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_14","type":"vmess","server":"54.230.221.85","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_15","type":"vmess","server":"130.176.109.95","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_16","type":"vmess","server":"65.8.229.69","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_17","type":"vmess","server":"13.225.129.224","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_18","type":"vmess","server":"143.204.165.104","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_19","type":"vmess","server":"65.8.215.55","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_20","type":"vmess","server":"13.249.74.85","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_21","type":"vmess","server":"99.86.203.239","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_22","type":"vmess","server":"54.240.187.32","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_23","type":"vmess","server":"54.230.220.121","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_24","type":"vmess","server":"54.230.221.241","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_25","type":"vmess","server":"65.8.222.57","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_26","type":"vmess","server":"54.230.170.243","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_27","type":"vmess","server":"54.230.220.171","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_28","type":"vmess","server":"54.230.168.105","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_29","type":"vmess","server":"54.230.61.67","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_30","type":"vmess","server":"54.230.221.19","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_31","type":"vmess","server":"143.204.166.68","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_32","type":"vmess","server":"143.204.162.178","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_33","type":"vmess","server":"99.86.179.138","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_34","type":"vmess","server":"65.9.173.216","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_35","type":"vmess","server":"13.35.8.55","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_36","type":"vmess","server":"65.8.103.59","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_37","type":"vmess","server":"204.246.164.208","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_38","type":"vmess","server":"99.84.234.175","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_39","type":"vmess","server":"204.246.164.162","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_40","type":"vmess","server":"13.33.37.123","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_41","type":"vmess","server":"204.246.164.35","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_42","type":"vmess","server":"204.246.164.205","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_43","type":"vmess","server":"13.35.21.33","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_44","type":"vmess","server":"204.246.164.72","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_45","type":"vmess","server":"65.8.112.190","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_46","type":"vmess","server":"204.246.164.241","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_47","type":"vmess","server":"13.35.15.19","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_48","type":"vmess","server":"65.8.113.122","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_49","type":"vmess","server":"204.246.164.29","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_50","type":"vmess","server":"99.84.192.103","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_51","type":"vmess","server":"54.192.151.149","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"US_🇺🇸美国|SanJose|Live_52","type":"vmess","server":"18.65.192.142","port":443,"cipher":"auto","uuid":"1a3a6edb-220c-528c-93fa-92ebfcabf1cb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2196,7 +2196,6 @@ rules:
 # ACL4SSR标志 如没有，代表不是用ACL4SSR规则
 # 本地/局域网地址
 # Router managed 路由器管理域名
-# Unbreak 白名单 不应该被广告链接的网站
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
@@ -2232,6 +2231,7 @@ rules:
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
   - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
   - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
+# Unbreak 白名单 不应该被广告链接的网站
 # Epicgames
 # Getui
 # Google
@@ -2243,7 +2243,6 @@ rules:
 # Miui 小米
 # General
 # Hypixel Network
-# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
   - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
   - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
   - DOMAIN,dl.google.com,🎯 全球直连
@@ -2260,12 +2259,12 @@ rules:
   - DOMAIN,app.adjust.com,🎯 全球直连
   - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
   - DOMAIN,rewards.hypixel.net,🎯 全球直连
+# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
 # 广告关键词
 # 广告联盟-国内****************
 # 广告联盟-国外****************
 # 垃圾站点****************
 # 运营商广告****************
-# 包含常用应用的各种去广告规则。
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2858,6 +2857,7 @@ rules:
   - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
   - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
+# 包含常用应用的各种去广告规则。
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
 # 163
 # 17173
@@ -2917,7 +2917,6 @@ rules:
 # Others ads in Video apps
 # Ads in Video apps end 上面都是 ********************
 # 常用网站广告
-# 内容：GoogleFCM 谷歌推送服务
   - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
   - DOMAIN-SUFFIX,adgeo.corp.163.com,🍃 应用净化
   - DOMAIN-SUFFIX,analytics.126.net,🍃 应用净化
@@ -3941,8 +3940,8 @@ rules:
   - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
+# 内容：GoogleFCM 谷歌推送服务
 # 数量：35条
-# Google China
   - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
   - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
   - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
@@ -3978,7 +3977,7 @@ rules:
   - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
   - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
   - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
-# 内容：SteamCN
+# Google China
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -4008,8 +4007,8 @@ rules:
   - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+# 内容：SteamCN
 # 数量：16条
-# Microsoft Services
   - DOMAIN,csgo.wmsj.cn,🎯 全球直连
   - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
   - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -4026,9 +4025,9 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+# Microsoft Services
 # optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
 # source: https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
-# Apple
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -4108,8 +4107,8 @@ rules:
   - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+# Apple
 # 一般国内Apple肯定正常,不需要开代理
-# Telegram
   - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
   - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
   - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
@@ -4138,9 +4137,9 @@ rules:
   - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+# Telegram
 #PROCESS-NAME,Telegram.exe
 #PROCESS-NAME,org.telegram.messenger
-# 内容：国外媒体列表
   - DOMAIN-SUFFIX,t.me,📲 电报信息
   - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
   - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
@@ -4153,6 +4152,7 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+# 内容：国外媒体列表
 # 更新：2023-06-04 16:14:19
 # 数量：365条
 # ABC
@@ -4201,10 +4201,9 @@ rules:
 # ViuTV
 # YouTube
 # YouTubeMusic
-#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
-#   - USER-AGENT,All4*,🌍 国外媒体
+#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
@@ -4213,7 +4212,7 @@ rules:
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
-#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
+#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -4236,14 +4235,14 @@ rules:
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,seattlespheres.com,🌍 国外媒体
+#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
 #   - USER-AGENT,AppleNews*,🌍 国外媒体
 #   - USER-AGENT,com.apple.news*,🌍 国外媒体
-#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#   - USER-AGENT,Anime*,🌍 国外媒体
+#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -4258,13 +4257,13 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-#   - USER-AGENT,DAZN*,🌍 国外媒体
+#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
-#   - USER-AGENT,Deezer*,🌍 国外媒体
+#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -4276,14 +4275,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-#   - USER-AGENT,Disney*,🌍 国外媒体
+#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
+#   - USER-AGENT,Disney*,🌍 国外媒体
 #   - USER-AGENT,Disney+*,🌍 国外媒体
-#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -4304,24 +4303,24 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
-#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
+#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
-#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
+#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
+#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
 #   - USER-AGENT,HBOMAX*,🌍 国外媒体
-#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
+#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
@@ -4342,7 +4341,7 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
-#   - USER-AGENT,ITV_Player*,🌍 国外媒体
+#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -4358,12 +4357,12 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
-#   - USER-AGENT,JOOX*,🌍 国外媒体
+#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
+#   - USER-AGENT,JOOX*,🌍 国外媒体
 #   - USER-AGENT,WeMusic*,🌍 国外媒体
-#   - USER-AGENT,KKTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -4379,32 +4378,32 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
+#   - USER-AGENT,KKTV*,🌍 国外媒体
 #   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
-#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
+#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
 #   - USER-AGENT,LINE*,🌍 国外媒体
-#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
-#   - USER-AGENT,mytv*,🌍 国外媒体
+#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-#   - USER-AGENT,Argo*,🌍 国外媒体
+#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
   - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-#   - USER-AGENT,Niconico*,🌍 国外媒体
+#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
@@ -4444,7 +4443,7 @@ rules:
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
-#   - USER-AGENT,PBS*,🌍 国外媒体
+#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
@@ -4482,20 +4481,20 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
   - DOMAIN-SUFFIX,stripe.com,🌍 国外媒体
-#   - USER-AGENT,Pandora*,🌍 国外媒体
+#   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-#   - USER-AGENT,SoundCloud*,🌍 国外媒体
+#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
-#   - USER-AGENT,Spotify*,🌍 国外媒体
+#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-#   - USER-AGENT,TIDAL*,🌍 国外媒体
+#   - USER-AGENT,Spotify*,🌍 国外媒体
   - DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
@@ -4504,14 +4503,14 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
-#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
+#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
-#   - USER-AGENT,TikTok*,🌍 国外媒体
+#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-#   - USER-AGENT,Viu*,🌍 国外媒体
+#   - USER-AGENT,TikTok*,🌍 国外媒体
   - DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
@@ -4529,7 +4528,7 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-#   - USER-AGENT,*youtube*,🌍 国外媒体
+#   - USER-AGENT,Viu*,🌍 国外媒体
   - PROCESS-NAME,com.viu.pad,🌍 国外媒体
   - PROCESS-NAME,com.viu.phone,🌍 国外媒体
   - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
@@ -4545,9 +4544,9 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
+#   - USER-AGENT,*youtube*,🌍 国外媒体
 #   - USER-AGENT,YouTube*,🌍 国外媒体
 #   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
-#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -4562,16 +4561,17 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
 #   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
 #   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
 #   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
-# 代理列表
   - DOMAIN,music.youtube.com,🌍 国外媒体
 # 长风网站，自动注入
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
   - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
+# 代理列表
 # MyList && Other
 # 国外域名
 # 国外域名关键字
@@ -4604,7 +4604,6 @@ rules:
 #飞流直播
 #华文电视
 # VikACG
-# 直连列表
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -5018,6 +5017,7 @@ rules:
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
   - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
   - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
+# 直连列表
 # MyList
 # CN域名直连(中国|公司|网络)
 # 中国国内常见域名关键词直连
@@ -5064,7 +5064,6 @@ rules:
 #DOMAIN-SUFFIX,cdnjs.cloudflare.com
 #DOMAIN-SUFFIX,code.jquery.com
 # AccelerateDirectSites
-# 中国云服务商ip端
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -5777,6 +5776,7 @@ rules:
   - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
+# 中国云服务商ip端
 # 阿里
 # 腾讯 qq
 # 百度 Baidu
