@@ -419,14 +419,48 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - JP_🇯🇵日本|Google|CDN-Live01
+      - JP_🇯🇵日本|Google|CDN-Live02
+      - JP_🇯🇵日本|Google|CDN-Live03
+      - JP_🇯🇵日本|Google|CDN-Google01
+      - JP_🇯🇵日本|Google|CDN-Google02
+      - JP_🇯🇵日本|Google|CDN-Google03
+      - JP_🇯🇵日本|Live|CDN-Live01
+      - JP_🇯🇵日本|Live|CDN-Live02
+      - JP_🇯🇵日本|Live|CDN-Live03
+      - JP_🇯🇵日本|Live|CDN-Google01
+      - JP_🇯🇵日本|Live|CDN-Google02
+      - JP_🇯🇵日本|Live|CDN-Google03
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - DIRECT
+      - US_🇺🇸美国|Google|arm|CDN-Live01
+      - US_🇺🇸美国|Google|arm|CDN-Live02
+      - US_🇺🇸美国|Google|arm|CDN-Live03
+      - US_🇺🇸美国|Google|arm|CDN-Google01
+      - US_🇺🇸美国|Google|arm|CDN-Google02
+      - US_🇺🇸美国|Google|arm|CDN-Google03
+      - US_🇺🇸美国|Live|arm|CDN-Live01
+      - US_🇺🇸美国|Live|arm|CDN-Live02
+      - US_🇺🇸美国|Live|arm|CDN-Live03
+      - US_🇺🇸美国|Live|arm|CDN-Google01
+      - US_🇺🇸美国|Live|arm|CDN-Google02
+      - US_🇺🇸美国|Live|arm|CDN-Google03
+      - US_🇺🇸美国|Google|CDN-Live01
+      - US_🇺🇸美国|Google|CDN-Live02
+      - US_🇺🇸美国|Google|CDN-Live03
+      - US_🇺🇸美国|Google|CDN-Google01
+      - US_🇺🇸美国|Google|CDN-Google02
+      - US_🇺🇸美国|Google|CDN-Google03
+      - US_🇺🇸美国|Live|CDN-Live01
+      - US_🇺🇸美国|Live|CDN-Live02
+      - US_🇺🇸美国|Live|CDN-Live03
+      - US_🇺🇸美国|Live|CDN-Google01
+      - US_🇺🇸美国|Live|CDN-Google02
+      - US_🇺🇸美国|Live|CDN-Google03
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
