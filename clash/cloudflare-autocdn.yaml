@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-04 01:05:48
+# 创建时间：2023-09-04 02:41:31
 # 使用模版：ACL4SSR_Online_MultiCountry.ini
-# 节点数量：55
+# 节点数量：50
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -96,7 +96,6 @@ proxies:
   - {"name":"vmess|🇺🇸美国-Live_8","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"7751fb52-bfc9-47ae-ecd0-04db7e57bdf0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-live.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-Live_9","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"7751fb52-bfc9-47ae-ecd0-04db7e57bdf0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-live.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-Live_10","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"7751fb52-bfc9-47ae-ecd0-04db7e57bdf0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-live.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-Live_11","type":"vmess","server":"sp.kjkkk.link","port":443,"cipher":"auto","uuid":"7751fb52-bfc9-47ae-ecd0-04db7e57bdf0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-live.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-Google_1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"d5339c1d-e3ae-40fb-b8d2-945f084a08ef","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-Google_2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"d5339c1d-e3ae-40fb-b8d2-945f084a08ef","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-Google_3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"d5339c1d-e3ae-40fb-b8d2-945f084a08ef","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
@@ -107,7 +106,6 @@ proxies:
   - {"name":"vmess|🇺🇸美国-Google_8","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"d5339c1d-e3ae-40fb-b8d2-945f084a08ef","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-Google_9","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"d5339c1d-e3ae-40fb-b8d2-945f084a08ef","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-Google_10","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"d5339c1d-e3ae-40fb-b8d2-945f084a08ef","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-Google_11","type":"vmess","server":"sp.kjkkk.link","port":443,"cipher":"auto","uuid":"d5339c1d-e3ae-40fb-b8d2-945f084a08ef","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-ARMLive_1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"8f60b4bc-ce6a-41fc-a1a6-bb82c5d5691c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-ARMLive_2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"8f60b4bc-ce6a-41fc-a1a6-bb82c5d5691c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-ARMLive_3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"8f60b4bc-ce6a-41fc-a1a6-bb82c5d5691c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.biny.eu.org"}}}
@@ -118,7 +116,6 @@ proxies:
   - {"name":"vmess|🇺🇸美国-ARMLive_8","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"8f60b4bc-ce6a-41fc-a1a6-bb82c5d5691c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-ARMLive_9","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"8f60b4bc-ce6a-41fc-a1a6-bb82c5d5691c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-ARMLive_10","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"8f60b4bc-ce6a-41fc-a1a6-bb82c5d5691c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_11","type":"vmess","server":"sp.kjkkk.link","port":443,"cipher":"auto","uuid":"8f60b4bc-ce6a-41fc-a1a6-bb82c5d5691c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Live_1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"bb42d978-d8e7-47da-a7d6-f444224f5c97","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-live.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Live_2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"bb42d978-d8e7-47da-a7d6-f444224f5c97","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-live.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Live_3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"bb42d978-d8e7-47da-a7d6-f444224f5c97","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-live.biny.eu.org"}}}
@@ -129,7 +126,6 @@ proxies:
   - {"name":"vmess|🇯🇵日本-Live_8","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"bb42d978-d8e7-47da-a7d6-f444224f5c97","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-live.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Live_9","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"bb42d978-d8e7-47da-a7d6-f444224f5c97","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-live.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Live_10","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"bb42d978-d8e7-47da-a7d6-f444224f5c97","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-live.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Live_11","type":"vmess","server":"sp.kjkkk.link","port":443,"cipher":"auto","uuid":"bb42d978-d8e7-47da-a7d6-f444224f5c97","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-live.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Google_1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Google_2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Google_3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
@@ -140,7 +136,6 @@ proxies:
   - {"name":"vmess|🇯🇵日本-Google_8","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Google_9","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
   - {"name":"vmess|🇯🇵日本-Google_10","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_11","type":"vmess","server":"sp.kjkkk.link","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -164,7 +159,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -175,7 +169,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -186,7 +179,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
       - vmess|🇯🇵日本-Live_1
       - vmess|🇯🇵日本-Live_2
       - vmess|🇯🇵日本-Live_3
@@ -197,7 +189,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -208,7 +199,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -225,7 +215,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -236,7 +225,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -247,7 +235,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
       - vmess|🇯🇵日本-Live_1
       - vmess|🇯🇵日本-Live_2
       - vmess|🇯🇵日本-Live_3
@@ -258,7 +245,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -269,7 +255,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -286,7 +271,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -297,7 +281,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -308,7 +291,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
       - vmess|🇯🇵日本-Live_1
       - vmess|🇯🇵日本-Live_2
       - vmess|🇯🇵日本-Live_3
@@ -319,7 +301,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -330,7 +311,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: 📲 电报信息
     type: select
     proxies:
@@ -346,7 +326,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -357,7 +336,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -368,7 +346,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
       - vmess|🇯🇵日本-Live_1
       - vmess|🇯🇵日本-Live_2
       - vmess|🇯🇵日本-Live_3
@@ -379,7 +356,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -390,7 +366,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -406,7 +381,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -417,7 +391,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -428,7 +401,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
       - vmess|🇯🇵日本-Live_1
       - vmess|🇯🇵日本-Live_2
       - vmess|🇯🇵日本-Live_3
@@ -439,7 +411,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -450,7 +421,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -466,7 +436,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -477,7 +446,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -488,7 +456,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
       - vmess|🇯🇵日本-Live_1
       - vmess|🇯🇵日本-Live_2
       - vmess|🇯🇵日本-Live_3
@@ -499,7 +466,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -510,7 +476,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -527,7 +492,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -538,7 +502,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -549,7 +512,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
       - vmess|🇯🇵日本-Live_1
       - vmess|🇯🇵日本-Live_2
       - vmess|🇯🇵日本-Live_3
@@ -560,7 +522,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -571,7 +532,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -604,7 +564,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -615,7 +574,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -626,7 +584,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
       - vmess|🇯🇵日本-Live_1
       - vmess|🇯🇵日本-Live_2
       - vmess|🇯🇵日本-Live_3
@@ -637,7 +594,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -648,7 +604,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -672,7 +627,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Live_8
       - vmess|🇯🇵日本-Live_9
       - vmess|🇯🇵日本-Live_10
-      - vmess|🇯🇵日本-Live_11
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -683,7 +637,6 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_8
       - vmess|🇯🇵日本-Google_9
       - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -700,7 +653,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Live_8
       - vmess|🇺🇸美国-Live_9
       - vmess|🇺🇸美国-Live_10
-      - vmess|🇺🇸美国-Live_11
       - vmess|🇺🇸美国-Google_1
       - vmess|🇺🇸美国-Google_2
       - vmess|🇺🇸美国-Google_3
@@ -711,7 +663,6 @@ proxy-groups:
       - vmess|🇺🇸美国-Google_8
       - vmess|🇺🇸美国-Google_9
       - vmess|🇺🇸美国-Google_10
-      - vmess|🇺🇸美国-Google_11
       - vmess|🇺🇸美国-ARMLive_1
       - vmess|🇺🇸美国-ARMLive_2
       - vmess|🇺🇸美国-ARMLive_3
@@ -722,7 +673,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_8
       - vmess|🇺🇸美国-ARMLive_9
       - vmess|🇺🇸美国-ARMLive_10
-      - vmess|🇺🇸美国-ARMLive_11
 
 rules:
 # 本地/局域网地址
