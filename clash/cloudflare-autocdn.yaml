@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-06 23:18:02
+# 创建时间：2023-09-07 00:02:36
 # 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
 # 节点数量：10
-# 节点类型：trojan
+# 节点类型：vmess
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,16 +86,16 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_1","type":"trojan","server":"cdn-ct1.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_2","type":"trojan","server":"cdn-ct2.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_3","type":"trojan","server":"cdn-ct3.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_4","type":"trojan","server":"cdn-ct4.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_5","type":"trojan","server":"cdn-ct5.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_6","type":"trojan","server":"cdn-cmcc1.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_7","type":"trojan","server":"cdn-cmcc2.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_8","type":"trojan","server":"cdn-cmcc3.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_9","type":"trojan","server":"cdn-cmcc4.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"trojan|🇺🇸美国-ARMGoo\r_10","type":"trojan","server":"cdn-cmcc5.biny.eu.org","port":443,"udp":true,"password":"nKHPwqAvJZ","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc4","type":"vmess","server":"cdn-cmcc4.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc5","type":"vmess","server":"cdn-cmcc5.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-ct1","type":"vmess","server":"cdn-ct1.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-ct2","type":"vmess","server":"cdn-ct2.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-ct3","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-ct4","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo-ct5","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -104,62 +104,62 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - "trojan|🇺🇸美国-ARMGoo\r_1"
-      - "trojan|🇺🇸美国-ARMGoo\r_2"
-      - "trojan|🇺🇸美国-ARMGoo\r_3"
-      - "trojan|🇺🇸美国-ARMGoo\r_4"
-      - "trojan|🇺🇸美国-ARMGoo\r_5"
-      - "trojan|🇺🇸美国-ARMGoo\r_6"
-      - "trojan|🇺🇸美国-ARMGoo\r_7"
-      - "trojan|🇺🇸美国-ARMGoo\r_8"
-      - "trojan|🇺🇸美国-ARMGoo\r_9"
-      - "trojan|🇺🇸美国-ARMGoo\r_10"
+      - vmess|🇺🇸美国-ARMGoo-cmcc1
+      - vmess|🇺🇸美国-ARMGoo-cmcc2
+      - vmess|🇺🇸美国-ARMGoo-cmcc3
+      - vmess|🇺🇸美国-ARMGoo-cmcc4
+      - vmess|🇺🇸美国-ARMGoo-cmcc5
+      - vmess|🇺🇸美国-ARMGoo-ct1
+      - vmess|🇺🇸美国-ARMGoo-ct2
+      - vmess|🇺🇸美国-ARMGoo-ct3
+      - vmess|🇺🇸美国-ARMGoo-ct4
+      - vmess|🇺🇸美国-ARMGoo-ct5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "trojan|🇺🇸美国-ARMGoo\r_1"
-      - "trojan|🇺🇸美国-ARMGoo\r_2"
-      - "trojan|🇺🇸美国-ARMGoo\r_3"
-      - "trojan|🇺🇸美国-ARMGoo\r_4"
-      - "trojan|🇺🇸美国-ARMGoo\r_5"
-      - "trojan|🇺🇸美国-ARMGoo\r_6"
-      - "trojan|🇺🇸美国-ARMGoo\r_7"
-      - "trojan|🇺🇸美国-ARMGoo\r_8"
-      - "trojan|🇺🇸美国-ARMGoo\r_9"
-      - "trojan|🇺🇸美国-ARMGoo\r_10"
+      - vmess|🇺🇸美国-ARMGoo-cmcc1
+      - vmess|🇺🇸美国-ARMGoo-cmcc2
+      - vmess|🇺🇸美国-ARMGoo-cmcc3
+      - vmess|🇺🇸美国-ARMGoo-cmcc4
+      - vmess|🇺🇸美国-ARMGoo-cmcc5
+      - vmess|🇺🇸美国-ARMGoo-ct1
+      - vmess|🇺🇸美国-ARMGoo-ct2
+      - vmess|🇺🇸美国-ARMGoo-ct3
+      - vmess|🇺🇸美国-ARMGoo-ct4
+      - vmess|🇺🇸美国-ARMGoo-ct5
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "trojan|🇺🇸美国-ARMGoo\r_1"
-      - "trojan|🇺🇸美国-ARMGoo\r_2"
-      - "trojan|🇺🇸美国-ARMGoo\r_3"
-      - "trojan|🇺🇸美国-ARMGoo\r_4"
-      - "trojan|🇺🇸美国-ARMGoo\r_5"
-      - "trojan|🇺🇸美国-ARMGoo\r_6"
-      - "trojan|🇺🇸美国-ARMGoo\r_7"
-      - "trojan|🇺🇸美国-ARMGoo\r_8"
-      - "trojan|🇺🇸美国-ARMGoo\r_9"
-      - "trojan|🇺🇸美国-ARMGoo\r_10"
+      - vmess|🇺🇸美国-ARMGoo-cmcc1
+      - vmess|🇺🇸美国-ARMGoo-cmcc2
+      - vmess|🇺🇸美国-ARMGoo-cmcc3
+      - vmess|🇺🇸美国-ARMGoo-cmcc4
+      - vmess|🇺🇸美国-ARMGoo-cmcc5
+      - vmess|🇺🇸美国-ARMGoo-ct1
+      - vmess|🇺🇸美国-ARMGoo-ct2
+      - vmess|🇺🇸美国-ARMGoo-ct3
+      - vmess|🇺🇸美国-ARMGoo-ct4
+      - vmess|🇺🇸美国-ARMGoo-ct5
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "trojan|🇺🇸美国-ARMGoo\r_1"
-      - "trojan|🇺🇸美国-ARMGoo\r_2"
-      - "trojan|🇺🇸美国-ARMGoo\r_3"
-      - "trojan|🇺🇸美国-ARMGoo\r_4"
-      - "trojan|🇺🇸美国-ARMGoo\r_5"
-      - "trojan|🇺🇸美国-ARMGoo\r_6"
-      - "trojan|🇺🇸美国-ARMGoo\r_7"
-      - "trojan|🇺🇸美国-ARMGoo\r_8"
-      - "trojan|🇺🇸美国-ARMGoo\r_9"
-      - "trojan|🇺🇸美国-ARMGoo\r_10"
+      - vmess|🇺🇸美国-ARMGoo-cmcc1
+      - vmess|🇺🇸美国-ARMGoo-cmcc2
+      - vmess|🇺🇸美国-ARMGoo-cmcc3
+      - vmess|🇺🇸美国-ARMGoo-cmcc4
+      - vmess|🇺🇸美国-ARMGoo-cmcc5
+      - vmess|🇺🇸美国-ARMGoo-ct1
+      - vmess|🇺🇸美国-ARMGoo-ct2
+      - vmess|🇺🇸美国-ARMGoo-ct3
+      - vmess|🇺🇸美国-ARMGoo-ct4
+      - vmess|🇺🇸美国-ARMGoo-ct5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,16 +179,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - "trojan|🇺🇸美国-ARMGoo\r_1"
-      - "trojan|🇺🇸美国-ARMGoo\r_2"
-      - "trojan|🇺🇸美国-ARMGoo\r_3"
-      - "trojan|🇺🇸美国-ARMGoo\r_4"
-      - "trojan|🇺🇸美国-ARMGoo\r_5"
-      - "trojan|🇺🇸美国-ARMGoo\r_6"
-      - "trojan|🇺🇸美国-ARMGoo\r_7"
-      - "trojan|🇺🇸美国-ARMGoo\r_8"
-      - "trojan|🇺🇸美国-ARMGoo\r_9"
-      - "trojan|🇺🇸美国-ARMGoo\r_10"
+      - vmess|🇺🇸美国-ARMGoo-cmcc1
+      - vmess|🇺🇸美国-ARMGoo-cmcc2
+      - vmess|🇺🇸美国-ARMGoo-cmcc3
+      - vmess|🇺🇸美国-ARMGoo-cmcc4
+      - vmess|🇺🇸美国-ARMGoo-cmcc5
+      - vmess|🇺🇸美国-ARMGoo-ct1
+      - vmess|🇺🇸美国-ARMGoo-ct2
+      - vmess|🇺🇸美国-ARMGoo-ct3
+      - vmess|🇺🇸美国-ARMGoo-ct4
+      - vmess|🇺🇸美国-ARMGoo-ct5
 
 rules:
 # 本地/局域网地址
