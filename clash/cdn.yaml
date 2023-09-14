@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-15 03:27:27
-# 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
+# 创建时间：2023-09-15 04:00:22
+# 使用模版：ACL4SSR_Online_Mini_MultiCountry.ini
 # 节点数量：100
 # 节点类型：vmess
 ####################################
@@ -86,56 +86,56 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vmess|🇯🇵日本-Google_1","type":"vmess","server":"103.21.244.126","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_2","type":"vmess","server":"103.21.244.156","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_3","type":"vmess","server":"104.17.193.135","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_4","type":"vmess","server":"103.21.244.181","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_5","type":"vmess","server":"103.21.244.114","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_6","type":"vmess","server":"190.93.245.130","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_7","type":"vmess","server":"173.245.59.163","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_8","type":"vmess","server":"162.159.24.126","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_9","type":"vmess","server":"103.21.244.202","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_10","type":"vmess","server":"103.21.244.190","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_11","type":"vmess","server":"103.21.244.49","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_12","type":"vmess","server":"103.21.244.250","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_13","type":"vmess","server":"190.93.247.119","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_14","type":"vmess","server":"190.93.247.32","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_15","type":"vmess","server":"173.245.59.138","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_16","type":"vmess","server":"190.93.244.127","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_17","type":"vmess","server":"190.93.244.135","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_18","type":"vmess","server":"104.18.111.106","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_19","type":"vmess","server":"103.21.244.116","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_20","type":"vmess","server":"190.93.245.126","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_21","type":"vmess","server":"190.93.246.153","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_22","type":"vmess","server":"103.21.244.12","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_23","type":"vmess","server":"103.21.244.130","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_24","type":"vmess","server":"162.159.11.238","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_25","type":"vmess","server":"103.21.244.122","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_26","type":"vmess","server":"190.93.244.38","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_27","type":"vmess","server":"103.21.244.234","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_28","type":"vmess","server":"103.21.244.65","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_29","type":"vmess","server":"103.21.244.203","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_30","type":"vmess","server":"173.245.59.253","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_31","type":"vmess","server":"162.159.24.167","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_32","type":"vmess","server":"104.16.43.213","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_33","type":"vmess","server":"103.21.244.131","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_34","type":"vmess","server":"103.21.244.92","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_35","type":"vmess","server":"103.21.244.195","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_36","type":"vmess","server":"103.21.244.185","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_37","type":"vmess","server":"190.93.244.229","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_38","type":"vmess","server":"103.21.244.153","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_39","type":"vmess","server":"103.21.244.104","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_40","type":"vmess","server":"190.93.247.178","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_41","type":"vmess","server":"103.21.244.29","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_42","type":"vmess","server":"103.21.244.32","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_43","type":"vmess","server":"103.21.244.252","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_44","type":"vmess","server":"103.21.244.200","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_45","type":"vmess","server":"103.21.244.48","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_46","type":"vmess","server":"103.21.244.221","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_47","type":"vmess","server":"103.21.244.99","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_48","type":"vmess","server":"190.93.244.209","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_49","type":"vmess","server":"103.21.244.58","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
-  - {"name":"vmess|🇯🇵日本-Google_50","type":"vmess","server":"103.21.244.109","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_1","type":"vmess","server":"198.41.219.47","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_2","type":"vmess","server":"103.21.244.75","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_3","type":"vmess","server":"104.24.236.132","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_4","type":"vmess","server":"162.159.10.95","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_5","type":"vmess","server":"104.21.28.39","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_6","type":"vmess","server":"172.66.47.253","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_7","type":"vmess","server":"104.17.17.252","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_8","type":"vmess","server":"104.25.57.221","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_9","type":"vmess","server":"103.21.244.126","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_10","type":"vmess","server":"104.26.5.61","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_11","type":"vmess","server":"104.21.213.85","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_12","type":"vmess","server":"104.24.232.241","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_13","type":"vmess","server":"104.27.110.56","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_14","type":"vmess","server":"104.16.48.94","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_15","type":"vmess","server":"172.66.164.181","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_16","type":"vmess","server":"104.24.237.96","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_17","type":"vmess","server":"141.101.123.198","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_18","type":"vmess","server":"172.64.157.45","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_19","type":"vmess","server":"104.24.231.241","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_20","type":"vmess","server":"104.27.207.55","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_21","type":"vmess","server":"104.16.98.113","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_22","type":"vmess","server":"104.24.11.124","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_23","type":"vmess","server":"104.16.35.195","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_24","type":"vmess","server":"104.27.87.187","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_25","type":"vmess","server":"104.24.81.167","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_26","type":"vmess","server":"104.24.13.2","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_27","type":"vmess","server":"104.24.249.68","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_28","type":"vmess","server":"188.114.97.177","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_29","type":"vmess","server":"173.245.49.177","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_30","type":"vmess","server":"141.101.122.7","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_31","type":"vmess","server":"104.27.61.42","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_32","type":"vmess","server":"104.18.125.88","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_33","type":"vmess","server":"172.64.81.152","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_34","type":"vmess","server":"103.21.244.140","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_35","type":"vmess","server":"104.25.46.195","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_36","type":"vmess","server":"162.159.2.167","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_37","type":"vmess","server":"104.24.31.139","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_38","type":"vmess","server":"104.18.26.80","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_39","type":"vmess","server":"104.25.146.189","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_40","type":"vmess","server":"104.24.30.234","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_41","type":"vmess","server":"104.20.10.34","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_42","type":"vmess","server":"172.66.193.124","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_43","type":"vmess","server":"141.101.113.159","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_44","type":"vmess","server":"104.16.96.68","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_45","type":"vmess","server":"104.19.31.82","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_46","type":"vmess","server":"172.64.151.149","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_47","type":"vmess","server":"141.101.122.120","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_48","type":"vmess","server":"104.17.229.44","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_49","type":"vmess","server":"172.66.152.248","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
+  - {"name":"vmess|🇯🇵日本-Google_50","type":"vmess","server":"104.21.45.237","port":443,"cipher":"auto","uuid":"cb48f57b-a24b-4eeb-dd36-b15de534d6ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tokyo-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"tokyo-google.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-ARMGoo_1","type":"vmess","server":"190.93.245.107","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-ARMGoo_2","type":"vmess","server":"103.21.244.225","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
   - {"name":"vmess|🇺🇸美国-ARMGoo_3","type":"vmess","server":"162.159.135.134","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
@@ -191,9 +191,15 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
       - DIRECT
+  - name: 🚀 手动切换
+    type: select
+    proxies:
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -400,216 +406,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMGoo_48
       - vmess|🇺🇸美国-ARMGoo_49
       - vmess|🇺🇸美国-ARMGoo_50
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - vmess|🇯🇵日本-Google_1
-      - vmess|🇯🇵日本-Google_2
-      - vmess|🇯🇵日本-Google_3
-      - vmess|🇯🇵日本-Google_4
-      - vmess|🇯🇵日本-Google_5
-      - vmess|🇯🇵日本-Google_6
-      - vmess|🇯🇵日本-Google_7
-      - vmess|🇯🇵日本-Google_8
-      - vmess|🇯🇵日本-Google_9
-      - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
-      - vmess|🇯🇵日本-Google_12
-      - vmess|🇯🇵日本-Google_13
-      - vmess|🇯🇵日本-Google_14
-      - vmess|🇯🇵日本-Google_15
-      - vmess|🇯🇵日本-Google_16
-      - vmess|🇯🇵日本-Google_17
-      - vmess|🇯🇵日本-Google_18
-      - vmess|🇯🇵日本-Google_19
-      - vmess|🇯🇵日本-Google_20
-      - vmess|🇯🇵日本-Google_21
-      - vmess|🇯🇵日本-Google_22
-      - vmess|🇯🇵日本-Google_23
-      - vmess|🇯🇵日本-Google_24
-      - vmess|🇯🇵日本-Google_25
-      - vmess|🇯🇵日本-Google_26
-      - vmess|🇯🇵日本-Google_27
-      - vmess|🇯🇵日本-Google_28
-      - vmess|🇯🇵日本-Google_29
-      - vmess|🇯🇵日本-Google_30
-      - vmess|🇯🇵日本-Google_31
-      - vmess|🇯🇵日本-Google_32
-      - vmess|🇯🇵日本-Google_33
-      - vmess|🇯🇵日本-Google_34
-      - vmess|🇯🇵日本-Google_35
-      - vmess|🇯🇵日本-Google_36
-      - vmess|🇯🇵日本-Google_37
-      - vmess|🇯🇵日本-Google_38
-      - vmess|🇯🇵日本-Google_39
-      - vmess|🇯🇵日本-Google_40
-      - vmess|🇯🇵日本-Google_41
-      - vmess|🇯🇵日本-Google_42
-      - vmess|🇯🇵日本-Google_43
-      - vmess|🇯🇵日本-Google_44
-      - vmess|🇯🇵日本-Google_45
-      - vmess|🇯🇵日本-Google_46
-      - vmess|🇯🇵日本-Google_47
-      - vmess|🇯🇵日本-Google_48
-      - vmess|🇯🇵日本-Google_49
-      - vmess|🇯🇵日本-Google_50
-      - vmess|🇺🇸美国-ARMGoo_1
-      - vmess|🇺🇸美国-ARMGoo_2
-      - vmess|🇺🇸美国-ARMGoo_3
-      - vmess|🇺🇸美国-ARMGoo_4
-      - vmess|🇺🇸美国-ARMGoo_5
-      - vmess|🇺🇸美国-ARMGoo_6
-      - vmess|🇺🇸美国-ARMGoo_7
-      - vmess|🇺🇸美国-ARMGoo_8
-      - vmess|🇺🇸美国-ARMGoo_9
-      - vmess|🇺🇸美国-ARMGoo_10
-      - vmess|🇺🇸美国-ARMGoo_11
-      - vmess|🇺🇸美国-ARMGoo_12
-      - vmess|🇺🇸美国-ARMGoo_13
-      - vmess|🇺🇸美国-ARMGoo_14
-      - vmess|🇺🇸美国-ARMGoo_15
-      - vmess|🇺🇸美国-ARMGoo_16
-      - vmess|🇺🇸美国-ARMGoo_17
-      - vmess|🇺🇸美国-ARMGoo_18
-      - vmess|🇺🇸美国-ARMGoo_19
-      - vmess|🇺🇸美国-ARMGoo_20
-      - vmess|🇺🇸美国-ARMGoo_21
-      - vmess|🇺🇸美国-ARMGoo_22
-      - vmess|🇺🇸美国-ARMGoo_23
-      - vmess|🇺🇸美国-ARMGoo_24
-      - vmess|🇺🇸美国-ARMGoo_25
-      - vmess|🇺🇸美国-ARMGoo_26
-      - vmess|🇺🇸美国-ARMGoo_27
-      - vmess|🇺🇸美国-ARMGoo_28
-      - vmess|🇺🇸美国-ARMGoo_29
-      - vmess|🇺🇸美国-ARMGoo_30
-      - vmess|🇺🇸美国-ARMGoo_31
-      - vmess|🇺🇸美国-ARMGoo_32
-      - vmess|🇺🇸美国-ARMGoo_33
-      - vmess|🇺🇸美国-ARMGoo_34
-      - vmess|🇺🇸美国-ARMGoo_35
-      - vmess|🇺🇸美国-ARMGoo_36
-      - vmess|🇺🇸美国-ARMGoo_37
-      - vmess|🇺🇸美国-ARMGoo_38
-      - vmess|🇺🇸美国-ARMGoo_39
-      - vmess|🇺🇸美国-ARMGoo_40
-      - vmess|🇺🇸美国-ARMGoo_41
-      - vmess|🇺🇸美国-ARMGoo_42
-      - vmess|🇺🇸美国-ARMGoo_43
-      - vmess|🇺🇸美国-ARMGoo_44
-      - vmess|🇺🇸美国-ARMGoo_45
-      - vmess|🇺🇸美国-ARMGoo_46
-      - vmess|🇺🇸美国-ARMGoo_47
-      - vmess|🇺🇸美国-ARMGoo_48
-      - vmess|🇺🇸美国-ARMGoo_49
-      - vmess|🇺🇸美国-ARMGoo_50
-  - name: 🔮 负载均衡
-    type: load-balance
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - vmess|🇯🇵日本-Google_1
-      - vmess|🇯🇵日本-Google_2
-      - vmess|🇯🇵日本-Google_3
-      - vmess|🇯🇵日本-Google_4
-      - vmess|🇯🇵日本-Google_5
-      - vmess|🇯🇵日本-Google_6
-      - vmess|🇯🇵日本-Google_7
-      - vmess|🇯🇵日本-Google_8
-      - vmess|🇯🇵日本-Google_9
-      - vmess|🇯🇵日本-Google_10
-      - vmess|🇯🇵日本-Google_11
-      - vmess|🇯🇵日本-Google_12
-      - vmess|🇯🇵日本-Google_13
-      - vmess|🇯🇵日本-Google_14
-      - vmess|🇯🇵日本-Google_15
-      - vmess|🇯🇵日本-Google_16
-      - vmess|🇯🇵日本-Google_17
-      - vmess|🇯🇵日本-Google_18
-      - vmess|🇯🇵日本-Google_19
-      - vmess|🇯🇵日本-Google_20
-      - vmess|🇯🇵日本-Google_21
-      - vmess|🇯🇵日本-Google_22
-      - vmess|🇯🇵日本-Google_23
-      - vmess|🇯🇵日本-Google_24
-      - vmess|🇯🇵日本-Google_25
-      - vmess|🇯🇵日本-Google_26
-      - vmess|🇯🇵日本-Google_27
-      - vmess|🇯🇵日本-Google_28
-      - vmess|🇯🇵日本-Google_29
-      - vmess|🇯🇵日本-Google_30
-      - vmess|🇯🇵日本-Google_31
-      - vmess|🇯🇵日本-Google_32
-      - vmess|🇯🇵日本-Google_33
-      - vmess|🇯🇵日本-Google_34
-      - vmess|🇯🇵日本-Google_35
-      - vmess|🇯🇵日本-Google_36
-      - vmess|🇯🇵日本-Google_37
-      - vmess|🇯🇵日本-Google_38
-      - vmess|🇯🇵日本-Google_39
-      - vmess|🇯🇵日本-Google_40
-      - vmess|🇯🇵日本-Google_41
-      - vmess|🇯🇵日本-Google_42
-      - vmess|🇯🇵日本-Google_43
-      - vmess|🇯🇵日本-Google_44
-      - vmess|🇯🇵日本-Google_45
-      - vmess|🇯🇵日本-Google_46
-      - vmess|🇯🇵日本-Google_47
-      - vmess|🇯🇵日本-Google_48
-      - vmess|🇯🇵日本-Google_49
-      - vmess|🇯🇵日本-Google_50
-      - vmess|🇺🇸美国-ARMGoo_1
-      - vmess|🇺🇸美国-ARMGoo_2
-      - vmess|🇺🇸美国-ARMGoo_3
-      - vmess|🇺🇸美国-ARMGoo_4
-      - vmess|🇺🇸美国-ARMGoo_5
-      - vmess|🇺🇸美国-ARMGoo_6
-      - vmess|🇺🇸美国-ARMGoo_7
-      - vmess|🇺🇸美国-ARMGoo_8
-      - vmess|🇺🇸美国-ARMGoo_9
-      - vmess|🇺🇸美国-ARMGoo_10
-      - vmess|🇺🇸美国-ARMGoo_11
-      - vmess|🇺🇸美国-ARMGoo_12
-      - vmess|🇺🇸美国-ARMGoo_13
-      - vmess|🇺🇸美国-ARMGoo_14
-      - vmess|🇺🇸美国-ARMGoo_15
-      - vmess|🇺🇸美国-ARMGoo_16
-      - vmess|🇺🇸美国-ARMGoo_17
-      - vmess|🇺🇸美国-ARMGoo_18
-      - vmess|🇺🇸美国-ARMGoo_19
-      - vmess|🇺🇸美国-ARMGoo_20
-      - vmess|🇺🇸美国-ARMGoo_21
-      - vmess|🇺🇸美国-ARMGoo_22
-      - vmess|🇺🇸美国-ARMGoo_23
-      - vmess|🇺🇸美国-ARMGoo_24
-      - vmess|🇺🇸美国-ARMGoo_25
-      - vmess|🇺🇸美国-ARMGoo_26
-      - vmess|🇺🇸美国-ARMGoo_27
-      - vmess|🇺🇸美国-ARMGoo_28
-      - vmess|🇺🇸美国-ARMGoo_29
-      - vmess|🇺🇸美国-ARMGoo_30
-      - vmess|🇺🇸美国-ARMGoo_31
-      - vmess|🇺🇸美国-ARMGoo_32
-      - vmess|🇺🇸美国-ARMGoo_33
-      - vmess|🇺🇸美国-ARMGoo_34
-      - vmess|🇺🇸美国-ARMGoo_35
-      - vmess|🇺🇸美国-ARMGoo_36
-      - vmess|🇺🇸美国-ARMGoo_37
-      - vmess|🇺🇸美国-ARMGoo_38
-      - vmess|🇺🇸美国-ARMGoo_39
-      - vmess|🇺🇸美国-ARMGoo_40
-      - vmess|🇺🇸美国-ARMGoo_41
-      - vmess|🇺🇸美国-ARMGoo_42
-      - vmess|🇺🇸美国-ARMGoo_43
-      - vmess|🇺🇸美国-ARMGoo_44
-      - vmess|🇺🇸美国-ARMGoo_45
-      - vmess|🇺🇸美国-ARMGoo_46
-      - vmess|🇺🇸美国-ARMGoo_47
-      - vmess|🇺🇸美国-ARMGoo_48
-      - vmess|🇺🇸美国-ARMGoo_49
-      - vmess|🇺🇸美国-ARMGoo_50
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -627,8 +423,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -679,6 +473,130 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_48
       - vmess|🇯🇵日本-Google_49
       - vmess|🇯🇵日本-Google_50
+      - vmess|🇺🇸美国-ARMGoo_1
+      - vmess|🇺🇸美国-ARMGoo_2
+      - vmess|🇺🇸美国-ARMGoo_3
+      - vmess|🇺🇸美国-ARMGoo_4
+      - vmess|🇺🇸美国-ARMGoo_5
+      - vmess|🇺🇸美国-ARMGoo_6
+      - vmess|🇺🇸美国-ARMGoo_7
+      - vmess|🇺🇸美国-ARMGoo_8
+      - vmess|🇺🇸美国-ARMGoo_9
+      - vmess|🇺🇸美国-ARMGoo_10
+      - vmess|🇺🇸美国-ARMGoo_11
+      - vmess|🇺🇸美国-ARMGoo_12
+      - vmess|🇺🇸美国-ARMGoo_13
+      - vmess|🇺🇸美国-ARMGoo_14
+      - vmess|🇺🇸美国-ARMGoo_15
+      - vmess|🇺🇸美国-ARMGoo_16
+      - vmess|🇺🇸美国-ARMGoo_17
+      - vmess|🇺🇸美国-ARMGoo_18
+      - vmess|🇺🇸美国-ARMGoo_19
+      - vmess|🇺🇸美国-ARMGoo_20
+      - vmess|🇺🇸美国-ARMGoo_21
+      - vmess|🇺🇸美国-ARMGoo_22
+      - vmess|🇺🇸美国-ARMGoo_23
+      - vmess|🇺🇸美国-ARMGoo_24
+      - vmess|🇺🇸美国-ARMGoo_25
+      - vmess|🇺🇸美国-ARMGoo_26
+      - vmess|🇺🇸美国-ARMGoo_27
+      - vmess|🇺🇸美国-ARMGoo_28
+      - vmess|🇺🇸美国-ARMGoo_29
+      - vmess|🇺🇸美国-ARMGoo_30
+      - vmess|🇺🇸美国-ARMGoo_31
+      - vmess|🇺🇸美国-ARMGoo_32
+      - vmess|🇺🇸美国-ARMGoo_33
+      - vmess|🇺🇸美国-ARMGoo_34
+      - vmess|🇺🇸美国-ARMGoo_35
+      - vmess|🇺🇸美国-ARMGoo_36
+      - vmess|🇺🇸美国-ARMGoo_37
+      - vmess|🇺🇸美国-ARMGoo_38
+      - vmess|🇺🇸美国-ARMGoo_39
+      - vmess|🇺🇸美国-ARMGoo_40
+      - vmess|🇺🇸美国-ARMGoo_41
+      - vmess|🇺🇸美国-ARMGoo_42
+      - vmess|🇺🇸美国-ARMGoo_43
+      - vmess|🇺🇸美国-ARMGoo_44
+      - vmess|🇺🇸美国-ARMGoo_45
+      - vmess|🇺🇸美国-ARMGoo_46
+      - vmess|🇺🇸美国-ARMGoo_47
+      - vmess|🇺🇸美国-ARMGoo_48
+      - vmess|🇺🇸美国-ARMGoo_49
+      - vmess|🇺🇸美国-ARMGoo_50
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies: []
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - vmess|🇯🇵日本-Google_1
+      - vmess|🇯🇵日本-Google_2
+      - vmess|🇯🇵日本-Google_3
+      - vmess|🇯🇵日本-Google_4
+      - vmess|🇯🇵日本-Google_5
+      - vmess|🇯🇵日本-Google_6
+      - vmess|🇯🇵日本-Google_7
+      - vmess|🇯🇵日本-Google_8
+      - vmess|🇯🇵日本-Google_9
+      - vmess|🇯🇵日本-Google_10
+      - vmess|🇯🇵日本-Google_11
+      - vmess|🇯🇵日本-Google_12
+      - vmess|🇯🇵日本-Google_13
+      - vmess|🇯🇵日本-Google_14
+      - vmess|🇯🇵日本-Google_15
+      - vmess|🇯🇵日本-Google_16
+      - vmess|🇯🇵日本-Google_17
+      - vmess|🇯🇵日本-Google_18
+      - vmess|🇯🇵日本-Google_19
+      - vmess|🇯🇵日本-Google_20
+      - vmess|🇯🇵日本-Google_21
+      - vmess|🇯🇵日本-Google_22
+      - vmess|🇯🇵日本-Google_23
+      - vmess|🇯🇵日本-Google_24
+      - vmess|🇯🇵日本-Google_25
+      - vmess|🇯🇵日本-Google_26
+      - vmess|🇯🇵日本-Google_27
+      - vmess|🇯🇵日本-Google_28
+      - vmess|🇯🇵日本-Google_29
+      - vmess|🇯🇵日本-Google_30
+      - vmess|🇯🇵日本-Google_31
+      - vmess|🇯🇵日本-Google_32
+      - vmess|🇯🇵日本-Google_33
+      - vmess|🇯🇵日本-Google_34
+      - vmess|🇯🇵日本-Google_35
+      - vmess|🇯🇵日本-Google_36
+      - vmess|🇯🇵日本-Google_37
+      - vmess|🇯🇵日本-Google_38
+      - vmess|🇯🇵日本-Google_39
+      - vmess|🇯🇵日本-Google_40
+      - vmess|🇯🇵日本-Google_41
+      - vmess|🇯🇵日本-Google_42
+      - vmess|🇯🇵日本-Google_43
+      - vmess|🇯🇵日本-Google_44
+      - vmess|🇯🇵日本-Google_45
+      - vmess|🇯🇵日本-Google_46
+      - vmess|🇯🇵日本-Google_47
+      - vmess|🇯🇵日本-Google_48
+      - vmess|🇯🇵日本-Google_49
+      - vmess|🇯🇵日本-Google_50
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies: []
+  - name: 🇺🇲 美国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
       - vmess|🇺🇸美国-ARMGoo_1
       - vmess|🇺🇸美国-ARMGoo_2
       - vmess|🇺🇸美国-ARMGoo_3
