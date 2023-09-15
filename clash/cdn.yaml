@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-15 04:05:51
-# 使用模版：ACL4SSR_Online_Mini_MultiCountry.ini
+# 创建时间：2023-09-15 12:09:30
+# 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
 # 节点数量：100
 # 节点类型：vmess
 ####################################
@@ -191,15 +191,9 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇸🇬 狮城节点
-      - 🇺🇲 美国节点
-      - 🇯🇵 日本节点
-      - 🚀 手动切换
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - DIRECT
-  - name: 🚀 手动切换
-    type: select
-    proxies:
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -406,23 +400,11 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMGoo_48
       - vmess|🇺🇸美国-ARMGoo_49
       - vmess|🇺🇸美国-ARMGoo_50
-  - name: 🎯 全球直连
-    type: select
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 180
     proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-  - name: 🛑 全球拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
       - vmess|🇯🇵日本-Google_3
@@ -523,17 +505,10 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMGoo_48
       - vmess|🇺🇸美国-ARMGoo_49
       - vmess|🇺🇸美国-ARMGoo_50
-  - name: 🇭🇰 香港节点
-    type: url-test
+  - name: 🔮 负载均衡
+    type: load-balance
     url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies: []
-  - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 180
     proxies:
       - vmess|🇯🇵日本-Google_1
       - vmess|🇯🇵日本-Google_2
@@ -585,18 +560,125 @@ proxy-groups:
       - vmess|🇯🇵日本-Google_48
       - vmess|🇯🇵日本-Google_49
       - vmess|🇯🇵日本-Google_50
-  - name: 🇸🇬 狮城节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies: []
-  - name: 🇺🇲 美国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+      - vmess|🇺🇸美国-ARMGoo_1
+      - vmess|🇺🇸美国-ARMGoo_2
+      - vmess|🇺🇸美国-ARMGoo_3
+      - vmess|🇺🇸美国-ARMGoo_4
+      - vmess|🇺🇸美国-ARMGoo_5
+      - vmess|🇺🇸美国-ARMGoo_6
+      - vmess|🇺🇸美国-ARMGoo_7
+      - vmess|🇺🇸美国-ARMGoo_8
+      - vmess|🇺🇸美国-ARMGoo_9
+      - vmess|🇺🇸美国-ARMGoo_10
+      - vmess|🇺🇸美国-ARMGoo_11
+      - vmess|🇺🇸美国-ARMGoo_12
+      - vmess|🇺🇸美国-ARMGoo_13
+      - vmess|🇺🇸美国-ARMGoo_14
+      - vmess|🇺🇸美国-ARMGoo_15
+      - vmess|🇺🇸美国-ARMGoo_16
+      - vmess|🇺🇸美国-ARMGoo_17
+      - vmess|🇺🇸美国-ARMGoo_18
+      - vmess|🇺🇸美国-ARMGoo_19
+      - vmess|🇺🇸美国-ARMGoo_20
+      - vmess|🇺🇸美国-ARMGoo_21
+      - vmess|🇺🇸美国-ARMGoo_22
+      - vmess|🇺🇸美国-ARMGoo_23
+      - vmess|🇺🇸美国-ARMGoo_24
+      - vmess|🇺🇸美国-ARMGoo_25
+      - vmess|🇺🇸美国-ARMGoo_26
+      - vmess|🇺🇸美国-ARMGoo_27
+      - vmess|🇺🇸美国-ARMGoo_28
+      - vmess|🇺🇸美国-ARMGoo_29
+      - vmess|🇺🇸美国-ARMGoo_30
+      - vmess|🇺🇸美国-ARMGoo_31
+      - vmess|🇺🇸美国-ARMGoo_32
+      - vmess|🇺🇸美国-ARMGoo_33
+      - vmess|🇺🇸美国-ARMGoo_34
+      - vmess|🇺🇸美国-ARMGoo_35
+      - vmess|🇺🇸美国-ARMGoo_36
+      - vmess|🇺🇸美国-ARMGoo_37
+      - vmess|🇺🇸美国-ARMGoo_38
+      - vmess|🇺🇸美国-ARMGoo_39
+      - vmess|🇺🇸美国-ARMGoo_40
+      - vmess|🇺🇸美国-ARMGoo_41
+      - vmess|🇺🇸美国-ARMGoo_42
+      - vmess|🇺🇸美国-ARMGoo_43
+      - vmess|🇺🇸美国-ARMGoo_44
+      - vmess|🇺🇸美国-ARMGoo_45
+      - vmess|🇺🇸美国-ARMGoo_46
+      - vmess|🇺🇸美国-ARMGoo_47
+      - vmess|🇺🇸美国-ARMGoo_48
+      - vmess|🇺🇸美国-ARMGoo_49
+      - vmess|🇺🇸美国-ARMGoo_50
+  - name: 🎯 全球直连
+    type: select
     proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
+      - vmess|🇯🇵日本-Google_1
+      - vmess|🇯🇵日本-Google_2
+      - vmess|🇯🇵日本-Google_3
+      - vmess|🇯🇵日本-Google_4
+      - vmess|🇯🇵日本-Google_5
+      - vmess|🇯🇵日本-Google_6
+      - vmess|🇯🇵日本-Google_7
+      - vmess|🇯🇵日本-Google_8
+      - vmess|🇯🇵日本-Google_9
+      - vmess|🇯🇵日本-Google_10
+      - vmess|🇯🇵日本-Google_11
+      - vmess|🇯🇵日本-Google_12
+      - vmess|🇯🇵日本-Google_13
+      - vmess|🇯🇵日本-Google_14
+      - vmess|🇯🇵日本-Google_15
+      - vmess|🇯🇵日本-Google_16
+      - vmess|🇯🇵日本-Google_17
+      - vmess|🇯🇵日本-Google_18
+      - vmess|🇯🇵日本-Google_19
+      - vmess|🇯🇵日本-Google_20
+      - vmess|🇯🇵日本-Google_21
+      - vmess|🇯🇵日本-Google_22
+      - vmess|🇯🇵日本-Google_23
+      - vmess|🇯🇵日本-Google_24
+      - vmess|🇯🇵日本-Google_25
+      - vmess|🇯🇵日本-Google_26
+      - vmess|🇯🇵日本-Google_27
+      - vmess|🇯🇵日本-Google_28
+      - vmess|🇯🇵日本-Google_29
+      - vmess|🇯🇵日本-Google_30
+      - vmess|🇯🇵日本-Google_31
+      - vmess|🇯🇵日本-Google_32
+      - vmess|🇯🇵日本-Google_33
+      - vmess|🇯🇵日本-Google_34
+      - vmess|🇯🇵日本-Google_35
+      - vmess|🇯🇵日本-Google_36
+      - vmess|🇯🇵日本-Google_37
+      - vmess|🇯🇵日本-Google_38
+      - vmess|🇯🇵日本-Google_39
+      - vmess|🇯🇵日本-Google_40
+      - vmess|🇯🇵日本-Google_41
+      - vmess|🇯🇵日本-Google_42
+      - vmess|🇯🇵日本-Google_43
+      - vmess|🇯🇵日本-Google_44
+      - vmess|🇯🇵日本-Google_45
+      - vmess|🇯🇵日本-Google_46
+      - vmess|🇯🇵日本-Google_47
+      - vmess|🇯🇵日本-Google_48
+      - vmess|🇯🇵日本-Google_49
+      - vmess|🇯🇵日本-Google_50
       - vmess|🇺🇸美国-ARMGoo_1
       - vmess|🇺🇸美国-ARMGoo_2
       - vmess|🇺🇸美国-ARMGoo_3
