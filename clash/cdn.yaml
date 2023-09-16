@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-16 03:01:44
+# 创建时间：2023-09-17 02:12:06
 # 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
-# 节点数量：50
+# 节点数量：13
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -86,56 +86,19 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vmess|🇺🇸美国-ARMGoo_1","type":"vmess","server":"190.93.245.107","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_2","type":"vmess","server":"103.21.244.225","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_3","type":"vmess","server":"162.159.135.134","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_4","type":"vmess","server":"190.93.244.142","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_5","type":"vmess","server":"172.66.174.163","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_6","type":"vmess","server":"190.93.246.242","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_7","type":"vmess","server":"104.20.51.19","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_8","type":"vmess","server":"190.93.247.107","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_9","type":"vmess","server":"103.21.244.46","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_10","type":"vmess","server":"190.93.244.197","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_11","type":"vmess","server":"173.245.59.42","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_12","type":"vmess","server":"190.93.246.94","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_13","type":"vmess","server":"190.93.247.216","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_14","type":"vmess","server":"162.159.10.152","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_15","type":"vmess","server":"173.245.59.62","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_16","type":"vmess","server":"162.159.2.224","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_17","type":"vmess","server":"104.18.109.179","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_18","type":"vmess","server":"190.93.245.153","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_19","type":"vmess","server":"103.21.244.64","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_20","type":"vmess","server":"103.21.244.223","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_21","type":"vmess","server":"103.21.244.66","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_22","type":"vmess","server":"162.159.5.216","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_23","type":"vmess","server":"103.21.244.77","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_24","type":"vmess","server":"172.67.222.6","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_25","type":"vmess","server":"162.159.9.16","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_26","type":"vmess","server":"103.21.244.90","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_27","type":"vmess","server":"190.93.245.58","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_28","type":"vmess","server":"103.21.244.45","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_29","type":"vmess","server":"172.66.208.165","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_30","type":"vmess","server":"104.26.9.28","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_31","type":"vmess","server":"103.21.244.124","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_32","type":"vmess","server":"162.159.61.228","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_33","type":"vmess","server":"103.21.244.148","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_34","type":"vmess","server":"190.93.244.173","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_35","type":"vmess","server":"190.93.245.248","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_36","type":"vmess","server":"190.93.246.240","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_37","type":"vmess","server":"103.21.244.79","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_38","type":"vmess","server":"190.93.247.84","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_39","type":"vmess","server":"190.93.247.242","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_40","type":"vmess","server":"190.93.244.166","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_41","type":"vmess","server":"190.93.245.2","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_42","type":"vmess","server":"103.21.244.28","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_43","type":"vmess","server":"190.93.245.108","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_44","type":"vmess","server":"103.21.244.154","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_45","type":"vmess","server":"190.93.247.102","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_46","type":"vmess","server":"103.21.244.60","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_47","type":"vmess","server":"103.21.244.71","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_48","type":"vmess","server":"190.93.245.130","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_49","type":"vmess","server":"104.19.26.232","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo_50","type":"vmess","server":"162.159.27.225","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_1","type":"vmess","server":"104.18.7.88","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_2","type":"vmess","server":"104.26.9.111","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_3","type":"vmess","server":"152.70.234.179","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_4","type":"vmess","server":"140.238.10.85","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_5","type":"vmess","server":"47.245.14.160","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_6","type":"vmess","server":"131.186.31.159","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_7","type":"vmess","server":"47.245.62.84","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_8","type":"vmess","server":"129.154.194.61","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_9","type":"vmess","server":"104.16.93.80","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_10","type":"vmess","server":"47.245.4.66","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_11","type":"vmess","server":"131.186.20.197","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_12","type":"vmess","server":"27.126.206.62","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-ARMGoo_13","type":"vmess","server":"132.145.87.158","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-google.biny.eu.org","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -157,43 +120,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMGoo_11
       - vmess|🇺🇸美国-ARMGoo_12
       - vmess|🇺🇸美国-ARMGoo_13
-      - vmess|🇺🇸美国-ARMGoo_14
-      - vmess|🇺🇸美国-ARMGoo_15
-      - vmess|🇺🇸美国-ARMGoo_16
-      - vmess|🇺🇸美国-ARMGoo_17
-      - vmess|🇺🇸美国-ARMGoo_18
-      - vmess|🇺🇸美国-ARMGoo_19
-      - vmess|🇺🇸美国-ARMGoo_20
-      - vmess|🇺🇸美国-ARMGoo_21
-      - vmess|🇺🇸美国-ARMGoo_22
-      - vmess|🇺🇸美国-ARMGoo_23
-      - vmess|🇺🇸美国-ARMGoo_24
-      - vmess|🇺🇸美国-ARMGoo_25
-      - vmess|🇺🇸美国-ARMGoo_26
-      - vmess|🇺🇸美国-ARMGoo_27
-      - vmess|🇺🇸美国-ARMGoo_28
-      - vmess|🇺🇸美国-ARMGoo_29
-      - vmess|🇺🇸美国-ARMGoo_30
-      - vmess|🇺🇸美国-ARMGoo_31
-      - vmess|🇺🇸美国-ARMGoo_32
-      - vmess|🇺🇸美国-ARMGoo_33
-      - vmess|🇺🇸美国-ARMGoo_34
-      - vmess|🇺🇸美国-ARMGoo_35
-      - vmess|🇺🇸美国-ARMGoo_36
-      - vmess|🇺🇸美国-ARMGoo_37
-      - vmess|🇺🇸美国-ARMGoo_38
-      - vmess|🇺🇸美国-ARMGoo_39
-      - vmess|🇺🇸美国-ARMGoo_40
-      - vmess|🇺🇸美国-ARMGoo_41
-      - vmess|🇺🇸美国-ARMGoo_42
-      - vmess|🇺🇸美国-ARMGoo_43
-      - vmess|🇺🇸美国-ARMGoo_44
-      - vmess|🇺🇸美国-ARMGoo_45
-      - vmess|🇺🇸美国-ARMGoo_46
-      - vmess|🇺🇸美国-ARMGoo_47
-      - vmess|🇺🇸美国-ARMGoo_48
-      - vmess|🇺🇸美国-ARMGoo_49
-      - vmess|🇺🇸美国-ARMGoo_50
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -213,43 +139,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMGoo_11
       - vmess|🇺🇸美国-ARMGoo_12
       - vmess|🇺🇸美国-ARMGoo_13
-      - vmess|🇺🇸美国-ARMGoo_14
-      - vmess|🇺🇸美国-ARMGoo_15
-      - vmess|🇺🇸美国-ARMGoo_16
-      - vmess|🇺🇸美国-ARMGoo_17
-      - vmess|🇺🇸美国-ARMGoo_18
-      - vmess|🇺🇸美国-ARMGoo_19
-      - vmess|🇺🇸美国-ARMGoo_20
-      - vmess|🇺🇸美国-ARMGoo_21
-      - vmess|🇺🇸美国-ARMGoo_22
-      - vmess|🇺🇸美国-ARMGoo_23
-      - vmess|🇺🇸美国-ARMGoo_24
-      - vmess|🇺🇸美国-ARMGoo_25
-      - vmess|🇺🇸美国-ARMGoo_26
-      - vmess|🇺🇸美国-ARMGoo_27
-      - vmess|🇺🇸美国-ARMGoo_28
-      - vmess|🇺🇸美国-ARMGoo_29
-      - vmess|🇺🇸美国-ARMGoo_30
-      - vmess|🇺🇸美国-ARMGoo_31
-      - vmess|🇺🇸美国-ARMGoo_32
-      - vmess|🇺🇸美国-ARMGoo_33
-      - vmess|🇺🇸美国-ARMGoo_34
-      - vmess|🇺🇸美国-ARMGoo_35
-      - vmess|🇺🇸美国-ARMGoo_36
-      - vmess|🇺🇸美国-ARMGoo_37
-      - vmess|🇺🇸美国-ARMGoo_38
-      - vmess|🇺🇸美国-ARMGoo_39
-      - vmess|🇺🇸美国-ARMGoo_40
-      - vmess|🇺🇸美国-ARMGoo_41
-      - vmess|🇺🇸美国-ARMGoo_42
-      - vmess|🇺🇸美国-ARMGoo_43
-      - vmess|🇺🇸美国-ARMGoo_44
-      - vmess|🇺🇸美国-ARMGoo_45
-      - vmess|🇺🇸美国-ARMGoo_46
-      - vmess|🇺🇸美国-ARMGoo_47
-      - vmess|🇺🇸美国-ARMGoo_48
-      - vmess|🇺🇸美国-ARMGoo_49
-      - vmess|🇺🇸美国-ARMGoo_50
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -268,43 +157,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMGoo_11
       - vmess|🇺🇸美国-ARMGoo_12
       - vmess|🇺🇸美国-ARMGoo_13
-      - vmess|🇺🇸美国-ARMGoo_14
-      - vmess|🇺🇸美国-ARMGoo_15
-      - vmess|🇺🇸美国-ARMGoo_16
-      - vmess|🇺🇸美国-ARMGoo_17
-      - vmess|🇺🇸美国-ARMGoo_18
-      - vmess|🇺🇸美国-ARMGoo_19
-      - vmess|🇺🇸美国-ARMGoo_20
-      - vmess|🇺🇸美国-ARMGoo_21
-      - vmess|🇺🇸美国-ARMGoo_22
-      - vmess|🇺🇸美国-ARMGoo_23
-      - vmess|🇺🇸美国-ARMGoo_24
-      - vmess|🇺🇸美国-ARMGoo_25
-      - vmess|🇺🇸美国-ARMGoo_26
-      - vmess|🇺🇸美国-ARMGoo_27
-      - vmess|🇺🇸美国-ARMGoo_28
-      - vmess|🇺🇸美国-ARMGoo_29
-      - vmess|🇺🇸美国-ARMGoo_30
-      - vmess|🇺🇸美国-ARMGoo_31
-      - vmess|🇺🇸美国-ARMGoo_32
-      - vmess|🇺🇸美国-ARMGoo_33
-      - vmess|🇺🇸美国-ARMGoo_34
-      - vmess|🇺🇸美国-ARMGoo_35
-      - vmess|🇺🇸美国-ARMGoo_36
-      - vmess|🇺🇸美国-ARMGoo_37
-      - vmess|🇺🇸美国-ARMGoo_38
-      - vmess|🇺🇸美国-ARMGoo_39
-      - vmess|🇺🇸美国-ARMGoo_40
-      - vmess|🇺🇸美国-ARMGoo_41
-      - vmess|🇺🇸美国-ARMGoo_42
-      - vmess|🇺🇸美国-ARMGoo_43
-      - vmess|🇺🇸美国-ARMGoo_44
-      - vmess|🇺🇸美国-ARMGoo_45
-      - vmess|🇺🇸美国-ARMGoo_46
-      - vmess|🇺🇸美国-ARMGoo_47
-      - vmess|🇺🇸美国-ARMGoo_48
-      - vmess|🇺🇸美国-ARMGoo_49
-      - vmess|🇺🇸美国-ARMGoo_50
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -323,43 +175,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMGoo_11
       - vmess|🇺🇸美国-ARMGoo_12
       - vmess|🇺🇸美国-ARMGoo_13
-      - vmess|🇺🇸美国-ARMGoo_14
-      - vmess|🇺🇸美国-ARMGoo_15
-      - vmess|🇺🇸美国-ARMGoo_16
-      - vmess|🇺🇸美国-ARMGoo_17
-      - vmess|🇺🇸美国-ARMGoo_18
-      - vmess|🇺🇸美国-ARMGoo_19
-      - vmess|🇺🇸美国-ARMGoo_20
-      - vmess|🇺🇸美国-ARMGoo_21
-      - vmess|🇺🇸美国-ARMGoo_22
-      - vmess|🇺🇸美国-ARMGoo_23
-      - vmess|🇺🇸美国-ARMGoo_24
-      - vmess|🇺🇸美国-ARMGoo_25
-      - vmess|🇺🇸美国-ARMGoo_26
-      - vmess|🇺🇸美国-ARMGoo_27
-      - vmess|🇺🇸美国-ARMGoo_28
-      - vmess|🇺🇸美国-ARMGoo_29
-      - vmess|🇺🇸美国-ARMGoo_30
-      - vmess|🇺🇸美国-ARMGoo_31
-      - vmess|🇺🇸美国-ARMGoo_32
-      - vmess|🇺🇸美国-ARMGoo_33
-      - vmess|🇺🇸美国-ARMGoo_34
-      - vmess|🇺🇸美国-ARMGoo_35
-      - vmess|🇺🇸美国-ARMGoo_36
-      - vmess|🇺🇸美国-ARMGoo_37
-      - vmess|🇺🇸美国-ARMGoo_38
-      - vmess|🇺🇸美国-ARMGoo_39
-      - vmess|🇺🇸美国-ARMGoo_40
-      - vmess|🇺🇸美国-ARMGoo_41
-      - vmess|🇺🇸美国-ARMGoo_42
-      - vmess|🇺🇸美国-ARMGoo_43
-      - vmess|🇺🇸美国-ARMGoo_44
-      - vmess|🇺🇸美国-ARMGoo_45
-      - vmess|🇺🇸美国-ARMGoo_46
-      - vmess|🇺🇸美国-ARMGoo_47
-      - vmess|🇺🇸美国-ARMGoo_48
-      - vmess|🇺🇸美国-ARMGoo_49
-      - vmess|🇺🇸美国-ARMGoo_50
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -392,43 +207,6 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMGoo_11
       - vmess|🇺🇸美国-ARMGoo_12
       - vmess|🇺🇸美国-ARMGoo_13
-      - vmess|🇺🇸美国-ARMGoo_14
-      - vmess|🇺🇸美国-ARMGoo_15
-      - vmess|🇺🇸美国-ARMGoo_16
-      - vmess|🇺🇸美国-ARMGoo_17
-      - vmess|🇺🇸美国-ARMGoo_18
-      - vmess|🇺🇸美国-ARMGoo_19
-      - vmess|🇺🇸美国-ARMGoo_20
-      - vmess|🇺🇸美国-ARMGoo_21
-      - vmess|🇺🇸美国-ARMGoo_22
-      - vmess|🇺🇸美国-ARMGoo_23
-      - vmess|🇺🇸美国-ARMGoo_24
-      - vmess|🇺🇸美国-ARMGoo_25
-      - vmess|🇺🇸美国-ARMGoo_26
-      - vmess|🇺🇸美国-ARMGoo_27
-      - vmess|🇺🇸美国-ARMGoo_28
-      - vmess|🇺🇸美国-ARMGoo_29
-      - vmess|🇺🇸美国-ARMGoo_30
-      - vmess|🇺🇸美国-ARMGoo_31
-      - vmess|🇺🇸美国-ARMGoo_32
-      - vmess|🇺🇸美国-ARMGoo_33
-      - vmess|🇺🇸美国-ARMGoo_34
-      - vmess|🇺🇸美国-ARMGoo_35
-      - vmess|🇺🇸美国-ARMGoo_36
-      - vmess|🇺🇸美国-ARMGoo_37
-      - vmess|🇺🇸美国-ARMGoo_38
-      - vmess|🇺🇸美国-ARMGoo_39
-      - vmess|🇺🇸美国-ARMGoo_40
-      - vmess|🇺🇸美国-ARMGoo_41
-      - vmess|🇺🇸美国-ARMGoo_42
-      - vmess|🇺🇸美国-ARMGoo_43
-      - vmess|🇺🇸美国-ARMGoo_44
-      - vmess|🇺🇸美国-ARMGoo_45
-      - vmess|🇺🇸美国-ARMGoo_46
-      - vmess|🇺🇸美国-ARMGoo_47
-      - vmess|🇺🇸美国-ARMGoo_48
-      - vmess|🇺🇸美国-ARMGoo_49
-      - vmess|🇺🇸美国-ARMGoo_50
 
 rules:
 # 本地/局域网地址
