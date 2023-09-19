@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-19 01:51:05
+# 创建时间：2023-09-20 03:36:50
 # 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
 # 节点数量：10
 # 节点类型：vmess
@@ -86,16 +86,16 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc4","type":"vmess","server":"cdn-cmcc4.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-cmcc5","type":"vmess","server":"cdn-cmcc5.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-ct1","type":"vmess","server":"cdn-ct1.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-ct2","type":"vmess","server":"cdn-ct2.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-ct3","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-ct4","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
-  - {"name":"vmess|🇺🇸美国-ARMGoo-ct5","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-cmcc1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-cmcc2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-cmcc3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-cmcc4","type":"vmess","server":"cdn-cmcc4.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-cmcc5","type":"vmess","server":"cdn-cmcc5.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-ct1","type":"vmess","server":"cdn-ct1.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-ct2","type":"vmess","server":"cdn-ct2.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-ct3","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-ct4","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
+  - {"name":"vmess|🇺🇸美国-AMDGoo-ct5","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"5564ab8c-f53a-472b-f31e-c9c8334800bb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"sanjose-google.biny.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -104,62 +104,62 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - vmess|🇺🇸美国-ARMGoo-cmcc1
-      - vmess|🇺🇸美国-ARMGoo-cmcc2
-      - vmess|🇺🇸美国-ARMGoo-cmcc3
-      - vmess|🇺🇸美国-ARMGoo-cmcc4
-      - vmess|🇺🇸美国-ARMGoo-cmcc5
-      - vmess|🇺🇸美国-ARMGoo-ct1
-      - vmess|🇺🇸美国-ARMGoo-ct2
-      - vmess|🇺🇸美国-ARMGoo-ct3
-      - vmess|🇺🇸美国-ARMGoo-ct4
-      - vmess|🇺🇸美国-ARMGoo-ct5
+      - vmess|🇺🇸美国-AMDGoo-cmcc1
+      - vmess|🇺🇸美国-AMDGoo-cmcc2
+      - vmess|🇺🇸美国-AMDGoo-cmcc3
+      - vmess|🇺🇸美国-AMDGoo-cmcc4
+      - vmess|🇺🇸美国-AMDGoo-cmcc5
+      - vmess|🇺🇸美国-AMDGoo-ct1
+      - vmess|🇺🇸美国-AMDGoo-ct2
+      - vmess|🇺🇸美国-AMDGoo-ct3
+      - vmess|🇺🇸美国-AMDGoo-ct4
+      - vmess|🇺🇸美国-AMDGoo-ct5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vmess|🇺🇸美国-ARMGoo-cmcc1
-      - vmess|🇺🇸美国-ARMGoo-cmcc2
-      - vmess|🇺🇸美国-ARMGoo-cmcc3
-      - vmess|🇺🇸美国-ARMGoo-cmcc4
-      - vmess|🇺🇸美国-ARMGoo-cmcc5
-      - vmess|🇺🇸美国-ARMGoo-ct1
-      - vmess|🇺🇸美国-ARMGoo-ct2
-      - vmess|🇺🇸美国-ARMGoo-ct3
-      - vmess|🇺🇸美国-ARMGoo-ct4
-      - vmess|🇺🇸美国-ARMGoo-ct5
+      - vmess|🇺🇸美国-AMDGoo-cmcc1
+      - vmess|🇺🇸美国-AMDGoo-cmcc2
+      - vmess|🇺🇸美国-AMDGoo-cmcc3
+      - vmess|🇺🇸美国-AMDGoo-cmcc4
+      - vmess|🇺🇸美国-AMDGoo-cmcc5
+      - vmess|🇺🇸美国-AMDGoo-ct1
+      - vmess|🇺🇸美国-AMDGoo-ct2
+      - vmess|🇺🇸美国-AMDGoo-ct3
+      - vmess|🇺🇸美国-AMDGoo-ct4
+      - vmess|🇺🇸美国-AMDGoo-ct5
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - vmess|🇺🇸美国-ARMGoo-cmcc1
-      - vmess|🇺🇸美国-ARMGoo-cmcc2
-      - vmess|🇺🇸美国-ARMGoo-cmcc3
-      - vmess|🇺🇸美国-ARMGoo-cmcc4
-      - vmess|🇺🇸美国-ARMGoo-cmcc5
-      - vmess|🇺🇸美国-ARMGoo-ct1
-      - vmess|🇺🇸美国-ARMGoo-ct2
-      - vmess|🇺🇸美国-ARMGoo-ct3
-      - vmess|🇺🇸美国-ARMGoo-ct4
-      - vmess|🇺🇸美国-ARMGoo-ct5
+      - vmess|🇺🇸美国-AMDGoo-cmcc1
+      - vmess|🇺🇸美国-AMDGoo-cmcc2
+      - vmess|🇺🇸美国-AMDGoo-cmcc3
+      - vmess|🇺🇸美国-AMDGoo-cmcc4
+      - vmess|🇺🇸美国-AMDGoo-cmcc5
+      - vmess|🇺🇸美国-AMDGoo-ct1
+      - vmess|🇺🇸美国-AMDGoo-ct2
+      - vmess|🇺🇸美国-AMDGoo-ct3
+      - vmess|🇺🇸美国-AMDGoo-ct4
+      - vmess|🇺🇸美国-AMDGoo-ct5
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - vmess|🇺🇸美国-ARMGoo-cmcc1
-      - vmess|🇺🇸美国-ARMGoo-cmcc2
-      - vmess|🇺🇸美国-ARMGoo-cmcc3
-      - vmess|🇺🇸美国-ARMGoo-cmcc4
-      - vmess|🇺🇸美国-ARMGoo-cmcc5
-      - vmess|🇺🇸美国-ARMGoo-ct1
-      - vmess|🇺🇸美国-ARMGoo-ct2
-      - vmess|🇺🇸美国-ARMGoo-ct3
-      - vmess|🇺🇸美国-ARMGoo-ct4
-      - vmess|🇺🇸美国-ARMGoo-ct5
+      - vmess|🇺🇸美国-AMDGoo-cmcc1
+      - vmess|🇺🇸美国-AMDGoo-cmcc2
+      - vmess|🇺🇸美国-AMDGoo-cmcc3
+      - vmess|🇺🇸美国-AMDGoo-cmcc4
+      - vmess|🇺🇸美国-AMDGoo-cmcc5
+      - vmess|🇺🇸美国-AMDGoo-ct1
+      - vmess|🇺🇸美国-AMDGoo-ct2
+      - vmess|🇺🇸美国-AMDGoo-ct3
+      - vmess|🇺🇸美国-AMDGoo-ct4
+      - vmess|🇺🇸美国-AMDGoo-ct5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,16 +179,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - vmess|🇺🇸美国-ARMGoo-cmcc1
-      - vmess|🇺🇸美国-ARMGoo-cmcc2
-      - vmess|🇺🇸美国-ARMGoo-cmcc3
-      - vmess|🇺🇸美国-ARMGoo-cmcc4
-      - vmess|🇺🇸美国-ARMGoo-cmcc5
-      - vmess|🇺🇸美国-ARMGoo-ct1
-      - vmess|🇺🇸美国-ARMGoo-ct2
-      - vmess|🇺🇸美国-ARMGoo-ct3
-      - vmess|🇺🇸美国-ARMGoo-ct4
-      - vmess|🇺🇸美国-ARMGoo-ct5
+      - vmess|🇺🇸美国-AMDGoo-cmcc1
+      - vmess|🇺🇸美国-AMDGoo-cmcc2
+      - vmess|🇺🇸美国-AMDGoo-cmcc3
+      - vmess|🇺🇸美国-AMDGoo-cmcc4
+      - vmess|🇺🇸美国-AMDGoo-cmcc5
+      - vmess|🇺🇸美国-AMDGoo-ct1
+      - vmess|🇺🇸美国-AMDGoo-ct2
+      - vmess|🇺🇸美国-AMDGoo-ct3
+      - vmess|🇺🇸美国-AMDGoo-ct4
+      - vmess|🇺🇸美国-AMDGoo-ct5
 
 rules:
 # 本地/局域网地址
