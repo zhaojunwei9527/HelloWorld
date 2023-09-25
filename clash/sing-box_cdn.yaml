@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-24 02:32:41
+# 创建时间：2023-09-25 23:06:05
 # 使用模版：ACL4SSR_WithChinaIp_WithGFW.ini
-# 节点数量：30
+# 节点数量：40
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -86,36 +86,46 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_01","type":"vmess","server":"129.154.221.231","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_02","type":"vmess","server":"129.154.196.8","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_03","type":"vmess","server":"129.154.221.180","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_04","type":"vmess","server":"129.154.211.138","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_05","type":"vmess","server":"146.56.170.169","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_06","type":"vmess","server":"64.110.72.246","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_07","type":"vmess","server":"132.145.92.8","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_08","type":"vmess","server":"132.145.95.76","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_09","type":"vmess","server":"129.154.194.209","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_10","type":"vmess","server":"104.16.93.80","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_11","type":"vmess","server":"129.154.194.61","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_12","type":"vmess","server":"146.56.175.7","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_13","type":"vmess","server":"146.56.170.190","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_14","type":"vmess","server":"146.56.159.61","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_15","type":"vmess","server":"47.74.5.119","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_16","type":"vmess","server":"43.131.249.142","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_17","type":"vmess","server":"146.56.182.21","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_18","type":"vmess","server":"140.238.203.213","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_19","type":"vmess","server":"146.56.152.6","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_01","type":"vmess","server":"146.56.170.169","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_02","type":"vmess","server":"146.56.132.247","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_03","type":"vmess","server":"104.16.93.80","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_04","type":"vmess","server":"64.110.72.246","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_05","type":"vmess","server":"47.245.9.18","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_06","type":"vmess","server":"146.56.159.61","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_07","type":"vmess","server":"129.154.221.231","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_08","type":"vmess","server":"146.56.175.7","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_09","type":"vmess","server":"8.209.242.38","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_10","type":"vmess","server":"47.74.10.135","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_11","type":"vmess","server":"129.154.221.180","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_12","type":"vmess","server":"146.56.186.10","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_13","type":"vmess","server":"146.56.152.6","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_14","type":"vmess","server":"192.9.138.241","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_15","type":"vmess","server":"192.9.130.224","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_16","type":"vmess","server":"140.238.203.213","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_17","type":"vmess","server":"47.91.28.22","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_18","type":"vmess","server":"192.9.234.103","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_19","type":"vmess","server":"129.146.7.98","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
   - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_20","type":"vmess","server":"138.2.232.253","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_21","type":"vmess","server":"138.2.235.193","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_22","type":"vmess","server":"146.56.43.13","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_23","type":"vmess","server":"146.56.177.50","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_24","type":"vmess","server":"150.230.46.49","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_25","type":"vmess","server":"158.101.44.40","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_26","type":"vmess","server":"130.162.140.212","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_27","type":"vmess","server":"146.56.155.182","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_28","type":"vmess","server":"192.9.130.224","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_29","type":"vmess","server":"146.56.132.247","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_30","type":"vmess","server":"192.9.234.103","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_21","type":"vmess","server":"146.56.177.50","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_22","type":"vmess","server":"138.2.235.193","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_23","type":"vmess","server":"150.230.46.49","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_24","type":"vmess","server":"64.110.65.45","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_25","type":"vmess","server":"132.226.236.208","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_26","type":"vmess","server":"132.226.171.37","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_27","type":"vmess","server":"146.56.186.9","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_28","type":"vmess","server":"132.145.93.72","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_29","type":"vmess","server":"146.56.170.190","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_30","type":"vmess","server":"138.2.226.64","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_31","type":"vmess","server":"129.151.86.205","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_32","type":"vmess","server":"129.151.70.138","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_33","type":"vmess","server":"130.162.140.212","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_34","type":"vmess","server":"131.186.22.83","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_35","type":"vmess","server":"43.131.249.142","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_36","type":"vmess","server":"146.56.155.182","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_37","type":"vmess","server":"64.110.64.82","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_38","type":"vmess","server":"132.226.225.215","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_39","type":"vmess","server":"158.101.3.252","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_40","type":"vmess","server":"64.110.64.80","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -152,6 +162,16 @@ proxy-groups:
       - sing-box|🇺🇸美国-ARMLive_cdn_28
       - sing-box|🇺🇸美国-ARMLive_cdn_29
       - sing-box|🇺🇸美国-ARMLive_cdn_30
+      - sing-box|🇺🇸美国-ARMLive_cdn_31
+      - sing-box|🇺🇸美国-ARMLive_cdn_32
+      - sing-box|🇺🇸美国-ARMLive_cdn_33
+      - sing-box|🇺🇸美国-ARMLive_cdn_34
+      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sing-box|🇺🇸美国-ARMLive_cdn_36
+      - sing-box|🇺🇸美国-ARMLive_cdn_37
+      - sing-box|🇺🇸美国-ARMLive_cdn_38
+      - sing-box|🇺🇸美国-ARMLive_cdn_39
+      - sing-box|🇺🇸美国-ARMLive_cdn_40
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -188,6 +208,16 @@ proxy-groups:
       - sing-box|🇺🇸美国-ARMLive_cdn_28
       - sing-box|🇺🇸美国-ARMLive_cdn_29
       - sing-box|🇺🇸美国-ARMLive_cdn_30
+      - sing-box|🇺🇸美国-ARMLive_cdn_31
+      - sing-box|🇺🇸美国-ARMLive_cdn_32
+      - sing-box|🇺🇸美国-ARMLive_cdn_33
+      - sing-box|🇺🇸美国-ARMLive_cdn_34
+      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sing-box|🇺🇸美国-ARMLive_cdn_36
+      - sing-box|🇺🇸美国-ARMLive_cdn_37
+      - sing-box|🇺🇸美国-ARMLive_cdn_38
+      - sing-box|🇺🇸美国-ARMLive_cdn_39
+      - sing-box|🇺🇸美国-ARMLive_cdn_40
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -224,6 +254,16 @@ proxy-groups:
       - sing-box|🇺🇸美国-ARMLive_cdn_28
       - sing-box|🇺🇸美国-ARMLive_cdn_29
       - sing-box|🇺🇸美国-ARMLive_cdn_30
+      - sing-box|🇺🇸美国-ARMLive_cdn_31
+      - sing-box|🇺🇸美国-ARMLive_cdn_32
+      - sing-box|🇺🇸美国-ARMLive_cdn_33
+      - sing-box|🇺🇸美国-ARMLive_cdn_34
+      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sing-box|🇺🇸美国-ARMLive_cdn_36
+      - sing-box|🇺🇸美国-ARMLive_cdn_37
+      - sing-box|🇺🇸美国-ARMLive_cdn_38
+      - sing-box|🇺🇸美国-ARMLive_cdn_39
+      - sing-box|🇺🇸美国-ARMLive_cdn_40
   - name: 📲 电报信息
     type: select
     proxies:
@@ -259,6 +299,16 @@ proxy-groups:
       - sing-box|🇺🇸美国-ARMLive_cdn_28
       - sing-box|🇺🇸美国-ARMLive_cdn_29
       - sing-box|🇺🇸美国-ARMLive_cdn_30
+      - sing-box|🇺🇸美国-ARMLive_cdn_31
+      - sing-box|🇺🇸美国-ARMLive_cdn_32
+      - sing-box|🇺🇸美国-ARMLive_cdn_33
+      - sing-box|🇺🇸美国-ARMLive_cdn_34
+      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sing-box|🇺🇸美国-ARMLive_cdn_36
+      - sing-box|🇺🇸美国-ARMLive_cdn_37
+      - sing-box|🇺🇸美国-ARMLive_cdn_38
+      - sing-box|🇺🇸美国-ARMLive_cdn_39
+      - sing-box|🇺🇸美国-ARMLive_cdn_40
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -294,6 +344,16 @@ proxy-groups:
       - sing-box|🇺🇸美国-ARMLive_cdn_28
       - sing-box|🇺🇸美国-ARMLive_cdn_29
       - sing-box|🇺🇸美国-ARMLive_cdn_30
+      - sing-box|🇺🇸美国-ARMLive_cdn_31
+      - sing-box|🇺🇸美国-ARMLive_cdn_32
+      - sing-box|🇺🇸美国-ARMLive_cdn_33
+      - sing-box|🇺🇸美国-ARMLive_cdn_34
+      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sing-box|🇺🇸美国-ARMLive_cdn_36
+      - sing-box|🇺🇸美国-ARMLive_cdn_37
+      - sing-box|🇺🇸美国-ARMLive_cdn_38
+      - sing-box|🇺🇸美国-ARMLive_cdn_39
+      - sing-box|🇺🇸美国-ARMLive_cdn_40
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -329,6 +389,16 @@ proxy-groups:
       - sing-box|🇺🇸美国-ARMLive_cdn_28
       - sing-box|🇺🇸美国-ARMLive_cdn_29
       - sing-box|🇺🇸美国-ARMLive_cdn_30
+      - sing-box|🇺🇸美国-ARMLive_cdn_31
+      - sing-box|🇺🇸美国-ARMLive_cdn_32
+      - sing-box|🇺🇸美国-ARMLive_cdn_33
+      - sing-box|🇺🇸美国-ARMLive_cdn_34
+      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sing-box|🇺🇸美国-ARMLive_cdn_36
+      - sing-box|🇺🇸美国-ARMLive_cdn_37
+      - sing-box|🇺🇸美国-ARMLive_cdn_38
+      - sing-box|🇺🇸美国-ARMLive_cdn_39
+      - sing-box|🇺🇸美国-ARMLive_cdn_40
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -381,6 +451,16 @@ proxy-groups:
       - sing-box|🇺🇸美国-ARMLive_cdn_28
       - sing-box|🇺🇸美国-ARMLive_cdn_29
       - sing-box|🇺🇸美国-ARMLive_cdn_30
+      - sing-box|🇺🇸美国-ARMLive_cdn_31
+      - sing-box|🇺🇸美国-ARMLive_cdn_32
+      - sing-box|🇺🇸美国-ARMLive_cdn_33
+      - sing-box|🇺🇸美国-ARMLive_cdn_34
+      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sing-box|🇺🇸美国-ARMLive_cdn_36
+      - sing-box|🇺🇸美国-ARMLive_cdn_37
+      - sing-box|🇺🇸美国-ARMLive_cdn_38
+      - sing-box|🇺🇸美国-ARMLive_cdn_39
+      - sing-box|🇺🇸美国-ARMLive_cdn_40
 
 rules:
 # 本地/局域网地址
