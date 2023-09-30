@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：2023-10-01 03:45:30
+# 客户端：Clash.Meta
+# 创建时间：2023-10-01 03:46:03
 # 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
-# 节点数量：35
-# 节点类型：vmess
+# 节点数量：4
+# 节点类型：hysteria2
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,41 +87,10 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_01","type":"vmess","server":"193.123.229.104","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_02","type":"vmess","server":"146.56.155.109","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_03","type":"vmess","server":"132.226.239.220","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_04","type":"vmess","server":"146.56.177.173","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_05","type":"vmess","server":"47.91.3.87","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_06","type":"vmess","server":"43.154.74.39","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_07","type":"vmess","server":"132.145.90.115","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_08","type":"vmess","server":"132.145.81.116","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_09","type":"vmess","server":"47.74.39.194","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_10","type":"vmess","server":"8.209.248.161","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_11","type":"vmess","server":"8.209.214.222","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_12","type":"vmess","server":"47.245.8.185","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_13","type":"vmess","server":"47.74.8.238","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_14","type":"vmess","server":"146.56.150.64","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_15","type":"vmess","server":"132.145.90.150","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_16","type":"vmess","server":"146.56.161.229","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_17","type":"vmess","server":"152.70.242.51","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_18","type":"vmess","server":"146.56.37.227","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_19","type":"vmess","server":"47.74.50.122","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_20","type":"vmess","server":"192.9.143.99","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_21","type":"vmess","server":"129.154.221.87","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_22","type":"vmess","server":"64.110.72.246","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_23","type":"vmess","server":"47.245.3.38","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_24","type":"vmess","server":"8.217.14.88","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_25","type":"vmess","server":"47.245.34.140","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_26","type":"vmess","server":"131.186.20.197","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_27","type":"vmess","server":"47.245.62.84","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_28","type":"vmess","server":"47.245.37.98","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_29","type":"vmess","server":"47.91.11.72","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_30","type":"vmess","server":"47.245.57.109","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_31","type":"vmess","server":"152.70.242.147","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_32","type":"vmess","server":"132.145.80.220","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_33","type":"vmess","server":"47.245.56.50","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_34","type":"vmess","server":"47.245.57.38","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cdn_35","type":"vmess","server":"130.162.144.196","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sanjose-live-Hysteria2","type":"hysteria2","server":"146.235.218.148","port":14022,"password":"d7441b36","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"tokyo-live-Hysteria2","type":"hysteria2","server":"141.147.163.78","port":52167,"password":"fa69892c","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"tokyo-google-Hysteria2","type":"hysteria2","server":"158.101.75.15","port":60669,"password":"7eaf4fcc","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"sanjose-google-Hysteria2","type":"hysteria2","server":"192.9.136.220","port":16815,"password":"40b0057d","sni":"www.bing.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -129,162 +99,38 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - sing-box|🇺🇸美国-ARMLive_cdn_01
-      - sing-box|🇺🇸美国-ARMLive_cdn_02
-      - sing-box|🇺🇸美国-ARMLive_cdn_03
-      - sing-box|🇺🇸美国-ARMLive_cdn_04
-      - sing-box|🇺🇸美国-ARMLive_cdn_05
-      - sing-box|🇺🇸美国-ARMLive_cdn_06
-      - sing-box|🇺🇸美国-ARMLive_cdn_07
-      - sing-box|🇺🇸美国-ARMLive_cdn_08
-      - sing-box|🇺🇸美国-ARMLive_cdn_09
-      - sing-box|🇺🇸美国-ARMLive_cdn_10
-      - sing-box|🇺🇸美国-ARMLive_cdn_11
-      - sing-box|🇺🇸美国-ARMLive_cdn_12
-      - sing-box|🇺🇸美国-ARMLive_cdn_13
-      - sing-box|🇺🇸美国-ARMLive_cdn_14
-      - sing-box|🇺🇸美国-ARMLive_cdn_15
-      - sing-box|🇺🇸美国-ARMLive_cdn_16
-      - sing-box|🇺🇸美国-ARMLive_cdn_17
-      - sing-box|🇺🇸美国-ARMLive_cdn_18
-      - sing-box|🇺🇸美国-ARMLive_cdn_19
-      - sing-box|🇺🇸美国-ARMLive_cdn_20
-      - sing-box|🇺🇸美国-ARMLive_cdn_21
-      - sing-box|🇺🇸美国-ARMLive_cdn_22
-      - sing-box|🇺🇸美国-ARMLive_cdn_23
-      - sing-box|🇺🇸美国-ARMLive_cdn_24
-      - sing-box|🇺🇸美国-ARMLive_cdn_25
-      - sing-box|🇺🇸美国-ARMLive_cdn_26
-      - sing-box|🇺🇸美国-ARMLive_cdn_27
-      - sing-box|🇺🇸美国-ARMLive_cdn_28
-      - sing-box|🇺🇸美国-ARMLive_cdn_29
-      - sing-box|🇺🇸美国-ARMLive_cdn_30
-      - sing-box|🇺🇸美国-ARMLive_cdn_31
-      - sing-box|🇺🇸美国-ARMLive_cdn_32
-      - sing-box|🇺🇸美国-ARMLive_cdn_33
-      - sing-box|🇺🇸美国-ARMLive_cdn_34
-      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sanjose-live-Hysteria2
+      - tokyo-live-Hysteria2
+      - tokyo-google-Hysteria2
+      - sanjose-google-Hysteria2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - sing-box|🇺🇸美国-ARMLive_cdn_01
-      - sing-box|🇺🇸美国-ARMLive_cdn_02
-      - sing-box|🇺🇸美国-ARMLive_cdn_03
-      - sing-box|🇺🇸美国-ARMLive_cdn_04
-      - sing-box|🇺🇸美国-ARMLive_cdn_05
-      - sing-box|🇺🇸美国-ARMLive_cdn_06
-      - sing-box|🇺🇸美国-ARMLive_cdn_07
-      - sing-box|🇺🇸美国-ARMLive_cdn_08
-      - sing-box|🇺🇸美国-ARMLive_cdn_09
-      - sing-box|🇺🇸美国-ARMLive_cdn_10
-      - sing-box|🇺🇸美国-ARMLive_cdn_11
-      - sing-box|🇺🇸美国-ARMLive_cdn_12
-      - sing-box|🇺🇸美国-ARMLive_cdn_13
-      - sing-box|🇺🇸美国-ARMLive_cdn_14
-      - sing-box|🇺🇸美国-ARMLive_cdn_15
-      - sing-box|🇺🇸美国-ARMLive_cdn_16
-      - sing-box|🇺🇸美国-ARMLive_cdn_17
-      - sing-box|🇺🇸美国-ARMLive_cdn_18
-      - sing-box|🇺🇸美国-ARMLive_cdn_19
-      - sing-box|🇺🇸美国-ARMLive_cdn_20
-      - sing-box|🇺🇸美国-ARMLive_cdn_21
-      - sing-box|🇺🇸美国-ARMLive_cdn_22
-      - sing-box|🇺🇸美国-ARMLive_cdn_23
-      - sing-box|🇺🇸美国-ARMLive_cdn_24
-      - sing-box|🇺🇸美国-ARMLive_cdn_25
-      - sing-box|🇺🇸美国-ARMLive_cdn_26
-      - sing-box|🇺🇸美国-ARMLive_cdn_27
-      - sing-box|🇺🇸美国-ARMLive_cdn_28
-      - sing-box|🇺🇸美国-ARMLive_cdn_29
-      - sing-box|🇺🇸美国-ARMLive_cdn_30
-      - sing-box|🇺🇸美国-ARMLive_cdn_31
-      - sing-box|🇺🇸美国-ARMLive_cdn_32
-      - sing-box|🇺🇸美国-ARMLive_cdn_33
-      - sing-box|🇺🇸美国-ARMLive_cdn_34
-      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sanjose-live-Hysteria2
+      - tokyo-live-Hysteria2
+      - tokyo-google-Hysteria2
+      - sanjose-google-Hysteria2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - sing-box|🇺🇸美国-ARMLive_cdn_01
-      - sing-box|🇺🇸美国-ARMLive_cdn_02
-      - sing-box|🇺🇸美国-ARMLive_cdn_03
-      - sing-box|🇺🇸美国-ARMLive_cdn_04
-      - sing-box|🇺🇸美国-ARMLive_cdn_05
-      - sing-box|🇺🇸美国-ARMLive_cdn_06
-      - sing-box|🇺🇸美国-ARMLive_cdn_07
-      - sing-box|🇺🇸美国-ARMLive_cdn_08
-      - sing-box|🇺🇸美国-ARMLive_cdn_09
-      - sing-box|🇺🇸美国-ARMLive_cdn_10
-      - sing-box|🇺🇸美国-ARMLive_cdn_11
-      - sing-box|🇺🇸美国-ARMLive_cdn_12
-      - sing-box|🇺🇸美国-ARMLive_cdn_13
-      - sing-box|🇺🇸美国-ARMLive_cdn_14
-      - sing-box|🇺🇸美国-ARMLive_cdn_15
-      - sing-box|🇺🇸美国-ARMLive_cdn_16
-      - sing-box|🇺🇸美国-ARMLive_cdn_17
-      - sing-box|🇺🇸美国-ARMLive_cdn_18
-      - sing-box|🇺🇸美国-ARMLive_cdn_19
-      - sing-box|🇺🇸美国-ARMLive_cdn_20
-      - sing-box|🇺🇸美国-ARMLive_cdn_21
-      - sing-box|🇺🇸美国-ARMLive_cdn_22
-      - sing-box|🇺🇸美国-ARMLive_cdn_23
-      - sing-box|🇺🇸美国-ARMLive_cdn_24
-      - sing-box|🇺🇸美国-ARMLive_cdn_25
-      - sing-box|🇺🇸美国-ARMLive_cdn_26
-      - sing-box|🇺🇸美国-ARMLive_cdn_27
-      - sing-box|🇺🇸美国-ARMLive_cdn_28
-      - sing-box|🇺🇸美国-ARMLive_cdn_29
-      - sing-box|🇺🇸美国-ARMLive_cdn_30
-      - sing-box|🇺🇸美国-ARMLive_cdn_31
-      - sing-box|🇺🇸美国-ARMLive_cdn_32
-      - sing-box|🇺🇸美国-ARMLive_cdn_33
-      - sing-box|🇺🇸美国-ARMLive_cdn_34
-      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sanjose-live-Hysteria2
+      - tokyo-live-Hysteria2
+      - tokyo-google-Hysteria2
+      - sanjose-google-Hysteria2
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - sing-box|🇺🇸美国-ARMLive_cdn_01
-      - sing-box|🇺🇸美国-ARMLive_cdn_02
-      - sing-box|🇺🇸美国-ARMLive_cdn_03
-      - sing-box|🇺🇸美国-ARMLive_cdn_04
-      - sing-box|🇺🇸美国-ARMLive_cdn_05
-      - sing-box|🇺🇸美国-ARMLive_cdn_06
-      - sing-box|🇺🇸美国-ARMLive_cdn_07
-      - sing-box|🇺🇸美国-ARMLive_cdn_08
-      - sing-box|🇺🇸美国-ARMLive_cdn_09
-      - sing-box|🇺🇸美国-ARMLive_cdn_10
-      - sing-box|🇺🇸美国-ARMLive_cdn_11
-      - sing-box|🇺🇸美国-ARMLive_cdn_12
-      - sing-box|🇺🇸美国-ARMLive_cdn_13
-      - sing-box|🇺🇸美国-ARMLive_cdn_14
-      - sing-box|🇺🇸美国-ARMLive_cdn_15
-      - sing-box|🇺🇸美国-ARMLive_cdn_16
-      - sing-box|🇺🇸美国-ARMLive_cdn_17
-      - sing-box|🇺🇸美国-ARMLive_cdn_18
-      - sing-box|🇺🇸美国-ARMLive_cdn_19
-      - sing-box|🇺🇸美国-ARMLive_cdn_20
-      - sing-box|🇺🇸美国-ARMLive_cdn_21
-      - sing-box|🇺🇸美国-ARMLive_cdn_22
-      - sing-box|🇺🇸美国-ARMLive_cdn_23
-      - sing-box|🇺🇸美国-ARMLive_cdn_24
-      - sing-box|🇺🇸美国-ARMLive_cdn_25
-      - sing-box|🇺🇸美国-ARMLive_cdn_26
-      - sing-box|🇺🇸美国-ARMLive_cdn_27
-      - sing-box|🇺🇸美国-ARMLive_cdn_28
-      - sing-box|🇺🇸美国-ARMLive_cdn_29
-      - sing-box|🇺🇸美国-ARMLive_cdn_30
-      - sing-box|🇺🇸美国-ARMLive_cdn_31
-      - sing-box|🇺🇸美国-ARMLive_cdn_32
-      - sing-box|🇺🇸美国-ARMLive_cdn_33
-      - sing-box|🇺🇸美国-ARMLive_cdn_34
-      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sanjose-live-Hysteria2
+      - tokyo-live-Hysteria2
+      - tokyo-google-Hysteria2
+      - sanjose-google-Hysteria2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -304,41 +150,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - sing-box|🇺🇸美国-ARMLive_cdn_01
-      - sing-box|🇺🇸美国-ARMLive_cdn_02
-      - sing-box|🇺🇸美国-ARMLive_cdn_03
-      - sing-box|🇺🇸美国-ARMLive_cdn_04
-      - sing-box|🇺🇸美国-ARMLive_cdn_05
-      - sing-box|🇺🇸美国-ARMLive_cdn_06
-      - sing-box|🇺🇸美国-ARMLive_cdn_07
-      - sing-box|🇺🇸美国-ARMLive_cdn_08
-      - sing-box|🇺🇸美国-ARMLive_cdn_09
-      - sing-box|🇺🇸美国-ARMLive_cdn_10
-      - sing-box|🇺🇸美国-ARMLive_cdn_11
-      - sing-box|🇺🇸美国-ARMLive_cdn_12
-      - sing-box|🇺🇸美国-ARMLive_cdn_13
-      - sing-box|🇺🇸美国-ARMLive_cdn_14
-      - sing-box|🇺🇸美国-ARMLive_cdn_15
-      - sing-box|🇺🇸美国-ARMLive_cdn_16
-      - sing-box|🇺🇸美国-ARMLive_cdn_17
-      - sing-box|🇺🇸美国-ARMLive_cdn_18
-      - sing-box|🇺🇸美国-ARMLive_cdn_19
-      - sing-box|🇺🇸美国-ARMLive_cdn_20
-      - sing-box|🇺🇸美国-ARMLive_cdn_21
-      - sing-box|🇺🇸美国-ARMLive_cdn_22
-      - sing-box|🇺🇸美国-ARMLive_cdn_23
-      - sing-box|🇺🇸美国-ARMLive_cdn_24
-      - sing-box|🇺🇸美国-ARMLive_cdn_25
-      - sing-box|🇺🇸美国-ARMLive_cdn_26
-      - sing-box|🇺🇸美国-ARMLive_cdn_27
-      - sing-box|🇺🇸美国-ARMLive_cdn_28
-      - sing-box|🇺🇸美国-ARMLive_cdn_29
-      - sing-box|🇺🇸美国-ARMLive_cdn_30
-      - sing-box|🇺🇸美国-ARMLive_cdn_31
-      - sing-box|🇺🇸美国-ARMLive_cdn_32
-      - sing-box|🇺🇸美国-ARMLive_cdn_33
-      - sing-box|🇺🇸美国-ARMLive_cdn_34
-      - sing-box|🇺🇸美国-ARMLive_cdn_35
+      - sanjose-live-Hysteria2
+      - tokyo-live-Hysteria2
+      - tokyo-google-Hysteria2
+      - sanjose-google-Hysteria2
 
 rules:
 # 本地/局域网地址
