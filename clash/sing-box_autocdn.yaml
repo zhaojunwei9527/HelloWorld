@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-03 03:45:35
-# 使用模版：ACL4SSR_Online_Mini_MultiCountry.ini
-# 节点数量：50
+# 创建时间：2023-10-07 02:26:49
+# 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
+# 节点数量：10
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -86,174 +86,80 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cmcc1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cmcc2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cmcc3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cmcc4","type":"vmess","server":"cdn-cmcc4.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_cmcc5","type":"vmess","server":"cdn-cmcc5.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_ct1","type":"vmess","server":"cdn-ct1.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_ct2","type":"vmess","server":"cdn-ct2.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_ct3","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_ct4","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"sing-box|🇺🇸美国-ARMLive_ct5","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_cmcc1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_cmcc2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_cmcc3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_cmcc4","type":"vmess","server":"cdn-cmcc4.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_cmcc5","type":"vmess","server":"cdn-cmcc5.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_ct1","type":"vmess","server":"cdn-ct1.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_ct2","type":"vmess","server":"cdn-ct2.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_ct3","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_ct4","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_ct5","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_cmcc1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_cmcc2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_cmcc3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_cmcc4","type":"vmess","server":"cdn-cmcc4.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_cmcc5","type":"vmess","server":"cdn-cmcc5.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_ct1","type":"vmess","server":"cdn-ct1.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_ct2","type":"vmess","server":"cdn-ct2.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_ct3","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_ct4","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_ct5","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_cmcc1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_cmcc2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_cmcc3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_cmcc4","type":"vmess","server":"cdn-cmcc4.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_cmcc5","type":"vmess","server":"cdn-cmcc5.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_ct1","type":"vmess","server":"cdn-ct1.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_ct2","type":"vmess","server":"cdn-ct2.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_ct3","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_ct4","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_ct5","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_cmcc1","type":"vmess","server":"cdn-cmcc1.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_cmcc2","type":"vmess","server":"cdn-cmcc2.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_cmcc3","type":"vmess","server":"cdn-cmcc3.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_cmcc4","type":"vmess","server":"cdn-cmcc4.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_cmcc5","type":"vmess","server":"cdn-cmcc5.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_ct1","type":"vmess","server":"cdn-ct1.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_ct2","type":"vmess","server":"cdn-ct2.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_ct3","type":"vmess","server":"cdn-ct3.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_ct4","type":"vmess","server":"cdn-ct4.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_ct5","type":"vmess","server":"cdn-ct5.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_cmcc","type":"vmess","server":"cmcc.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"sing-box|🇺🇸美国-ARMLive_ct","type":"vmess","server":"ct.biny.eu.org","port":443,"cipher":"auto","uuid":"772b201b-7582-4507-b33b-348e25b0a9f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"0164358c2123","headers":{"host":"calendar-incentive-constitutes-pays.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Live_cmcc","type":"vmess","server":"cmcc.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Live_ct","type":"vmess","server":"ct.biny.eu.org","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Goo_cmcc","type":"vmess","server":"cmcc.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Goo_ct","type":"vmess","server":"ct.biny.eu.org","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
+  - {"name":"vmess|🇺🇸美国-Live_cmcc","type":"vmess","server":"cmcc.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
+  - {"name":"vmess|🇺🇸美国-Live_ct","type":"vmess","server":"ct.biny.eu.org","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
+  - {"name":"vmess|🇺🇸美国-Goo_cmcc","type":"vmess","server":"cmcc.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
+  - {"name":"vmess|🇺🇸美国-Goo_ct","type":"vmess","server":"ct.biny.eu.org","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇺🇲 美国节点
-      - 🇯🇵 日本节点
-      - 🚀 手动切换
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - DIRECT
-  - name: 🚀 手动切换
-    type: select
-    proxies:
-      - sing-box|🇺🇸美国-ARMLive_cmcc1
-      - sing-box|🇺🇸美国-ARMLive_cmcc2
-      - sing-box|🇺🇸美国-ARMLive_cmcc3
-      - sing-box|🇺🇸美国-ARMLive_cmcc4
-      - sing-box|🇺🇸美国-ARMLive_cmcc5
-      - sing-box|🇺🇸美国-ARMLive_ct1
-      - sing-box|🇺🇸美国-ARMLive_ct2
-      - sing-box|🇺🇸美国-ARMLive_ct3
-      - sing-box|🇺🇸美国-ARMLive_ct4
-      - sing-box|🇺🇸美国-ARMLive_ct5
-      - vmess|🇯🇵日本-Live_cmcc1
-      - vmess|🇯🇵日本-Live_cmcc2
-      - vmess|🇯🇵日本-Live_cmcc3
-      - vmess|🇯🇵日本-Live_cmcc4
-      - vmess|🇯🇵日本-Live_cmcc5
-      - vmess|🇯🇵日本-Live_ct1
-      - vmess|🇯🇵日本-Live_ct2
-      - vmess|🇯🇵日本-Live_ct3
-      - vmess|🇯🇵日本-Live_ct4
-      - vmess|🇯🇵日本-Live_ct5
-      - vmess|🇯🇵日本-Goo_cmcc1
-      - vmess|🇯🇵日本-Goo_cmcc2
-      - vmess|🇯🇵日本-Goo_cmcc3
-      - vmess|🇯🇵日本-Goo_cmcc4
-      - vmess|🇯🇵日本-Goo_cmcc5
-      - vmess|🇯🇵日本-Goo_ct1
-      - vmess|🇯🇵日本-Goo_ct2
-      - vmess|🇯🇵日本-Goo_ct3
-      - vmess|🇯🇵日本-Goo_ct4
-      - vmess|🇯🇵日本-Goo_ct5
-      - vmess|🇺🇸美国-Live_cmcc1
-      - vmess|🇺🇸美国-Live_cmcc2
-      - vmess|🇺🇸美国-Live_cmcc3
-      - vmess|🇺🇸美国-Live_cmcc4
-      - vmess|🇺🇸美国-Live_cmcc5
-      - vmess|🇺🇸美国-Live_ct1
-      - vmess|🇺🇸美国-Live_ct2
-      - vmess|🇺🇸美国-Live_ct3
-      - vmess|🇺🇸美国-Live_ct4
-      - vmess|🇺🇸美国-Live_ct5
-      - vmess|🇺🇸美国-Goo_cmcc1
-      - vmess|🇺🇸美国-Goo_cmcc2
-      - vmess|🇺🇸美国-Goo_cmcc3
-      - vmess|🇺🇸美国-Goo_cmcc4
-      - vmess|🇺🇸美国-Goo_cmcc5
-      - vmess|🇺🇸美国-Goo_ct1
-      - vmess|🇺🇸美国-Goo_ct2
-      - vmess|🇺🇸美国-Goo_ct3
-      - vmess|🇺🇸美国-Goo_ct4
-      - vmess|🇺🇸美国-Goo_ct5
+      - sing-box|🇺🇸美国-ARMLive_cmcc
+      - sing-box|🇺🇸美国-ARMLive_ct
+      - vmess|🇯🇵日本-Live_cmcc
+      - vmess|🇯🇵日本-Live_ct
+      - vmess|🇯🇵日本-Goo_cmcc
+      - vmess|🇯🇵日本-Goo_ct
+      - vmess|🇺🇸美国-Live_cmcc
+      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇺🇸美国-Goo_cmcc
+      - vmess|🇺🇸美国-Goo_ct
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - sing-box|🇺🇸美国-ARMLive_cmcc1
-      - sing-box|🇺🇸美国-ARMLive_cmcc2
-      - sing-box|🇺🇸美国-ARMLive_cmcc3
-      - sing-box|🇺🇸美国-ARMLive_cmcc4
-      - sing-box|🇺🇸美国-ARMLive_cmcc5
-      - sing-box|🇺🇸美国-ARMLive_ct1
-      - sing-box|🇺🇸美国-ARMLive_ct2
-      - sing-box|🇺🇸美国-ARMLive_ct3
-      - sing-box|🇺🇸美国-ARMLive_ct4
-      - sing-box|🇺🇸美国-ARMLive_ct5
-      - vmess|🇯🇵日本-Live_cmcc1
-      - vmess|🇯🇵日本-Live_cmcc2
-      - vmess|🇯🇵日本-Live_cmcc3
-      - vmess|🇯🇵日本-Live_cmcc4
-      - vmess|🇯🇵日本-Live_cmcc5
-      - vmess|🇯🇵日本-Live_ct1
-      - vmess|🇯🇵日本-Live_ct2
-      - vmess|🇯🇵日本-Live_ct3
-      - vmess|🇯🇵日本-Live_ct4
-      - vmess|🇯🇵日本-Live_ct5
-      - vmess|🇯🇵日本-Goo_cmcc1
-      - vmess|🇯🇵日本-Goo_cmcc2
-      - vmess|🇯🇵日本-Goo_cmcc3
-      - vmess|🇯🇵日本-Goo_cmcc4
-      - vmess|🇯🇵日本-Goo_cmcc5
-      - vmess|🇯🇵日本-Goo_ct1
-      - vmess|🇯🇵日本-Goo_ct2
-      - vmess|🇯🇵日本-Goo_ct3
-      - vmess|🇯🇵日本-Goo_ct4
-      - vmess|🇯🇵日本-Goo_ct5
-      - vmess|🇺🇸美国-Live_cmcc1
-      - vmess|🇺🇸美国-Live_cmcc2
-      - vmess|🇺🇸美国-Live_cmcc3
-      - vmess|🇺🇸美国-Live_cmcc4
-      - vmess|🇺🇸美国-Live_cmcc5
-      - vmess|🇺🇸美国-Live_ct1
-      - vmess|🇺🇸美国-Live_ct2
-      - vmess|🇺🇸美国-Live_ct3
-      - vmess|🇺🇸美国-Live_ct4
-      - vmess|🇺🇸美国-Live_ct5
-      - vmess|🇺🇸美国-Goo_cmcc1
-      - vmess|🇺🇸美国-Goo_cmcc2
-      - vmess|🇺🇸美国-Goo_cmcc3
-      - vmess|🇺🇸美国-Goo_cmcc4
-      - vmess|🇺🇸美国-Goo_cmcc5
-      - vmess|🇺🇸美国-Goo_ct1
-      - vmess|🇺🇸美国-Goo_ct2
-      - vmess|🇺🇸美国-Goo_ct3
-      - vmess|🇺🇸美国-Goo_ct4
-      - vmess|🇺🇸美国-Goo_ct5
+      - sing-box|🇺🇸美国-ARMLive_cmcc
+      - sing-box|🇺🇸美国-ARMLive_ct
+      - vmess|🇯🇵日本-Live_cmcc
+      - vmess|🇯🇵日本-Live_ct
+      - vmess|🇯🇵日本-Goo_cmcc
+      - vmess|🇯🇵日本-Goo_ct
+      - vmess|🇺🇸美国-Live_cmcc
+      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇺🇸美国-Goo_cmcc
+      - vmess|🇺🇸美国-Goo_ct
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - sing-box|🇺🇸美国-ARMLive_cmcc
+      - sing-box|🇺🇸美国-ARMLive_ct
+      - vmess|🇯🇵日本-Live_cmcc
+      - vmess|🇯🇵日本-Live_ct
+      - vmess|🇯🇵日本-Goo_cmcc
+      - vmess|🇯🇵日本-Goo_ct
+      - vmess|🇺🇸美国-Live_cmcc
+      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇺🇸美国-Goo_cmcc
+      - vmess|🇺🇸美国-Goo_ct
+  - name: 🔮 负载均衡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - sing-box|🇺🇸美国-ARMLive_cmcc
+      - sing-box|🇺🇸美国-ARMLive_ct
+      - vmess|🇯🇵日本-Live_cmcc
+      - vmess|🇯🇵日本-Live_ct
+      - vmess|🇯🇵日本-Goo_cmcc
+      - vmess|🇯🇵日本-Goo_ct
+      - vmess|🇺🇸美国-Live_cmcc
+      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇺🇸美国-Goo_cmcc
+      - vmess|🇺🇸美国-Goo_ct
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -271,117 +177,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - sing-box|🇺🇸美国-ARMLive_cmcc1
-      - sing-box|🇺🇸美国-ARMLive_cmcc2
-      - sing-box|🇺🇸美国-ARMLive_cmcc3
-      - sing-box|🇺🇸美国-ARMLive_cmcc4
-      - sing-box|🇺🇸美国-ARMLive_cmcc5
-      - sing-box|🇺🇸美国-ARMLive_ct1
-      - sing-box|🇺🇸美国-ARMLive_ct2
-      - sing-box|🇺🇸美国-ARMLive_ct3
-      - sing-box|🇺🇸美国-ARMLive_ct4
-      - sing-box|🇺🇸美国-ARMLive_ct5
-      - vmess|🇯🇵日本-Live_cmcc1
-      - vmess|🇯🇵日本-Live_cmcc2
-      - vmess|🇯🇵日本-Live_cmcc3
-      - vmess|🇯🇵日本-Live_cmcc4
-      - vmess|🇯🇵日本-Live_cmcc5
-      - vmess|🇯🇵日本-Live_ct1
-      - vmess|🇯🇵日本-Live_ct2
-      - vmess|🇯🇵日本-Live_ct3
-      - vmess|🇯🇵日本-Live_ct4
-      - vmess|🇯🇵日本-Live_ct5
-      - vmess|🇯🇵日本-Goo_cmcc1
-      - vmess|🇯🇵日本-Goo_cmcc2
-      - vmess|🇯🇵日本-Goo_cmcc3
-      - vmess|🇯🇵日本-Goo_cmcc4
-      - vmess|🇯🇵日本-Goo_cmcc5
-      - vmess|🇯🇵日本-Goo_ct1
-      - vmess|🇯🇵日本-Goo_ct2
-      - vmess|🇯🇵日本-Goo_ct3
-      - vmess|🇯🇵日本-Goo_ct4
-      - vmess|🇯🇵日本-Goo_ct5
-      - vmess|🇺🇸美国-Live_cmcc1
-      - vmess|🇺🇸美国-Live_cmcc2
-      - vmess|🇺🇸美国-Live_cmcc3
-      - vmess|🇺🇸美国-Live_cmcc4
-      - vmess|🇺🇸美国-Live_cmcc5
-      - vmess|🇺🇸美国-Live_ct1
-      - vmess|🇺🇸美国-Live_ct2
-      - vmess|🇺🇸美国-Live_ct3
-      - vmess|🇺🇸美国-Live_ct4
-      - vmess|🇺🇸美国-Live_ct5
-      - vmess|🇺🇸美国-Goo_cmcc1
-      - vmess|🇺🇸美国-Goo_cmcc2
-      - vmess|🇺🇸美国-Goo_cmcc3
-      - vmess|🇺🇸美国-Goo_cmcc4
-      - vmess|🇺🇸美国-Goo_cmcc5
-      - vmess|🇺🇸美国-Goo_ct1
-      - vmess|🇺🇸美国-Goo_ct2
-      - vmess|🇺🇸美国-Goo_ct3
-      - vmess|🇺🇸美国-Goo_ct4
-      - vmess|🇺🇸美国-Goo_ct5
-  - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - vmess|🇯🇵日本-Live_cmcc1
-      - vmess|🇯🇵日本-Live_cmcc2
-      - vmess|🇯🇵日本-Live_cmcc3
-      - vmess|🇯🇵日本-Live_cmcc4
-      - vmess|🇯🇵日本-Live_cmcc5
-      - vmess|🇯🇵日本-Live_ct1
-      - vmess|🇯🇵日本-Live_ct2
-      - vmess|🇯🇵日本-Live_ct3
-      - vmess|🇯🇵日本-Live_ct4
-      - vmess|🇯🇵日本-Live_ct5
-      - vmess|🇯🇵日本-Goo_cmcc1
-      - vmess|🇯🇵日本-Goo_cmcc2
-      - vmess|🇯🇵日本-Goo_cmcc3
-      - vmess|🇯🇵日本-Goo_cmcc4
-      - vmess|🇯🇵日本-Goo_cmcc5
-      - vmess|🇯🇵日本-Goo_ct1
-      - vmess|🇯🇵日本-Goo_ct2
-      - vmess|🇯🇵日本-Goo_ct3
-      - vmess|🇯🇵日本-Goo_ct4
-  - name: 🇺🇲 美国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - sing-box|🇺🇸美国-ARMLive_cmcc1
-      - sing-box|🇺🇸美国-ARMLive_cmcc2
-      - sing-box|🇺🇸美国-ARMLive_cmcc3
-      - sing-box|🇺🇸美国-ARMLive_cmcc4
-      - sing-box|🇺🇸美国-ARMLive_cmcc5
-      - sing-box|🇺🇸美国-ARMLive_ct1
-      - sing-box|🇺🇸美国-ARMLive_ct2
-      - sing-box|🇺🇸美国-ARMLive_ct3
-      - sing-box|🇺🇸美国-ARMLive_ct4
-      - sing-box|🇺🇸美国-ARMLive_ct5
-      - vmess|🇺🇸美国-Live_cmcc1
-      - vmess|🇺🇸美国-Live_cmcc2
-      - vmess|🇺🇸美国-Live_cmcc3
-      - vmess|🇺🇸美国-Live_cmcc4
-      - vmess|🇺🇸美国-Live_cmcc5
-      - vmess|🇺🇸美国-Live_ct1
-      - vmess|🇺🇸美国-Live_ct2
-      - vmess|🇺🇸美国-Live_ct3
-      - vmess|🇺🇸美国-Live_ct4
-      - vmess|🇺🇸美国-Live_ct5
-      - vmess|🇺🇸美国-Goo_cmcc1
-      - vmess|🇺🇸美国-Goo_cmcc2
-      - vmess|🇺🇸美国-Goo_cmcc3
-      - vmess|🇺🇸美国-Goo_cmcc4
-      - vmess|🇺🇸美国-Goo_cmcc5
-      - vmess|🇺🇸美国-Goo_ct1
-      - vmess|🇺🇸美国-Goo_ct2
-      - vmess|🇺🇸美国-Goo_ct3
-      - vmess|🇺🇸美国-Goo_ct4
-      - vmess|🇺🇸美国-Goo_ct5
+      - 🔯 故障转移
+      - 🔮 负载均衡
+      - sing-box|🇺🇸美国-ARMLive_cmcc
+      - sing-box|🇺🇸美国-ARMLive_ct
+      - vmess|🇯🇵日本-Live_cmcc
+      - vmess|🇯🇵日本-Live_ct
+      - vmess|🇯🇵日本-Goo_cmcc
+      - vmess|🇯🇵日本-Goo_ct
+      - vmess|🇺🇸美国-Live_cmcc
+      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇺🇸美国-Goo_cmcc
+      - vmess|🇺🇸美国-Goo_ct
 
 rules:
 # 本地/局域网地址
