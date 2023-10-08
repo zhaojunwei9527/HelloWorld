@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-09 01:06:56
+# 创建时间：2023-10-09 01:14:56
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：30
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,60 +85,249 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vmess|🇯🇵日本-Live_gcore","type":"vmess","server":"gcore-cdn.binyu.tk","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
-  - {"name":"vmess|🇺🇸美国-Live_gcore","type":"vmess","server":"gcore-cdn.binyu.tk","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_gcore","type":"vmess","server":"gcore-cdn.binyu.tk","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_1","type":"vmess","server":"213.156.151.61","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_2","type":"vmess","server":"92.223.107.43","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_3","type":"vmess","server":"213.156.151.5","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_4","type":"vmess","server":"171.229.196.133","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_5","type":"vmess","server":"92.223.61.24","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_6","type":"vmess","server":"92.223.118.17","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_7","type":"vmess","server":"92.223.61.23","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_8","type":"vmess","server":"92.223.118.14","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_9","type":"vmess","server":"92.223.61.30","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_gcore_10","type":"vmess","server":"92.223.61.21","port":443,"cipher":"auto","uuid":"fbf26b87-a9a7-4dea-c7bc-c92710fb7eb1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"arm-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_1","type":"vmess","server":"92.223.107.43","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_2","type":"vmess","server":"213.156.151.5","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_3","type":"vmess","server":"92.223.118.14","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_4","type":"vmess","server":"92.223.61.30","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_5","type":"vmess","server":"213.156.151.61","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_6","type":"vmess","server":"92.223.61.23","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_7","type":"vmess","server":"171.229.196.133","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_8","type":"vmess","server":"92.223.118.17","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_9","type":"vmess","server":"92.223.61.24","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇺🇸美国-Live_gcore_10","type":"vmess","server":"92.223.61.21","port":443,"cipher":"auto","uuid":"26498af1-ada6-469f-f41c-10f472e58ff1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"sanjose-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_1","type":"vmess","server":"92.223.118.14","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_2","type":"vmess","server":"92.223.61.30","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_3","type":"vmess","server":"213.156.151.61","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_4","type":"vmess","server":"92.223.107.43","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_5","type":"vmess","server":"92.223.61.21","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_6","type":"vmess","server":"92.223.61.23","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_7","type":"vmess","server":"213.156.151.5","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_8","type":"vmess","server":"92.223.61.24","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_9","type":"vmess","server":"92.223.118.17","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
+  - {"name":"vmess|🇯🇵日本-Live_gcore_10","type":"vmess","server":"171.229.196.133","port":443,"cipher":"auto","uuid":"09ddada7-f72d-445f-844e-e4d171d24544","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb","headers":{"host":"tokyo-live.binyu.tk"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - vmess|🇯🇵日本-Live_gcore
-      - vmess|🇺🇸美国-Live_gcore
-      - vmess|🇺🇸美国-ARMLive_gcore
+      - vmess|🇺🇸美国-ARMLive_gcore_1
+      - vmess|🇺🇸美国-ARMLive_gcore_2
+      - vmess|🇺🇸美国-ARMLive_gcore_3
+      - vmess|🇺🇸美国-ARMLive_gcore_4
+      - vmess|🇺🇸美国-ARMLive_gcore_5
+      - vmess|🇺🇸美国-ARMLive_gcore_6
+      - vmess|🇺🇸美国-ARMLive_gcore_7
+      - vmess|🇺🇸美国-ARMLive_gcore_8
+      - vmess|🇺🇸美国-ARMLive_gcore_9
+      - vmess|🇺🇸美国-ARMLive_gcore_10
+      - vmess|🇺🇸美国-Live_gcore_1
+      - vmess|🇺🇸美国-Live_gcore_2
+      - vmess|🇺🇸美国-Live_gcore_3
+      - vmess|🇺🇸美国-Live_gcore_4
+      - vmess|🇺🇸美国-Live_gcore_5
+      - vmess|🇺🇸美国-Live_gcore_6
+      - vmess|🇺🇸美国-Live_gcore_7
+      - vmess|🇺🇸美国-Live_gcore_8
+      - vmess|🇺🇸美国-Live_gcore_9
+      - vmess|🇺🇸美国-Live_gcore_10
+      - vmess|🇯🇵日本-Live_gcore_1
+      - vmess|🇯🇵日本-Live_gcore_2
+      - vmess|🇯🇵日本-Live_gcore_3
+      - vmess|🇯🇵日本-Live_gcore_4
+      - vmess|🇯🇵日本-Live_gcore_5
+      - vmess|🇯🇵日本-Live_gcore_6
+      - vmess|🇯🇵日本-Live_gcore_7
+      - vmess|🇯🇵日本-Live_gcore_8
+      - vmess|🇯🇵日本-Live_gcore_9
+      - vmess|🇯🇵日本-Live_gcore_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vmess|🇯🇵日本-Live_gcore
-      - vmess|🇺🇸美国-Live_gcore
-      - vmess|🇺🇸美国-ARMLive_gcore
+      - vmess|🇺🇸美国-ARMLive_gcore_1
+      - vmess|🇺🇸美国-ARMLive_gcore_2
+      - vmess|🇺🇸美国-ARMLive_gcore_3
+      - vmess|🇺🇸美国-ARMLive_gcore_4
+      - vmess|🇺🇸美国-ARMLive_gcore_5
+      - vmess|🇺🇸美国-ARMLive_gcore_6
+      - vmess|🇺🇸美国-ARMLive_gcore_7
+      - vmess|🇺🇸美国-ARMLive_gcore_8
+      - vmess|🇺🇸美国-ARMLive_gcore_9
+      - vmess|🇺🇸美国-ARMLive_gcore_10
+      - vmess|🇺🇸美国-Live_gcore_1
+      - vmess|🇺🇸美国-Live_gcore_2
+      - vmess|🇺🇸美国-Live_gcore_3
+      - vmess|🇺🇸美国-Live_gcore_4
+      - vmess|🇺🇸美国-Live_gcore_5
+      - vmess|🇺🇸美国-Live_gcore_6
+      - vmess|🇺🇸美国-Live_gcore_7
+      - vmess|🇺🇸美国-Live_gcore_8
+      - vmess|🇺🇸美国-Live_gcore_9
+      - vmess|🇺🇸美国-Live_gcore_10
+      - vmess|🇯🇵日本-Live_gcore_1
+      - vmess|🇯🇵日本-Live_gcore_2
+      - vmess|🇯🇵日本-Live_gcore_3
+      - vmess|🇯🇵日本-Live_gcore_4
+      - vmess|🇯🇵日本-Live_gcore_5
+      - vmess|🇯🇵日本-Live_gcore_6
+      - vmess|🇯🇵日本-Live_gcore_7
+      - vmess|🇯🇵日本-Live_gcore_8
+      - vmess|🇯🇵日本-Live_gcore_9
+      - vmess|🇯🇵日本-Live_gcore_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - vmess|🇯🇵日本-Live_gcore
-      - vmess|🇺🇸美国-Live_gcore
-      - vmess|🇺🇸美国-ARMLive_gcore
+      - vmess|🇺🇸美国-ARMLive_gcore_1
+      - vmess|🇺🇸美国-ARMLive_gcore_2
+      - vmess|🇺🇸美国-ARMLive_gcore_3
+      - vmess|🇺🇸美国-ARMLive_gcore_4
+      - vmess|🇺🇸美国-ARMLive_gcore_5
+      - vmess|🇺🇸美国-ARMLive_gcore_6
+      - vmess|🇺🇸美国-ARMLive_gcore_7
+      - vmess|🇺🇸美国-ARMLive_gcore_8
+      - vmess|🇺🇸美国-ARMLive_gcore_9
+      - vmess|🇺🇸美国-ARMLive_gcore_10
+      - vmess|🇺🇸美国-Live_gcore_1
+      - vmess|🇺🇸美国-Live_gcore_2
+      - vmess|🇺🇸美国-Live_gcore_3
+      - vmess|🇺🇸美国-Live_gcore_4
+      - vmess|🇺🇸美国-Live_gcore_5
+      - vmess|🇺🇸美国-Live_gcore_6
+      - vmess|🇺🇸美国-Live_gcore_7
+      - vmess|🇺🇸美国-Live_gcore_8
+      - vmess|🇺🇸美国-Live_gcore_9
+      - vmess|🇺🇸美国-Live_gcore_10
+      - vmess|🇯🇵日本-Live_gcore_1
+      - vmess|🇯🇵日本-Live_gcore_2
+      - vmess|🇯🇵日本-Live_gcore_3
+      - vmess|🇯🇵日本-Live_gcore_4
+      - vmess|🇯🇵日本-Live_gcore_5
+      - vmess|🇯🇵日本-Live_gcore_6
+      - vmess|🇯🇵日本-Live_gcore_7
+      - vmess|🇯🇵日本-Live_gcore_8
+      - vmess|🇯🇵日本-Live_gcore_9
+      - vmess|🇯🇵日本-Live_gcore_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - vmess|🇯🇵日本-Live_gcore
-      - vmess|🇺🇸美国-Live_gcore
-      - vmess|🇺🇸美国-ARMLive_gcore
+      - vmess|🇺🇸美国-ARMLive_gcore_1
+      - vmess|🇺🇸美国-ARMLive_gcore_2
+      - vmess|🇺🇸美国-ARMLive_gcore_3
+      - vmess|🇺🇸美国-ARMLive_gcore_4
+      - vmess|🇺🇸美国-ARMLive_gcore_5
+      - vmess|🇺🇸美国-ARMLive_gcore_6
+      - vmess|🇺🇸美国-ARMLive_gcore_7
+      - vmess|🇺🇸美国-ARMLive_gcore_8
+      - vmess|🇺🇸美国-ARMLive_gcore_9
+      - vmess|🇺🇸美国-ARMLive_gcore_10
+      - vmess|🇺🇸美国-Live_gcore_1
+      - vmess|🇺🇸美国-Live_gcore_2
+      - vmess|🇺🇸美国-Live_gcore_3
+      - vmess|🇺🇸美国-Live_gcore_4
+      - vmess|🇺🇸美国-Live_gcore_5
+      - vmess|🇺🇸美国-Live_gcore_6
+      - vmess|🇺🇸美国-Live_gcore_7
+      - vmess|🇺🇸美国-Live_gcore_8
+      - vmess|🇺🇸美国-Live_gcore_9
+      - vmess|🇺🇸美国-Live_gcore_10
+      - vmess|🇯🇵日本-Live_gcore_1
+      - vmess|🇯🇵日本-Live_gcore_2
+      - vmess|🇯🇵日本-Live_gcore_3
+      - vmess|🇯🇵日本-Live_gcore_4
+      - vmess|🇯🇵日本-Live_gcore_5
+      - vmess|🇯🇵日本-Live_gcore_6
+      - vmess|🇯🇵日本-Live_gcore_7
+      - vmess|🇯🇵日本-Live_gcore_8
+      - vmess|🇯🇵日本-Live_gcore_9
+      - vmess|🇯🇵日本-Live_gcore_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - vmess|🇯🇵日本-Live_gcore
-      - vmess|🇺🇸美国-Live_gcore
-      - vmess|🇺🇸美国-ARMLive_gcore
+      - vmess|🇺🇸美国-ARMLive_gcore_1
+      - vmess|🇺🇸美国-ARMLive_gcore_2
+      - vmess|🇺🇸美国-ARMLive_gcore_3
+      - vmess|🇺🇸美国-ARMLive_gcore_4
+      - vmess|🇺🇸美国-ARMLive_gcore_5
+      - vmess|🇺🇸美国-ARMLive_gcore_6
+      - vmess|🇺🇸美国-ARMLive_gcore_7
+      - vmess|🇺🇸美国-ARMLive_gcore_8
+      - vmess|🇺🇸美国-ARMLive_gcore_9
+      - vmess|🇺🇸美国-ARMLive_gcore_10
+      - vmess|🇺🇸美国-Live_gcore_1
+      - vmess|🇺🇸美国-Live_gcore_2
+      - vmess|🇺🇸美国-Live_gcore_3
+      - vmess|🇺🇸美国-Live_gcore_4
+      - vmess|🇺🇸美国-Live_gcore_5
+      - vmess|🇺🇸美国-Live_gcore_6
+      - vmess|🇺🇸美国-Live_gcore_7
+      - vmess|🇺🇸美国-Live_gcore_8
+      - vmess|🇺🇸美国-Live_gcore_9
+      - vmess|🇺🇸美国-Live_gcore_10
+      - vmess|🇯🇵日本-Live_gcore_1
+      - vmess|🇯🇵日本-Live_gcore_2
+      - vmess|🇯🇵日本-Live_gcore_3
+      - vmess|🇯🇵日本-Live_gcore_4
+      - vmess|🇯🇵日本-Live_gcore_5
+      - vmess|🇯🇵日本-Live_gcore_6
+      - vmess|🇯🇵日本-Live_gcore_7
+      - vmess|🇯🇵日本-Live_gcore_8
+      - vmess|🇯🇵日本-Live_gcore_9
+      - vmess|🇯🇵日本-Live_gcore_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - vmess|🇯🇵日本-Live_gcore
-      - vmess|🇺🇸美国-Live_gcore
-      - vmess|🇺🇸美国-ARMLive_gcore
+      - vmess|🇺🇸美国-ARMLive_gcore_1
+      - vmess|🇺🇸美国-ARMLive_gcore_2
+      - vmess|🇺🇸美国-ARMLive_gcore_3
+      - vmess|🇺🇸美国-ARMLive_gcore_4
+      - vmess|🇺🇸美国-ARMLive_gcore_5
+      - vmess|🇺🇸美国-ARMLive_gcore_6
+      - vmess|🇺🇸美国-ARMLive_gcore_7
+      - vmess|🇺🇸美国-ARMLive_gcore_8
+      - vmess|🇺🇸美国-ARMLive_gcore_9
+      - vmess|🇺🇸美国-ARMLive_gcore_10
+      - vmess|🇺🇸美国-Live_gcore_1
+      - vmess|🇺🇸美国-Live_gcore_2
+      - vmess|🇺🇸美国-Live_gcore_3
+      - vmess|🇺🇸美国-Live_gcore_4
+      - vmess|🇺🇸美国-Live_gcore_5
+      - vmess|🇺🇸美国-Live_gcore_6
+      - vmess|🇺🇸美国-Live_gcore_7
+      - vmess|🇺🇸美国-Live_gcore_8
+      - vmess|🇺🇸美国-Live_gcore_9
+      - vmess|🇺🇸美国-Live_gcore_10
+      - vmess|🇯🇵日本-Live_gcore_1
+      - vmess|🇯🇵日本-Live_gcore_2
+      - vmess|🇯🇵日本-Live_gcore_3
+      - vmess|🇯🇵日本-Live_gcore_4
+      - vmess|🇯🇵日本-Live_gcore_5
+      - vmess|🇯🇵日本-Live_gcore_6
+      - vmess|🇯🇵日本-Live_gcore_7
+      - vmess|🇯🇵日本-Live_gcore_8
+      - vmess|🇯🇵日本-Live_gcore_9
+      - vmess|🇯🇵日本-Live_gcore_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,9 +350,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - vmess|🇯🇵日本-Live_gcore
-      - vmess|🇺🇸美国-Live_gcore
-      - vmess|🇺🇸美国-ARMLive_gcore
+      - vmess|🇺🇸美国-ARMLive_gcore_1
+      - vmess|🇺🇸美国-ARMLive_gcore_2
+      - vmess|🇺🇸美国-ARMLive_gcore_3
+      - vmess|🇺🇸美国-ARMLive_gcore_4
+      - vmess|🇺🇸美国-ARMLive_gcore_5
+      - vmess|🇺🇸美国-ARMLive_gcore_6
+      - vmess|🇺🇸美国-ARMLive_gcore_7
+      - vmess|🇺🇸美国-ARMLive_gcore_8
+      - vmess|🇺🇸美国-ARMLive_gcore_9
+      - vmess|🇺🇸美国-ARMLive_gcore_10
+      - vmess|🇺🇸美国-Live_gcore_1
+      - vmess|🇺🇸美国-Live_gcore_2
+      - vmess|🇺🇸美国-Live_gcore_3
+      - vmess|🇺🇸美国-Live_gcore_4
+      - vmess|🇺🇸美国-Live_gcore_5
+      - vmess|🇺🇸美国-Live_gcore_6
+      - vmess|🇺🇸美国-Live_gcore_7
+      - vmess|🇺🇸美国-Live_gcore_8
+      - vmess|🇺🇸美国-Live_gcore_9
+      - vmess|🇺🇸美国-Live_gcore_10
+      - vmess|🇯🇵日本-Live_gcore_1
+      - vmess|🇯🇵日本-Live_gcore_2
+      - vmess|🇯🇵日本-Live_gcore_3
+      - vmess|🇯🇵日本-Live_gcore_4
+      - vmess|🇯🇵日本-Live_gcore_5
+      - vmess|🇯🇵日本-Live_gcore_6
+      - vmess|🇯🇵日本-Live_gcore_7
+      - vmess|🇯🇵日本-Live_gcore_8
+      - vmess|🇯🇵日本-Live_gcore_9
+      - vmess|🇯🇵日本-Live_gcore_10
 
 rules:
 # 本地/局域网地址
