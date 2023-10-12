@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-10-10 18:23:41
+# 创建时间：2023-10-12 20:44:09
 # 使用模版：V2RaySE 默认模版
 # 节点数量：5
 ####################################
@@ -87,7 +87,7 @@ dns:
 
 proxies:
   - {"name":"sing-box|🇯🇵日本-Live_reality\r","type":"vless","server":"141.147.163.78","port":443,"udp":true,"uuid":"106e771c-1fed-4862-b1b9-21d9fd7a78ac","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Dl84sF28oKiIfcqhYUmynXKGWX1kz5-MDtpnVsOgkn8","short-id":"14fb66afb24fc6ab"},"client-fingerprint":"chrome"}
-  - {"name":"sing-box|🇯🇵日本-Goo_reality\r","type":"vless","server":"158.101.75.15","port":443,"udp":true,"uuid":"b7c1e244-f64b-4be9-a581-1558a866c384","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"lHR0dEA1P_6pA6JE-A_aNdKs6Sg_ijqsTENel9v2aj0","short-id":"f10dd59fc72085f8"},"client-fingerprint":"chrome"}
+  - {"name":"sing-box|🇯🇵日本-Goo_reality\r","type":"vless","server":"141.147.161.170","port":443,"udp":true,"uuid":"b7c1e244-f64b-4be9-a581-1558a866c384","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"lHR0dEA1P_6pA6JE-A_aNdKs6Sg_ijqsTENel9v2aj0","short-id":"f10dd59fc72085f8"},"client-fingerprint":"chrome"}
   - {"name":"sing-box|🇺🇸美国-Live_reality\r","type":"vless","server":"146.235.218.148","port":443,"udp":true,"uuid":"0ba6e281-0b2b-4ec5-bd38-2964989b1049","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"-KMwvlrwW-_00yp1Hhv_yd1CFH69ngbWqeH_PB0feAs","short-id":"65e8910b512eb0c5"},"client-fingerprint":"chrome"}
   - {"name":"sing-box|🇺🇸美国-Goo_reality\r","type":"vless","server":"192.9.136.220","port":443,"udp":true,"uuid":"6603eeb9-cf0e-4218-ba2a-a44f7a045b11","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4YvMRLnQ5kk24TwwSuJxSmfd-Afx0EyNarllQeR7SRA","short-id":"f759af8ed339847a"},"client-fingerprint":"chrome"}
   - {"name":"sing-box|🇺🇸美国-ARMLive_reality\r","type":"vless","server":"155.248.199.247","port":443,"udp":true,"uuid":"e39c722f-18f4-49a9-92c3-c209326fa6b8","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"hqSBmWkn7UpgECMdMO8h8Toktztsc1d8_kQmZY-iy08","short-id":"8181959304e3f749"},"client-fingerprint":"chrome"}
