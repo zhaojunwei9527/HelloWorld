@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-11 20:56:08
+# 创建时间：2023-10-12 20:19:23
 # 使用模版：V2RaySE 默认模版
 # 节点数量：10
 ####################################
@@ -87,10 +87,10 @@ dns:
 proxies:
   - {"name":"vmess|🇺🇸美国-ARMLive_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.hbiny.pp.ua"}}}
   - {"name":"vmess|🇺🇸美国-ARMLive_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.hbiny.pp.ua"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"sets-latin-counters-millions.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"norway-disaster-raymond-afraid.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Goo_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"ha-av-definition-metres.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Goo_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"ha-av-definition-metres.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Live_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"yale-met-accessory-payment.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Live_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"370c52dc-4097-41d8-b987-b27bb663dce6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"7d813e260d83","headers":{"host":"yale-met-accessory-payment.trycloudflare.com"}}}
   - {"name":"vmess|🇺🇸美国-Goo_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
   - {"name":"vmess|🇺🇸美国-Goo_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"qualities-niger-rates-concerts.trycloudflare.com"}}}
   - {"name":"vmess|🇺🇸美国-Live_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"punk-goal-sheep-garlic.trycloudflare.com"}}}
