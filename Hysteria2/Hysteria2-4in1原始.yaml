@@ -29,9 +29,9 @@ proxies:
     skip-cert-verify: true
   - name: tokyo-google-Hysteria2
     type: hysteria2
-    server: 158.101.75.15
-    port: 60669
-    password: 7eaf4fcc
+    server: 141.147.161.170
+    port: 55855
+    password: 6facb4bc
     sni: www.bing.com
     skip-cert-verify: true
   - name: sanjose-google-Hysteria2
