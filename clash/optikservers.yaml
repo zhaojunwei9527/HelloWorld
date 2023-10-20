@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-10-21 01:26:06
+# 创建时间：2023-10-21 01:29:32
 # 使用模版：V2RaySE 默认模版
 # 节点数量：6
 ####################################
@@ -86,11 +86,11 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"DE-Hostaris_Limited-Vl\r_1","type":"vless","server":"cfip.gay","port":443,"uuid":"de04add9-5c68-8bab-950c-08cd5320df18","tls":true,"servername":"referenced-petroleum-training-wichita.trycloudflare.com","network":"ws","ws-opts":{"path":"/argo-vless?ed=2048","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
-  - {"name":"DE-Hostaris_Limited-vm_1","type":"vmess","server":"cfip.gay","port":443,"cipher":"none","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"referenced-petroleum-training-wichita.trycloudflare.com","network":"ws","ws-opts":{"path":"/argo-vmess?ed=2048","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
   - {"name":"DE-Hostaris_Limited-Tr\r_1","type":"trojan","server":"cfip.gay","port":443,"udp":true,"password":"de04add9-5c68-8bab-950c-08cd5320df18","sni":"referenced-petroleum-training-wichita.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argo-trojan","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
-  - {"name":"DE-Hostaris_Limited-Vl\r_2","type":"vless","server":"2052.cf.bestl.de","port":443,"uuid":"de04add9-5c68-8bab-950c-08cd5320df18","tls":true,"servername":"referenced-petroleum-training-wichita.trycloudflare.com","network":"ws","ws-opts":{"path":"/argo-vless?ed=2048","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
   - {"name":"DE-Hostaris_Limited-Tr\r_2","type":"trojan","server":"2052.cf.bestl.de","port":443,"udp":true,"password":"de04add9-5c68-8bab-950c-08cd5320df18","sni":"referenced-petroleum-training-wichita.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argo-trojan","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
+  - {"name":"DE-Hostaris_Limited-Vl\r_1","type":"vless","server":"cfip.gay","port":443,"uuid":"de04add9-5c68-8bab-950c-08cd5320df18","tls":true,"servername":"referenced-petroleum-training-wichita.trycloudflare.com","network":"ws","ws-opts":{"path":"/argo-vless?ed=2048","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
+  - {"name":"DE-Hostaris_Limited-Vl\r_2","type":"vless","server":"2052.cf.bestl.de","port":443,"uuid":"de04add9-5c68-8bab-950c-08cd5320df18","tls":true,"servername":"referenced-petroleum-training-wichita.trycloudflare.com","network":"ws","ws-opts":{"path":"/argo-vless?ed=2048","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
+  - {"name":"DE-Hostaris_Limited-vm_1","type":"vmess","server":"cfip.gay","port":443,"cipher":"none","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"referenced-petroleum-training-wichita.trycloudflare.com","network":"ws","ws-opts":{"path":"/argo-vmess?ed=2048","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
   - {"name":"DE-Hostaris_Limited-vm_2","type":"vmess","server":"2052.cf.bestl.de","port":443,"cipher":"none","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"referenced-petroleum-training-wichita.trycloudflare.com","network":"ws","ws-opts":{"path":"/argo-vmess?ed=2048","headers":{"host":"referenced-petroleum-training-wichita.trycloudflare.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -98,11 +98,11 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "DE-Hostaris_Limited-Vl\r_1"
-      - DE-Hostaris_Limited-vm_1
       - "DE-Hostaris_Limited-Tr\r_1"
-      - "DE-Hostaris_Limited-Vl\r_2"
       - "DE-Hostaris_Limited-Tr\r_2"
+      - "DE-Hostaris_Limited-Vl\r_1"
+      - "DE-Hostaris_Limited-Vl\r_2"
+      - DE-Hostaris_Limited-vm_1
       - DE-Hostaris_Limited-vm_2
   - name: ♻️ 自动选择
     type: url-test
@@ -110,11 +110,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "DE-Hostaris_Limited-Vl\r_1"
-      - DE-Hostaris_Limited-vm_1
       - "DE-Hostaris_Limited-Tr\r_1"
-      - "DE-Hostaris_Limited-Vl\r_2"
       - "DE-Hostaris_Limited-Tr\r_2"
+      - "DE-Hostaris_Limited-Vl\r_1"
+      - "DE-Hostaris_Limited-Vl\r_2"
+      - DE-Hostaris_Limited-vm_1
       - DE-Hostaris_Limited-vm_2
   - name: 🌍 国外媒体
     type: select
@@ -122,44 +122,44 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "DE-Hostaris_Limited-Vl\r_1"
-      - DE-Hostaris_Limited-vm_1
       - "DE-Hostaris_Limited-Tr\r_1"
-      - "DE-Hostaris_Limited-Vl\r_2"
       - "DE-Hostaris_Limited-Tr\r_2"
+      - "DE-Hostaris_Limited-Vl\r_1"
+      - "DE-Hostaris_Limited-Vl\r_2"
+      - DE-Hostaris_Limited-vm_1
       - DE-Hostaris_Limited-vm_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "DE-Hostaris_Limited-Vl\r_1"
-      - DE-Hostaris_Limited-vm_1
       - "DE-Hostaris_Limited-Tr\r_1"
-      - "DE-Hostaris_Limited-Vl\r_2"
       - "DE-Hostaris_Limited-Tr\r_2"
+      - "DE-Hostaris_Limited-Vl\r_1"
+      - "DE-Hostaris_Limited-Vl\r_2"
+      - DE-Hostaris_Limited-vm_1
       - DE-Hostaris_Limited-vm_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "DE-Hostaris_Limited-Vl\r_1"
-      - DE-Hostaris_Limited-vm_1
       - "DE-Hostaris_Limited-Tr\r_1"
-      - "DE-Hostaris_Limited-Vl\r_2"
       - "DE-Hostaris_Limited-Tr\r_2"
+      - "DE-Hostaris_Limited-Vl\r_1"
+      - "DE-Hostaris_Limited-Vl\r_2"
+      - DE-Hostaris_Limited-vm_1
       - DE-Hostaris_Limited-vm_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "DE-Hostaris_Limited-Vl\r_1"
-      - DE-Hostaris_Limited-vm_1
       - "DE-Hostaris_Limited-Tr\r_1"
-      - "DE-Hostaris_Limited-Vl\r_2"
       - "DE-Hostaris_Limited-Tr\r_2"
+      - "DE-Hostaris_Limited-Vl\r_1"
+      - "DE-Hostaris_Limited-Vl\r_2"
+      - DE-Hostaris_Limited-vm_1
       - DE-Hostaris_Limited-vm_2
   - name: 🎯 全球直连
     type: select
@@ -183,11 +183,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "DE-Hostaris_Limited-Vl\r_1"
-      - DE-Hostaris_Limited-vm_1
       - "DE-Hostaris_Limited-Tr\r_1"
-      - "DE-Hostaris_Limited-Vl\r_2"
       - "DE-Hostaris_Limited-Tr\r_2"
+      - "DE-Hostaris_Limited-Vl\r_1"
+      - "DE-Hostaris_Limited-Vl\r_2"
+      - DE-Hostaris_Limited-vm_1
       - DE-Hostaris_Limited-vm_2
 
 rules:
