@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-14 23:44:33
+# 创建时间：2023-10-30 22:56:12
 # 使用模版：V2RaySE 默认模版
-# 节点数量：65
+# 节点数量：70
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,71 +85,76 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vmess|🇺🇸美国-ARMLive_1","type":"vmess","server":"18.155.202.213","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_2","type":"vmess","server":"18.244.212.152","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_3","type":"vmess","server":"99.86.132.223","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_4","type":"vmess","server":"52.84.185.145","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_5","type":"vmess","server":"13.224.15.44","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_6","type":"vmess","server":"65.9.29.237","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_7","type":"vmess","server":"18.172.28.85","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_8","type":"vmess","server":"13.35.40.141","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_9","type":"vmess","server":"65.9.29.163","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_10","type":"vmess","server":"54.240.188.98","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_11","type":"vmess","server":"13.32.55.26","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_12","type":"vmess","server":"13.227.58.29","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_13","type":"vmess","server":"108.138.244.196","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_14","type":"vmess","server":"99.84.59.105","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_15","type":"vmess","server":"99.84.59.183","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_16","type":"vmess","server":"65.9.33.224","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_17","type":"vmess","server":"3.162.30.104","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_18","type":"vmess","server":"13.249.201.236","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_19","type":"vmess","server":"99.86.34.172","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_20","type":"vmess","server":"65.8.171.107","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_21","type":"vmess","server":"13.227.79.69","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_22","type":"vmess","server":"54.192.62.12","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_23","type":"vmess","server":"18.239.199.2","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_24","type":"vmess","server":"54.230.178.181","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_1","type":"vmess","server":"99.84.59.183","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_2","type":"vmess","server":"54.240.188.98","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_3","type":"vmess","server":"54.230.177.123","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_4","type":"vmess","server":"99.84.59.105","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_5","type":"vmess","server":"65.9.41.12","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_6","type":"vmess","server":"54.230.221.156","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_7","type":"vmess","server":"204.246.169.115","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_8","type":"vmess","server":"13.224.162.189","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_9","type":"vmess","server":"204.246.169.224","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_10","type":"vmess","server":"13.224.155.46","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_11","type":"vmess","server":"99.84.57.59","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_12","type":"vmess","server":"54.230.86.155","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_13","type":"vmess","server":"18.155.81.50","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_14","type":"vmess","server":"54.230.174.125","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_15","type":"vmess","server":"54.192.70.146","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_16","type":"vmess","server":"13.32.136.216","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_17","type":"vmess","server":"204.246.169.89","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_18","type":"vmess","server":"54.230.178.181","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_19","type":"vmess","server":"204.246.169.211","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_20","type":"vmess","server":"54.192.173.11","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_21","type":"vmess","server":"204.246.169.209","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_22","type":"vmess","server":"13.35.18.129","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_23","type":"vmess","server":"13.35.49.179","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_24","type":"vmess","server":"54.230.220.128","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
   - {"name":"vmess|🇺🇸美国-ARMLive_25","type":"vmess","server":"54.230.220.75","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_26","type":"vmess","server":"54.192.173.11","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_27","type":"vmess","server":"13.224.155.46","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_28","type":"vmess","server":"54.230.86.155","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_29","type":"vmess","server":"204.246.169.163","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_30","type":"vmess","server":"18.239.191.48","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_31","type":"vmess","server":"54.240.160.237","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_32","type":"vmess","server":"143.204.174.84","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_33","type":"vmess","server":"99.84.5.116","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_34","type":"vmess","server":"204.246.169.211","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_35","type":"vmess","server":"204.246.169.74","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_36","type":"vmess","server":"54.192.70.146","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_37","type":"vmess","server":"13.224.162.189","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_38","type":"vmess","server":"54.230.63.111","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_39","type":"vmess","server":"204.246.169.224","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_40","type":"vmess","server":"204.246.169.89","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_41","type":"vmess","server":"18.155.208.29","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_42","type":"vmess","server":"143.204.172.253","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_43","type":"vmess","server":"54.230.220.128","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_44","type":"vmess","server":"13.35.18.129","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_45","type":"vmess","server":"108.138.243.199","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_46","type":"vmess","server":"65.9.64.87","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_47","type":"vmess","server":"52.222.245.3","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_48","type":"vmess","server":"65.9.65.68","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_49","type":"vmess","server":"99.86.8.221","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_50","type":"vmess","server":"99.86.250.216","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_51","type":"vmess","server":"13.224.194.228","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_52","type":"vmess","server":"99.86.253.63","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_53","type":"vmess","server":"65.9.64.14","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_54","type":"vmess","server":"204.246.164.156","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_55","type":"vmess","server":"65.9.60.200","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_56","type":"vmess","server":"204.246.164.17","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_57","type":"vmess","server":"204.246.164.201","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_58","type":"vmess","server":"204.246.164.189","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_59","type":"vmess","server":"52.222.249.148","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_60","type":"vmess","server":"18.245.75.106","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_61","type":"vmess","server":"52.84.105.148","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_62","type":"vmess","server":"54.230.232.135","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_63","type":"vmess","server":"54.230.235.73","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_64","type":"vmess","server":"54.239.195.53","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_65","type":"vmess","server":"54.230.233.56","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_26","type":"vmess","server":"54.240.189.201","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_27","type":"vmess","server":"204.246.169.71","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_28","type":"vmess","server":"13.32.74.188","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_29","type":"vmess","server":"65.9.31.26","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_30","type":"vmess","server":"204.246.169.144","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_31","type":"vmess","server":"18.155.221.209","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_32","type":"vmess","server":"18.172.28.85","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_33","type":"vmess","server":"13.227.58.29","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_34","type":"vmess","server":"13.249.175.4","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_35","type":"vmess","server":"99.84.135.46","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_36","type":"vmess","server":"13.32.55.26","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_37","type":"vmess","server":"65.9.29.237","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_38","type":"vmess","server":"13.35.40.141","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_39","type":"vmess","server":"13.35.8.219","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_40","type":"vmess","server":"204.246.164.202","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_41","type":"vmess","server":"13.32.45.194","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_42","type":"vmess","server":"65.9.33.224","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_43","type":"vmess","server":"99.84.131.96","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_44","type":"vmess","server":"65.9.39.119","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_45","type":"vmess","server":"18.172.46.102","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_46","type":"vmess","server":"54.230.178.166","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_47","type":"vmess","server":"99.84.141.192","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_48","type":"vmess","server":"54.230.220.170","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_49","type":"vmess","server":"65.8.36.82","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_50","type":"vmess","server":"54.230.169.120","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_51","type":"vmess","server":"18.155.209.218","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_52","type":"vmess","server":"204.246.164.201","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_53","type":"vmess","server":"204.246.164.189","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_54","type":"vmess","server":"65.8.4.23","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_55","type":"vmess","server":"65.8.40.68","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_56","type":"vmess","server":"204.246.169.74","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_57","type":"vmess","server":"204.246.169.81","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_58","type":"vmess","server":"204.246.164.17","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_59","type":"vmess","server":"204.246.169.143","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_60","type":"vmess","server":"204.246.164.156","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_61","type":"vmess","server":"204.246.169.37","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_62","type":"vmess","server":"54.240.160.237","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_63","type":"vmess","server":"204.246.169.163","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_64","type":"vmess","server":"65.9.29.163","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_65","type":"vmess","server":"204.246.169.148","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_66","type":"vmess","server":"54.230.220.76","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_67","type":"vmess","server":"54.192.172.60","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_68","type":"vmess","server":"54.230.221.226","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_69","type":"vmess","server":"54.230.167.46","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_70","type":"vmess","server":"18.155.85.236","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d6wndume8xpxm.cloudfront.net"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -221,6 +226,11 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_63
       - vmess|🇺🇸美国-ARMLive_64
       - vmess|🇺🇸美国-ARMLive_65
+      - vmess|🇺🇸美国-ARMLive_66
+      - vmess|🇺🇸美国-ARMLive_67
+      - vmess|🇺🇸美国-ARMLive_68
+      - vmess|🇺🇸美国-ARMLive_69
+      - vmess|🇺🇸美国-ARMLive_70
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -292,6 +302,11 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_63
       - vmess|🇺🇸美国-ARMLive_64
       - vmess|🇺🇸美国-ARMLive_65
+      - vmess|🇺🇸美国-ARMLive_66
+      - vmess|🇺🇸美国-ARMLive_67
+      - vmess|🇺🇸美国-ARMLive_68
+      - vmess|🇺🇸美国-ARMLive_69
+      - vmess|🇺🇸美国-ARMLive_70
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -363,6 +378,11 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_63
       - vmess|🇺🇸美国-ARMLive_64
       - vmess|🇺🇸美国-ARMLive_65
+      - vmess|🇺🇸美国-ARMLive_66
+      - vmess|🇺🇸美国-ARMLive_67
+      - vmess|🇺🇸美国-ARMLive_68
+      - vmess|🇺🇸美国-ARMLive_69
+      - vmess|🇺🇸美国-ARMLive_70
   - name: 📲 电报信息
     type: select
     proxies:
@@ -433,6 +453,11 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_63
       - vmess|🇺🇸美国-ARMLive_64
       - vmess|🇺🇸美国-ARMLive_65
+      - vmess|🇺🇸美国-ARMLive_66
+      - vmess|🇺🇸美国-ARMLive_67
+      - vmess|🇺🇸美国-ARMLive_68
+      - vmess|🇺🇸美国-ARMLive_69
+      - vmess|🇺🇸美国-ARMLive_70
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -503,6 +528,11 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_63
       - vmess|🇺🇸美国-ARMLive_64
       - vmess|🇺🇸美国-ARMLive_65
+      - vmess|🇺🇸美国-ARMLive_66
+      - vmess|🇺🇸美国-ARMLive_67
+      - vmess|🇺🇸美国-ARMLive_68
+      - vmess|🇺🇸美国-ARMLive_69
+      - vmess|🇺🇸美国-ARMLive_70
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -573,6 +603,11 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_63
       - vmess|🇺🇸美国-ARMLive_64
       - vmess|🇺🇸美国-ARMLive_65
+      - vmess|🇺🇸美国-ARMLive_66
+      - vmess|🇺🇸美国-ARMLive_67
+      - vmess|🇺🇸美国-ARMLive_68
+      - vmess|🇺🇸美国-ARMLive_69
+      - vmess|🇺🇸美国-ARMLive_70
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -660,6 +695,11 @@ proxy-groups:
       - vmess|🇺🇸美国-ARMLive_63
       - vmess|🇺🇸美国-ARMLive_64
       - vmess|🇺🇸美国-ARMLive_65
+      - vmess|🇺🇸美国-ARMLive_66
+      - vmess|🇺🇸美国-ARMLive_67
+      - vmess|🇺🇸美国-ARMLive_68
+      - vmess|🇺🇸美国-ARMLive_69
+      - vmess|🇺🇸美国-ARMLive_70
 
 rules:
 # 本地/局域网地址
