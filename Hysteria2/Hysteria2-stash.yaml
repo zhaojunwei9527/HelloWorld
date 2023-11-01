@@ -1,0 +1,73 @@
+mixed-port: 7890
+external-controller: 127.0.0.1:9090
+allow-lan: false
+mode: rule
+log-level: debug
+ipv6: true
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 114.114.114.114
+proxies:
+  - name: arm-live-Hysteria2
+    type: hysteria2
+    server: 155.248.199.247
+    port: 13809
+    auth: 29dadb85
+    sni: www.bing.com
+    skip-cert-verify: true
+    up-speed:200
+    down-speed:1000
+  - name: sanjose-live-Hysteria2
+    type: hysteria2
+    server: 146.235.218.148
+    port: 14022
+    auth: d7441b36
+    sni: www.bing.com
+    skip-cert-verify: true
+    up-speed:200
+    down-speed:1000
+  - name: sanjose-google-Hysteria2
+    type: hysteria2
+    server: 192.9.136.220
+    port: 16815
+    auth: 40b0057d
+    sni: www.bing.com
+    skip-cert-verify: true
+    up-speed:200
+    down-speed:1000
+  - name: tokyo-live-Hysteria2
+    type: hysteria2
+    server: 141.147.163.78
+    port: 52167
+    auth: fa69892c
+    sni: www.bing.com
+    skip-cert-verify: true
+    up-speed:200
+    down-speed:1000
+  - name: tokyo-google-Hysteria2
+    type: hysteria2
+    server: 141.147.161.170
+    port: 55855
+    auth: 6facb4bc
+    sni: www.bing.com
+    skip-cert-verify: true
+    up-speed:200
+    down-speed:1000
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - arm-live-Hysteria2
+      - sanjose-live-Hysteria2
+      - sanjose-google-Hysteria2
+      - tokyo-live-Hysteria2
+      - tokyo-google-Hysteria2
+      
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxy
