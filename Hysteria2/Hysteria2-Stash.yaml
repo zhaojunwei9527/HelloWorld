@@ -87,16 +87,16 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Hysteria2|🇺🇸美国-ARMLive","type":"hysteria2","server":"155.248.199.247","port":13809,"password":"29dadb85","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇺🇸美国-ARMLive-8443","type":"hysteria2","server":"155.248.199.247","port":8443,"password":"91d72daee6f7de4e","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇺🇸美国-Live","type":"hysteria2","server":"146.235.218.148","port":14022,"password":"d7441b36","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇺🇸美国-Live-8443","type":"hysteria2","server":"146.235.218.148","port":8443,"password":"2de4bd5493125d1f","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇺🇸美国-Goo","type":"hysteria2","server":"192.9.136.220","port":16815,"password":"40b0057d","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇺🇸美国-Goo-8443","type":"hysteria2","server":"192.9.136.220","port":8443,"password":"cf40d24971d6caeb","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇯🇵日本-Live","type":"hysteria2","server":"141.147.163.78","port":52167,"password":"fa69892c","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇯🇵日本-Live-8443","type":"hysteria2","server":"141.147.163.78","port":8443,"password":"c5a5fff2508acd96","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇯🇵日本-Goo","type":"hysteria2","server":"141.147.161.170","port":55855,"password":"6facb4bc","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇯🇵日本-Goo-8443","type":"hysteria2","server":"141.147.161.170","port":8443,"password":"5cdea2b00abef666","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇺🇸美国-ARMLive","type":"hysteria2","server":"155.248.199.247","port":13809,"auth":"29dadb85","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇺🇸美国-ARMLive-8443","type":"hysteria2","server":"155.248.199.247","port":8443,"auth":"91d72daee6f7de4e","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇺🇸美国-Live","type":"hysteria2","server":"146.235.218.148","port":14022,"auth":"d7441b36","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇺🇸美国-Live-8443","type":"hysteria2","server":"146.235.218.148","port":8443,"auth":"2de4bd5493125d1f","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇺🇸美国-Goo","type":"hysteria2","server":"192.9.136.220","port":16815,"auth":"40b0057d","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇺🇸美国-Goo-8443","type":"hysteria2","server":"192.9.136.220","port":8443,"auth":"cf40d24971d6caeb","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇯🇵日本-Live","type":"hysteria2","server":"141.147.163.78","port":52167,"auth":"fa69892c","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇯🇵日本-Live-8443","type":"hysteria2","server":"141.147.163.78","port":8443,"auth":"c5a5fff2508acd96","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇯🇵日本-Goo","type":"hysteria2","server":"141.147.161.170","port":55855,"auth":"6facb4bc","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇯🇵日本-Goo-8443","type":"hysteria2","server":"141.147.161.170","port":8443,"auth":"5cdea2b00abef666","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2574,7 +2574,7 @@ rules:
 #飞流直播
 #华文电视
 # VikACG
-  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
+  - DOMAIN-SUFFIX,1auth.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
