@@ -1,0 +1,111 @@
+mixed-port: 7890
+external-controller: 127.0.0.1:9090
+allow-lan: false
+mode: rule
+log-level: debug
+ipv6: true
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 114.114.114.114
+proxies:
+  - name: arm-live-Hysteria2
+    type: hysteria2
+    server: 155.248.199.247
+    port: 13809
+    auth: 29dadb85
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: arm-live-Hysteria2-8443
+    type: hysteria2
+    server: 155.248.199.247
+    port: 8443
+    auth: 91d72daee6f7de4e
+    sni: bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: sanjose-live-Hysteria2
+    type: hysteria2
+    server: 146.235.218.148
+    port: 14022
+    auth: d7441b36
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: sanjose-live-Hysteria2-8443
+    type: hysteria2
+    server: 146.235.218.148
+    port: 8443
+    auth: 2de4bd5493125d1f
+    sni: bing.com
+    skip-cert-verify: true
+  - name: sanjose-google-Hysteria2
+    type: hysteria2
+    server: 192.9.136.220
+    port: 16815
+    auth: 40b0057d
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: sanjose-google-Hysteria2-8443
+    type: hysteria2
+    server: 192.9.136.220
+    port: 8443
+    auth: cf40d24971d6caeb
+    sni: bing.com
+    skip-cert-verify: true
+  - name: tokyo-live-Hysteria2
+    type: hysteria2
+    server: 141.147.163.78
+    port: 52167
+    auth: fa69892c
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: tokyo-live-Hysteria2-8443
+    type: hysteria2
+    server: 141.147.163.78
+    port: 8443
+    auth: c5a5fff2508acd96
+    sni: bing.com
+    skip-cert-verify: true
+  - name: tokyo-google-Hysteria2
+    type: hysteria2
+    server: 141.147.161.170
+    port: 55855
+    auth: 6facb4bc
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: tokyo-google-Hysteria2-8443
+    type: hysteria2
+    server: 141.147.161.170
+    port: 8443
+    auth: 5cdea2b00abef666
+    sni: bing.com
+    skip-cert-verify: true
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - arm-live-Hysteria2
+      - arm-live-Hysteria2-8443
+      - sanjose-live-Hysteria2
+      - sanjose-live-Hysteria2-8443
+      - sanjose-google-Hysteria2
+      - sanjose-google-Hysteria2-8443
+      - tokyo-live-Hysteria2
+      - tokyo-live-Hysteria2-8443
+      - tokyo-google-Hysteria2
+      - tokyo-google-Hysteria2-8443
+      
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxy
