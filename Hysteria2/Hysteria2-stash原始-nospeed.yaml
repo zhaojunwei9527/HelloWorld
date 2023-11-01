@@ -17,7 +17,7 @@ proxies:
     type: hysteria2
     server: 155.248.199.247
     port: 13809
-    auth: 29dadb85
+    password: 29dadb85
     sni: www.bing.com
     skip-cert-verify: true
     up: 200 Mbps
@@ -28,7 +28,7 @@ proxies:
     type: hysteria2
     server: 155.248.199.247
     port: 8443
-    auth: 91d72daee6f7de4e
+    password: 91d72daee6f7de4e
     sni: bing.com
     skip-cert-verify: true
     up: 200 Mbps
@@ -39,56 +39,56 @@ proxies:
     type: hysteria2
     server: 146.235.218.148
     port: 14022
-    auth: d7441b36
+    password: d7441b36
     sni: www.bing.com
     skip-cert-verify: true
   - name: sanjose-live-Hysteria2-8443
     type: hysteria2
     server: 146.235.218.148
     port: 8443
-    auth: 2de4bd5493125d1f
+    password: 2de4bd5493125d1f
     sni: bing.com
     skip-cert-verify: true
   - name: sanjose-google-Hysteria2
     type: hysteria2
     server: 192.9.136.220
     port: 16815
-    auth: 40b0057d
+    password: 40b0057d
     sni: www.bing.com
     skip-cert-verify: true
   - name: sanjose-google-Hysteria2-8443
     type: hysteria2
     server: 192.9.136.220
     port: 8443
-    auth: cf40d24971d6caeb
+    password: cf40d24971d6caeb
     sni: bing.com
     skip-cert-verify: true
   - name: tokyo-live-Hysteria2
     type: hysteria2
     server: 141.147.163.78
     port: 52167
-    auth: fa69892c
+    password: fa69892c
     sni: www.bing.com
     skip-cert-verify: true
   - name: tokyo-live-Hysteria2-8443
     type: hysteria2
     server: 141.147.163.78
     port: 8443
-    auth: c5a5fff2508acd96
+    password: c5a5fff2508acd96
     sni: bing.com
     skip-cert-verify: true
   - name: tokyo-google-Hysteria2
     type: hysteria2
     server: 141.147.161.170
     port: 55855
-    auth: 6facb4bc
+    password: 6facb4bc
     sni: www.bing.com
     skip-cert-verify: true
   - name: tokyo-google-Hysteria2-8443
     type: hysteria2
     server: 141.147.161.170
     port: 8443
-    auth: 5cdea2b00abef666
+    password: 5cdea2b00abef666
     sni: bing.com
     skip-cert-verify: true
 proxy-groups:
