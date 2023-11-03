@@ -15,10 +15,10 @@ dns:
 proxies:
   - name: Hysteria2|🇺🇸美国-ARMLive
     type: hysteria2
-    server: 155.248.199.247
-    port: 8443
-    password: 91d72daee6f7de4e
-    sni: bing.com
+    server: arm-live.biny.eu.org
+    port: 21682
+    password: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
+    sni: arm-live.biny.eu.org
     skip-cert-verify: true
     up: 200 Mbps
     down: 1000 Mbps
@@ -71,7 +71,7 @@ proxies:
   - name: Misaka-Hysteria2|🇺🇸美国-ARMLive
     type: hysteria2
     server: 155.248.199.247
-    port: 13809
+    port: 21682
     password: 29dadb85
     sni: www.bing.com
     skip-cert-verify: true
@@ -125,16 +125,17 @@ proxies:
       - h3
   - name: Misaka-TuicV5|🇺🇸美国-ARMLive
     server: arm-live.biny.eu.org
-    port: 13253
+    port: 3383
     type: tuic
-    uuid: 75f25de0-1e2f-4ecf-81cc-6e697f7f23fa
-    password: c8cee68f
+    uuid: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
+    password: a3978b8e-5370-418d-b4b3-1bea1b2ef4c9
     ip: 155.248.199.247
     version: 5
     disable-sni: true
     reduce-rtt: true
     request-timeout: 8000
     udp-relay-mode: quic
+    sni: arm-live.biny.eu.org
     congestion-controller: bbr
     alpn:
       - h3
