@@ -1,0 +1,213 @@
+mixed-port: 7890
+external-controller: 127.0.0.1:9090
+allow-lan: false
+mode: rule
+log-level: debug
+ipv6: true
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 114.114.114.114
+proxies:
+  - name: Hysteria2|🇺🇸美国-ARMLive
+    type: hysteria2
+    server: 155.248.199.247
+    port: 8443
+    password: 91d72daee6f7de4e
+    sni: bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Hysteria2|🇺🇸美国-Live
+    type: hysteria2
+    server: 146.235.218.148
+    port: 8443
+    password: 2de4bd5493125d1f
+    sni: bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Hysteria2|🇺🇸美国-Goo
+    type: hysteria2
+    server: 192.9.136.220
+    port: 8443
+    password: cf40d24971d6caeb
+    sni: bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Hysteria2|🇯🇵日本-Live
+    type: hysteria2
+    server: 141.147.163.78
+    port: 8443
+    password: c5a5fff2508acd96
+    sni: bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Hysteria2|🇯🇵日本-Goo
+    type: hysteria2
+    server: 141.147.161.170
+    port: 8443
+    password: 5cdea2b00abef666
+    sni: bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Misaka-Hysteria2|🇺🇸美国-ARMLive
+    type: hysteria2
+    server: 155.248.199.247
+    port: 13809
+    password: 29dadb85
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Misaka-Hysteria2|🇺🇸美国-Live
+    type: hysteria2
+    server: 146.235.218.148
+    port: 14022
+    password: d7441b36
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Misaka-Hysteria2|🇺🇸美国-Goo
+    type: hysteria2
+    server: 192.9.136.220
+    port: 16815
+    password: 40b0057d
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Misaka-Hysteria2|🇯🇵日本-Live
+    type: hysteria2
+    server: 141.147.163.78
+    port: 52167
+    password: fa69892c
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Misaka-Hysteria2|🇯🇵日本-Goo
+    type: hysteria2
+    server: 141.147.161.170
+    port: 55855
+    password: 6facb4bc
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: 200 Mbps
+    down: 1000 Mbps
+    alpn:
+      - h3
+  - name: Misaka-TuicV5|🇺🇸美国-ARMLive
+    server: arm-live.biny.eu.org
+    port: 13253
+    type: tuic
+    uuid: 75f25de0-1e2f-4ecf-81cc-6e697f7f23fa
+    password: c8cee68f
+    ip: 155.248.199.247
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    request-timeout: 8000
+    udp-relay-mode: quic
+    congestion-controller: bbr
+  - name: Misaka-TuicV5|🇺🇸美国-Live
+    server: sanjose-live.biny.eu.org
+    port: 13750
+    type: tuic
+    uuid: 19dc897c-a65d-4cc2-b65c-8fbe28aac512
+    password: 9b32f823
+    ip: 146.235.218.148
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    request-timeout: 8000
+    udp-relay-mode: quic
+    congestion-controller: bbr
+  - name: Misaka-TuicV5|🇺🇸美国-Goo
+    server: sanjose-google.biny.eu.org
+    port: 49358
+    type: tuic
+    uuid: fd3c5dab-fd0d-4347-b98f-0df78abf1f95
+    password: c1fb3da4
+    ip: 192.9.136.220
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    request-timeout: 8000
+    udp-relay-mode: quic
+    congestion-controller: bbr
+  - name: Misaka-TuicV5|🇯🇵日本-Live
+    server: tokyo-live.biny.eu.org
+    port: 10357
+    type: tuic
+    uuid: f914b3db-e756-46c4-a6e1-640f9af49de4
+    password: 75caf338
+    ip: 141.147.163.78
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    request-timeout: 8000
+    udp-relay-mode: quic
+    congestion-controller: bbr
+  - name: Misaka-TuicV5|🇯🇵日本-Goo
+    server: tokyo-google.biny.eu.org
+    port: 33165
+    type: tuic
+    uuid: 2a89614b-b484-40b5-a479-dd97f209ebc5
+    password: 46ea379d
+    ip: 141.147.161.170
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    request-timeout: 8000
+    udp-relay-mode: quic
+    congestion-controller: bbr
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - Hysteria2|🇺🇸美国-ARMLive
+      - Hysteria2|🇺🇸美国-Live
+      - Hysteria2|🇺🇸美国-Goo
+      - Hysteria2|🇯🇵日本-Live
+      - Hysteria2|🇯🇵日本-Goo
+      - Misaka-Hysteria2|🇺🇸美国-ARMLive
+      - Misaka-Hysteria2|🇺🇸美国-Live
+      - Misaka-Hysteria2|🇺🇸美国-Goo
+      - Misaka-Hysteria2|🇯🇵日本-Live
+      - Misaka-Hysteria2|🇯🇵日本-Goo
+      - Misaka-TuicV5|🇺🇸美国-ARMLive
+      - Misaka-TuicV5|🇺🇸美国-Live
+      - Misaka-TuicV5|🇺🇸美国-Goo
+      - Misaka-TuicV5|🇯🇵日本-Live
+      - Misaka-TuicV5|🇯🇵日本-Goo
+      
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxy
