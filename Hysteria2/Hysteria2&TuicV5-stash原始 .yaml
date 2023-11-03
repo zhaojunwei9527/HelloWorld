@@ -130,12 +130,14 @@ proxies:
     uuid: 75f25de0-1e2f-4ecf-81cc-6e697f7f23fa
     password: c8cee68f
     ip: 155.248.199.247
-    alpn: [h3]
+    version: 5
     disable-sni: true
     reduce-rtt: true
     request-timeout: 8000
     udp-relay-mode: quic
     congestion-controller: bbr
+    alpn:
+      - h3
   - name: Misaka-TuicV5|🇺🇸美国-Live
     server: sanjose-live.biny.eu.org
     port: 13750
@@ -143,12 +145,14 @@ proxies:
     uuid: 19dc897c-a65d-4cc2-b65c-8fbe28aac512
     password: 9b32f823
     ip: 146.235.218.148
-    alpn: [h3]
+    version: 5
     disable-sni: true
     reduce-rtt: true
     request-timeout: 8000
     udp-relay-mode: quic
     congestion-controller: bbr
+    alpn:
+      - h3
   - name: Misaka-TuicV5|🇺🇸美国-Goo
     server: sanjose-google.biny.eu.org
     port: 49358
@@ -156,12 +160,14 @@ proxies:
     uuid: fd3c5dab-fd0d-4347-b98f-0df78abf1f95
     password: c1fb3da4
     ip: 192.9.136.220
-    alpn: [h3]
+    version: 5
     disable-sni: true
     reduce-rtt: true
     request-timeout: 8000
     udp-relay-mode: quic
     congestion-controller: bbr
+    alpn:
+      - h3
   - name: Misaka-TuicV5|🇯🇵日本-Live
     server: tokyo-live.biny.eu.org
     port: 10357
@@ -169,12 +175,14 @@ proxies:
     uuid: f914b3db-e756-46c4-a6e1-640f9af49de4
     password: 75caf338
     ip: 141.147.163.78
-    alpn: [h3]
+    version: 5
     disable-sni: true
     reduce-rtt: true
     request-timeout: 8000
     udp-relay-mode: quic
     congestion-controller: bbr
+    alpn:
+      - h3
   - name: Misaka-TuicV5|🇯🇵日本-Goo
     server: tokyo-google.biny.eu.org
     port: 33165
@@ -182,12 +190,14 @@ proxies:
     uuid: 2a89614b-b484-40b5-a479-dd97f209ebc5
     password: 46ea379d
     ip: 141.147.161.170
-    alpn: [h3]
+    version: 5
     disable-sni: true
     reduce-rtt: true
     request-timeout: 8000
     udp-relay-mode: quic
     congestion-controller: bbr
+    alpn:
+      - h3
 proxy-groups:
   - name: Proxy
     type: select
