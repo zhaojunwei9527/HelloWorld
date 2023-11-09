@@ -88,7 +88,7 @@ dns:
 proxies:
   - {"name":"Hysteria2|🇺🇸美国-ARMLive","type":"hysteria2","server":"arm-live.biny.eu.org","port":21682,"auth":"a3978b8e-5370-418d-b4b3-1bea1b2ef4c9","sni":"arm-live.biny.eu.org","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
   - {"name":"Hysteria2|🇺🇸美国-Live","type":"hysteria2","server":"146.235.218.148","port":8443,"auth":"2de4bd5493125d1f","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
-  - {"name":"Hysteria2|🇺🇸美国-Goo","type":"hysteria2","server":"192.9.136.220","port":8443,"auth":"cf40d24971d6caeb","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
+  - {"name":"Hysteria2|🇺🇸美国-Goo","type":"hysteria2","server":"192.9.136.220","port":8443,"auth":"fbe869308f04ac92","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
   - {"name":"Hysteria2|🇯🇵日本-Live","type":"hysteria2","server":"141.147.163.78","port":8443,"auth":"c5a5fff2508acd96","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
   - {"name":"Hysteria2|🇯🇵日本-Goo","type":"hysteria2","server":"141.147.161.170","port":8443,"auth":"5cdea2b00abef666","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}
   - {"name":"Misaka-Hysteria2|🇺🇸美国-ARMLive","type":"hysteria2","server":"155.248.199.247","port":21682,"auth":"29dadb85","sni":"www.bing.com","skip-cert-verify":true,"alpn":["h3"],"up":200,"down":1000}

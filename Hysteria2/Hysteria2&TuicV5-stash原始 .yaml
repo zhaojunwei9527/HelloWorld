@@ -39,7 +39,7 @@ proxies:
     type: hysteria2
     server: 192.9.136.220
     port: 8443
-    password: cf40d24971d6caeb
+    password: fbe869308f04ac92
     sni: bing.com
     skip-cert-verify: true
     up: 200 Mbps
