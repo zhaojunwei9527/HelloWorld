@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-21 22:00:42
+# 创建时间：2023-11-11 01:43:16
 # 使用模版：ACL4SSR_Online_Mini_MultiCountry.ini
 # 节点数量：10
 # 节点类型：vmess
@@ -86,16 +86,16 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vmess|🇯🇵日本-Goo_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"bookings-holds-frank-dosage.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Goo_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"bookings-holds-frank-dosage.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"b6604c96-f4d6-4593-83ca-9874061a9e74","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"polyphonic-casting-donald-herself.trycloudflare.com"}}}
-  - {"name":"vmess|🇯🇵日本-Live_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"b6604c96-f4d6-4593-83ca-9874061a9e74","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"polyphonic-casting-donald-herself.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.hbiny.pp.ua"}}}
-  - {"name":"vmess|🇺🇸美国-ARMLive_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"eecda0a6-432b-4bf6-f061-ff7ca2244168","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"arm-live.hbiny.pp.ua"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"since-radar-cargo-vc.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Goo_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"f4cc55a5-378f-471c-9af1-4c096810aa89","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"989d3e41969b","headers":{"host":"since-radar-cargo-vc.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_cmcc","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"ave-path-thunder-britannica.trycloudflare.com"}}}
-  - {"name":"vmess|🇺🇸美国-Live_ct","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"ave-path-thunder-britannica.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Goo_1","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"bookings-holds-frank-dosage.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Goo_2","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"a70b5c8d-4235-41d4-a69c-45f7bd68a4fa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"ae122f85722a","headers":{"host":"bookings-holds-frank-dosage.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Live_1","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"b6604c96-f4d6-4593-83ca-9874061a9e74","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"polyphonic-casting-donald-herself.trycloudflare.com"}}}
+  - {"name":"vmess|🇯🇵日本-Live_2","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"b6604c96-f4d6-4593-83ca-9874061a9e74","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"polyphonic-casting-donald-herself.trycloudflare.com"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_1","type":"vmess","server":"cmcc.hbiny.pp.ua","port":2083,"cipher":"auto","uuid":"a3978b8e-5370-418d-b4b3-1bea1b2ef4c9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-live.hbiny.pp.ua","network":"ws","ws-opts":{"path":"a3978b8e-5370-418d-b4b3-1bea1b2ef4c9-vm","headers":{"host":"arm-live.hbiny.pp.ua"}}}
+  - {"name":"vmess|🇺🇸美国-ARMLive_2","type":"vmess","server":"ct.hbiny.pp.ua","port":2083,"cipher":"auto","uuid":"a3978b8e-5370-418d-b4b3-1bea1b2ef4c9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"arm-live.hbiny.pp.ua","network":"ws","ws-opts":{"path":"a3978b8e-5370-418d-b4b3-1bea1b2ef4c9-vm","headers":{"host":"arm-live.hbiny.pp.ua"}}}
+  - {"name":"vmess|🇺🇸美国-Goo_1","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"ac07a734-0361-45d1-948d-9bc11742c258","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"pasta-reason-madagascar-assume.trycloudflare.com","network":"ws","ws-opts":{"path":"84ed3c54da2a?ed=2048","headers":{"host":"pasta-reason-madagascar-assume.trycloudflare.com"}}}
+  - {"name":"vmess|🇺🇸美国-Goo_2","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"ac07a734-0361-45d1-948d-9bc11742c258","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"pasta-reason-madagascar-assume.trycloudflare.com","network":"ws","ws-opts":{"path":"84ed3c54da2a?ed=2048","headers":{"host":"pasta-reason-madagascar-assume.trycloudflare.com"}}}
+  - {"name":"vmess|🇺🇸美国-Live_1","type":"vmess","server":"cmcc.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"potential-acquisitions-friend-decline.trycloudflare.com","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"potential-acquisitions-friend-decline.trycloudflare.com"}}}
+  - {"name":"vmess|🇺🇸美国-Live_2","type":"vmess","server":"ct.hbiny.pp.ua","port":443,"cipher":"auto","uuid":"5942d92a-a00f-4b73-a29a-3cf6e419cfe3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"potential-acquisitions-friend-decline.trycloudflare.com","network":"ws","ws-opts":{"path":"05a2cc726abe","headers":{"host":"potential-acquisitions-friend-decline.trycloudflare.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -108,32 +108,32 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - vmess|🇯🇵日本-Goo_cmcc
-      - vmess|🇯🇵日本-Goo_ct
-      - vmess|🇯🇵日本-Live_cmcc
-      - vmess|🇯🇵日本-Live_ct
-      - vmess|🇺🇸美国-ARMLive_cmcc
-      - vmess|🇺🇸美国-ARMLive_ct
-      - vmess|🇺🇸美国-Goo_cmcc
-      - vmess|🇺🇸美国-Goo_ct
-      - vmess|🇺🇸美国-Live_cmcc
-      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇯🇵日本-Goo_1
+      - vmess|🇯🇵日本-Goo_2
+      - vmess|🇯🇵日本-Live_1
+      - vmess|🇯🇵日本-Live_2
+      - vmess|🇺🇸美国-ARMLive_1
+      - vmess|🇺🇸美国-ARMLive_2
+      - vmess|🇺🇸美国-Goo_1
+      - vmess|🇺🇸美国-Goo_2
+      - vmess|🇺🇸美国-Live_1
+      - vmess|🇺🇸美国-Live_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vmess|🇯🇵日本-Goo_cmcc
-      - vmess|🇯🇵日本-Goo_ct
-      - vmess|🇯🇵日本-Live_cmcc
-      - vmess|🇯🇵日本-Live_ct
-      - vmess|🇺🇸美国-ARMLive_cmcc
-      - vmess|🇺🇸美国-ARMLive_ct
-      - vmess|🇺🇸美国-Goo_cmcc
-      - vmess|🇺🇸美国-Goo_ct
-      - vmess|🇺🇸美国-Live_cmcc
-      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇯🇵日本-Goo_1
+      - vmess|🇯🇵日本-Goo_2
+      - vmess|🇯🇵日本-Live_1
+      - vmess|🇯🇵日本-Live_2
+      - vmess|🇺🇸美国-ARMLive_1
+      - vmess|🇺🇸美国-ARMLive_2
+      - vmess|🇺🇸美国-Goo_1
+      - vmess|🇺🇸美国-Goo_2
+      - vmess|🇺🇸美国-Live_1
+      - vmess|🇺🇸美国-Live_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,38 +151,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - vmess|🇯🇵日本-Goo_cmcc
-      - vmess|🇯🇵日本-Goo_ct
-      - vmess|🇯🇵日本-Live_cmcc
-      - vmess|🇯🇵日本-Live_ct
-      - vmess|🇺🇸美国-ARMLive_cmcc
-      - vmess|🇺🇸美国-ARMLive_ct
-      - vmess|🇺🇸美国-Goo_cmcc
-      - vmess|🇺🇸美国-Goo_ct
-      - vmess|🇺🇸美国-Live_cmcc
-      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇯🇵日本-Goo_1
+      - vmess|🇯🇵日本-Goo_2
+      - vmess|🇯🇵日本-Live_1
+      - vmess|🇯🇵日本-Live_2
+      - vmess|🇺🇸美国-ARMLive_1
+      - vmess|🇺🇸美国-ARMLive_2
+      - vmess|🇺🇸美国-Goo_1
+      - vmess|🇺🇸美国-Goo_2
+      - vmess|🇺🇸美国-Live_1
+      - vmess|🇺🇸美国-Live_2
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vmess|🇯🇵日本-Goo_cmcc
-      - vmess|🇯🇵日本-Goo_ct
-      - vmess|🇯🇵日本-Live_cmcc
-      - vmess|🇯🇵日本-Live_ct
+      - vmess|🇯🇵日本-Goo_1
+      - vmess|🇯🇵日本-Goo_2
+      - vmess|🇯🇵日本-Live_1
+      - vmess|🇯🇵日本-Live_2
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vmess|🇺🇸美国-ARMLive_cmcc
-      - vmess|🇺🇸美国-ARMLive_ct
-      - vmess|🇺🇸美国-Goo_cmcc
-      - vmess|🇺🇸美国-Goo_ct
-      - vmess|🇺🇸美国-Live_cmcc
-      - vmess|🇺🇸美国-Live_ct
+      - vmess|🇺🇸美国-ARMLive_1
+      - vmess|🇺🇸美国-ARMLive_2
+      - vmess|🇺🇸美国-Goo_1
+      - vmess|🇺🇸美国-Goo_2
+      - vmess|🇺🇸美国-Live_1
+      - vmess|🇺🇸美国-Live_2
 
 rules:
 # 本地/局域网地址
@@ -2005,7 +2005,7 @@ rules:
   - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
 # 内容：国外媒体列表
-# 更新：2023-08-20 11:28:35
+# 更新：2023-10-23 21:04:59
 # 数量：367条
 # ABC
 # AbemaTV
@@ -2882,6 +2882,7 @@ rules:
 # Douyu 斗鱼
 # Epic
 # HuaWei
+# Heytap
 # Iflytek 科大讯飞
 # Iqiyi
 # JD
@@ -3093,6 +3094,18 @@ rules:
   - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawno.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
+  - DOMAIN-SUFFIX,coloros.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytap.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
+  - DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -3407,7 +3420,6 @@ rules:
   - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
   - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
   - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
-  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
   - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
